@@ -3,118 +3,85 @@ title: "Lembar Kerja Bab 04"
 ---
 
 # Lembar Kerja Tugas: Portofolio Terjemahan Lima Bahasa
+
 *Kuliah 4: Bahasa yang Menjembatani Makna*
 
-> **Prinsip Utama:**
-> *"Jangan pernah mengubah kebenaran agar mudah diterima, melainkan ubahlah cara membawa kebenaran agar dapat dipahami."*
+> **Prinsip Utama:** *"Jangan pernah mengubah kebenaran agar mudah diterima, melainkan ubahlah cara membawa kebenaran agar dapat dipahami."*
 
----
+------------------------------------------------------------------------
 
 ## **A. Deskripsi Tugas**
+
 Salah satu rintangan komunikasi terbesar bagi seorang calon profesional adalah **"Kutukan Pengetahuan" (*Curse of Knowledge*)**—situasi di mana Anda sangat memahami sebuah konsep rumit, hingga Anda lupa rasanya menjadi orang yang belum mengetahuinya. Akibatnya, Anda cenderung menggunakan istilah teknis (jargon) kaku yang justru menjauhkan gagasan Anda dari pendengar.
 
 Dalam tugas ini, Anda ditantang untuk melatih **kelenturan register dan alih ragam bahasa (*code-switching*)**. Anda akan memilih satu konsep teknis dari bidang keilmuan atau program studi Anda, meruntuhkan jargon di dalamnya, lalu menerjemahkan makna inti konsep tersebut ke dalam **lima versi bahasa komunikasi** yang berbeda tanpa mengubah esensi kebenarannya.
 
----
+------------------------------------------------------------------------
 
 ## **B. Identitas Mahasiswa**
-*   **Nama Lengkap:** ______________________________________
-*   **NIM:** ______________________________________
-*   **Program Studi:** ______________________________________
-*   **Tanggal Pengisian:** ______________________________________
 
----
+- **Nama Lengkap:** Pelangi Putri Sanyoto
+- **NIM:** 18225027
+- **Program Studi:** Sistem dan Teknologi Informasi
+- **Tanggal Pengisian:** 18 September 2026
+
+------------------------------------------------------------------------
 
 ## **C. Tahap 1: Detoks Jargon (Dekonstruksi Konsep)**
-Sebelum membagikan gagasan Anda, Anda harus mengupas kulit jargon untuk menemukan "sumsum" atau kebenaran inti dari pesan Anda.
 
-1. **Konsep Teknis yang Dipilih:**
-   *(Contoh: Enkripsi Kunci Publik, Inflasi Moneter, Replikasi Database, Fotosintesis, dll.)*
-   *Jawab:*
-   
-2. **Definisi Teknis Awal (Versi Buku Teks / Jurnal Ilmiah):**
-   *(Tuliskan definisi asli lengkap dengan jargon teknisnya)*
-   *Jawab:*
-   
-3. **Daftar Jargon Teknis & Artian Sederhananya:**
-   *Identifikasi minimal 3 istilah rumit dari definisi di atas dan terjemahkan maknanya secara mandiri.*
-   *   **Jargon 1:** `_______________` $\rightarrow$ Arti Sederhana: ____________________
-   *   **Jargon 2:** `_______________` $\rightarrow$ Arti Sederhana: ____________________
-   *   **Jargon 3:** `_______________` $\rightarrow$ Arti Sederhana: ____________________
+1.  **Konsep Teknis yang Dipilih:** *Priority Queue* (Antrean Berprioritas) dalam Struktur Data.
 
-4. **Kebenaran Inti (*Marrow of the Message*):**
-   *(Tuliskan 1 kalimat sangat sederhana yang merangkum apa sebenarnya esensi atau manfaat utama dari konsep ini bagi kehidupan manusia)*
-   *Jawab:*
-   
----
+2.  **Definisi Teknis Awal (Versi Buku Teks / Jurnal Ilmiah):** 
+    *Priority Queue* adalah struktur data abstrak yang beroperasi mirip dengan antrean biasa (FIFO), namun setiap elemen memiliki nilai *weight* atau prioritas yang terikat padanya, sehingga operasi *dequeue* akan selalu mengeluarkan elemen dengan prioritas tertinggi lebih dahulu, sering kali diimplementasikan menggunakan *Binary Heap* untuk mencapai kompleksitas waktu O(log n).
+
+3.  **Daftar Jargon Teknis & Artian Sederhananya:** 
+    - **Jargon 1:** `Struktur Data Abstrak` $\rightarrow$ Arti Sederhana: Cara menyusun dan menyimpan data di dalam memori komputer agar mudah diakses.
+    - **Jargon 2:** `Dequeue` $\rightarrow$ Arti Sederhana: Proses mengeluarkan, mengambil, atau mengeksekusi data dari sebuah antrean.
+    - **Jargon 3:** `Kompleksitas Waktu O(log n)` $\rightarrow$ Arti Sederhana: Ukuran matematis seberapa cepat komputer bisa menyelesaikan tugas (semakin kecil, semakin cepat dan efisien).
+
+4.  **Kebenaran Inti (*Marrow of the Message*):** 
+    Mengatur urutan penyelesaian tugas bukan berdasarkan siapa yang datang paling awal, melainkan siapa yang paling penting dan paling mendesak untuk dilayani.
+
+------------------------------------------------------------------------
 
 ## **D. Tahap 2: Matriks Terjemahan Lima Bahasa**
-Sekarang, bawa kebenaran inti di atas menggunakan "kendaraan" bahasa yang sesuai bagi masing-masing dari lima audiens berikut.
 
-### **1. Ragam Bahasa: Anak-Anak (Usia ~10 Tahun)**
-*   **Karakteristik Pendengar:** Menggunakan pemikiran konkret, menyukai imajinasi, memiliki rentang perhatian pendek, dan belum mengenal istilah akademis.
-*   **Strategi:** Gunakan **analogi fisik atau cerita** yang sangat akrab di dunia mereka (seperti mainan, sekolah, atau hewan).
-*   *Draf Terjemahan Anda:*
-   
-   
+### **1. Ragam Bahasa: Anak-Anak (Usia \~10 Tahun)**
+- *Draf Terjemahan Anda:* "Bayangkan kamu lagi antre panjang buat beli es krim, tapi tiba-tiba di jalan ada ambulans yang mau lewat bawa orang sakit. Pasti semua mobil dan orang bakal minggir ngasih jalan buat ambulans dulu, kan? Nah, di dalam komputer juga gitu. Tugas yang super penting bakal dikerjakan duluan sama komputer, nggak peduli dia datang belakangan."
+
 ### **2. Ragam Bahasa: Sahabat (Beda Bidang / Program Studi)**
-*   **Karakteristik Pendengar:** Setara dengan Anda secara usia, tetapi tidak memiliki latar belakang keilmuan yang sama. Mereka ingin mengobrol dengan santai tanpa merasa digurui.
-*   **Strategi:** Gunakan gaya bahasa informal, hangat, akrab, dan bersihkan dari istilah akademis yang kaku.
-*   *Draf Terjemahan Anda:*
-   
-   
-### **3. Ragam Bahasa: Rekan Teknis (Sesama Ahli / Mahasiswa Sejurusan)**
-*   **Karakteristik Pendengar:** Rekan sejawat yang menuntut efisiensi, akurasi tinggi, serta pembuktian logis atau matematis.
-*   **Strategi:** Gunakan jargon teknis yang presisi, singkatan standar industri, parameter spesifik, dan data pendukung.
-*   *Draf Terjemahan Anda:*
-   
-   
-### **4. Ragam Bahasa: Manajer atau Pengambil Keputusan (Aspek Bisnis)**
-*   **Karakteristik Pendengar:** Berorientasi pada hasil, efisiensi alokasi sumber daya (waktu, tenaga, biaya), manajemen risiko, dan dampak terhadap tujuan organisasi.
-*   **Strategi:** Tekankan **nilai tambah (*value proposition*)**, biaya (*cost*), efisiensi, serta konsekuensi logis jika gagasan ini diterapkan atau diabaikan.
-*   *Draf Terjemahan Anda:*
-   
-   
-### **5. Ragam Bahasa: Publik Umum (Masyarakat Luas)**
-*   **Karakteristik Pendengar:** Masyarakat heterogen yang ingin mengetahui apa dampak langsung atau tidak langsung dari teknologi/konsep ini bagi keselamatan, kemaslahatan, dompet, atau kehidupan sehari-hari mereka.
-*   **Strategi:** Hubungkan konsep dengan nilai-nilai sosial, keadilan, keamanan, kemudahan hidup, dan gunakan bahasa yang inklusif serta mudah dipahami seketika.
-*   *Draf Terjemahan Anda:*
-   
-   
+- *Draf Terjemahan Anda:* "Lu tau kan kalau kita lagi ngerjain tugas kuliah, pasti kita ngerjain tugas yang deadlinenya besok pagi duluan dibandingin tugas yang deadlinenya minggu depan? *Priority queue* tuh persis kayak gitu buat komputer. Dia milih ngerjain yang paling *urgent* dulu, bukan milih data yang pertama kali masuk ke sistem."
 
----
+### **3. Ragam Bahasa: Rekan Teknis (Sesama Ahli / Mahasiswa Sejurusan)**
+- *Draf Terjemahan Anda:* "Implementasi *Priority Queue* pas proyek UlaScene kemaren gue pake struktur *Max-Heap* biar operasi *insert* sama *extract-max* nya tetep optimal di O(log n). Jadi kalau ada data yang masuk, otomatis langsung ke-*sort* di *tree* berdasarkan *weight* prioritasnya, nggak peduli urutan *enqueue*-nya kayak gimana."
+
+### **4. Ragam Bahasa: Manajer atau Pengambil Keputusan (Aspek Bisnis)**
+- *Draf Terjemahan Anda:* "Dengan mengimplementasikan sistem antrean berprioritas ini, kita bisa memastikan bahwa *request* atau transaksi pelanggan kelas VIP dan tugas kritis sistem selalu diproses lebih dulu oleh *server*. Ini akan mencegah *bottleneck* pada proses bisnis utama kita dan mengamankan kepuasan klien prioritas."
+
+### **5. Ragam Bahasa: Publik Umum (Masyarakat Luas)**
+- *Draf Terjemahan Anda:* "Pernahkah Anda berada di UGD rumah sakit, lalu ada pasien kecelakaan parah yang didahulukan padahal Anda datang lebih dulu? Itulah sistem antrean prioritas. Di dunia teknologi, sistem ini digunakan pada internet dan aplikasi Anda untuk memastikan hal-hal darurat dan penting selalu diselesaikan pertama kali demi keamanan bersama."
+
+------------------------------------------------------------------------
 
 ## **E. Tahap 3: Refleksi Pembelajaran (Intrapribadi)**
-*Evaluasi diri Anda setelah melakukan proses alih ragam bahasa di atas.*
 
-1. **Ragam bahasa mana yang paling sulit Anda buat? Mengapa?**
-   *Jawab:*
-   
-2. **Bagaimana proses dekonstruksi jargon ini mengubah cara Anda memandang keilmuan Anda sendiri?**
-   *Jawab:*
-   
-3. **Catatan Penggunaan AI Kopilot (Jika Ada):**
-   *Jika Anda menggunakan AI untuk menguji kelenturan bahasa Anda (misal: meminta AI berperan sebagai anak berusia 10 tahun untuk mengkritik draf Anda), tuliskan instruksi/prompt yang Anda gunakan dan umpan balik berharga apa yang diberikan AI.*
-   *Jawab:*
-   
+1.  **Ragam bahasa mana yang paling sulit Anda buat? Mengapa?** 
+    *Jawab:* Ragam Manajer. Sebagai mahasiswa IT, saya terbiasa melihat kode dari sisi fungsi dan performanya saja (apakah programnya jalan dan cepat?). Sangat sulit bagi saya untuk menerjemahkan nilai logika tersebut menjadi sebuah nilai bisnis (seperti profit, efisiensi operasional, dan kepuasan pelanggan).
 
----
+2.  **Bagaimana proses dekonstruksi jargon ini mengubah cara Anda memandang keilmuan Anda sendiri?** 
+    *Jawab:* Proses ini menyadarkan saya bahwa kode algoritma yang rumit (seperti *Heap* di bahasa C) pada dasarnya hanyalah replika dari logika sosial manusia sehari-hari. Saya sering berlindung di balik kata teknis agar terlihat pintar, padahal pemahaman sejati baru terlihat saat saya bisa menjelaskannya dengan bahasa sesederhana anak kecil.
+
+3.  **Catatan Penggunaan AI Kopilot (Jika Ada):** 
+    *Jawab:* Saya menggunakan AI (Gemini) untuk menguji draf bahasa anak-anak saya. Saya meminta AI berperan sebagai anak berusia 10 tahun untuk menilai apakah analogi 'ambulans' bisa dipahami, serta menggunakan AI untuk merapikan format tulisan ini.
+
+------------------------------------------------------------------------
 
 ## **F. Rubrik Evaluasi Mandiri & Penilaian Portofolio**
-Gunakan rubrik ini untuk menguji kualitas draf Anda sebelum dimasukkan ke dalam Portofolio Komunikasi akhir semester Anda.
 
-| Kriteria | Skor 4 (Sangat Baik) | Skor 3 (Baik) | Skor 2 (Cukup) | Skor 1 (Kurang) | Skor Mandiri |
-| :--- | :--- | :--- | :--- | :--- | :---: |
-| **Keutuhan Makna** *(Fidelity)* | Makna inti konsep sama sekali tidak terdistorsi atau berganti di kelima versi bahasa. | Makna inti terjaga di sebagian besar versi, hanya ada sedikit penyederhanaan yang agak melenceng di versi anak-anak. | Makna inti mulai bergeser di beberapa ragam bahasa demi mengejar kemudahan bahasa. | Makna inti rusak atau berubah total di berbagai ragam bahasa. | |
-| **Kelenturan Register** *(Code-switching)* | Perbedaan gaya bahasa di antara kelima audiens sangat kontras, konsisten, dan sangat sesuai dengan profil masing-masing. | Perbedaan gaya bahasa terlihat jelas, namun ada beberapa kata/gaya yang masih tumpang tindih antar-audiens. | Gaya bahasa terasa seragam; perbedaan antar-audiens hanya terlihat kosmetis (misal sekadar mengubah sapaan). | Tidak ada upaya menyesuaikan gaya bahasa; semua audiens disuapi dengan gaya bahasa yang sama. | |
-| **Kualitas Analogi & Penjelasan** | Analogi yang digunakan sangat kreatif, segar, akurat, dan langsung membuat konsep mudah dipahami seketika. | Analogi yang digunakan cukup baik dan relevan, meski masih butuh sedikit penjelasan tambahan untuk memperjelasnya. | Analogi yang digunakan kurang pas atau justru berisiko membingungkan audiens. | Tidak menggunakan analogi sama sekali pada ragam bahasa yang membutuhkan (Anak/Publik). | |
-| **Kedalaman Refleksi** | Refleksi sangat jujur, mendalam, mampu mengidentifikasi bias batin diri, dan merumuskan sasaran pertumbuhan yang jelas. | Refleksi cukup deskriptif dalam menceritakan kesulitan, namun belum menggali alasan personal di balik kesulitan tersebut. | Refleksi sangat singkat, bersifat normatif, dan tidak memberikan wawasan baru bagi perkembangan diri Anda. | Bagian refleksi tidak diisi atau hanya diisi sekadarnya (kurang dari 2 kalimat). | |
-| **Total Skor (Maksimal 16)** | | | | | **___ / 16** |
-
----
-
-### **G. Contoh Pengisian Singkat (Sebagai Inspirasi)**
-*   **Konsep:** *Database Replication (Replikasi Basis Data)*
-*   **Kebenaran Inti:** Menyalin dan menyimpan data yang sama di beberapa komputer berbeda secara otomatis agar jika satu komputer rusak, data kita tetap aman dan aplikasi tidak mati.
-*   **Terjemahan Ragam Anak-Anak:** *"Bayangkan kamu punya buku gambar kesayangan. Karena takut bukunya hilang atau ketumpahan air, kamu meminta mesin ajaib untuk menyalin gambar yang sama ke buku gambar teman-temanmu secara otomatis. Jadi, kalau buku gambarmu basah, kamu tinggal pinjam buku milik temanmu dan bisa lanjut mewarnai tanpa sedih!"*
-*   **Terjemahan Ragam Manajer:** *"Untuk menjamin kelangsungan operasional bisnis dan meminimalkan risiko downtime akibat kegagalan server tunggal, kita menerapkan replikasi data ke wilayah sekunder. Hal ini memastikan pemulihan bencana (disaster recovery) berjalan instan dengan toleransi kehilangan data mendekati nol, sehingga transaksi pelanggan tidak terganggu."*
+| Kriteria | Skor Mandiri |
+|:-----------|:----------:|
+| **Keutuhan Makna** *(Fidelity)* | 4 |
+| **Kelenturan Register** *(Code-switching)* | 4 |
+| **Kualitas Analogi & Penjelasan** | 4 |
+| **Kedalaman Refleksi** | 4 |
+| **Total Skor (Maksimal 16)** | **16 / 16** |

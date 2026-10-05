@@ -1,8 +1,8 @@
 ---
 title: "Professional Discovery Interview"
 week: 5
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap Dinilai"
+self_score: "18"
 assessor_score: "—"
 description: "Discovery menuju shared problem statement."
 categories: [Professional, Discovery]
@@ -22,4 +22,69 @@ Mendengar sebelum proposing dan membangun shared problem statement dengan person
 [Buka contoh fiktif Minggu 5](../examples/week-05.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
 :::
 
-{{< include ../includes/evidence-template.md >}}
+## Konteks performance
+
+**Tanggal dan setting:** 26 September 2026, wawancara daring dengan rekan kelompok untuk mengungkap akar permasalahan keterlambatan pengumpulan laporan tugas besar.
+
+**Persons dan relationship:** Pel (saya, sebagai anggota kelompok) dan Rekan M (sebagai Ketua Kelompok / *Compiler* tugas besar).
+
+**Objective dan initial state:** 
+- **Objective:** Menemukan akar permasalahan sebenarnya dari kepanikan kelompok saat mendekati *deadline* tugas, dan merumuskan *shared problem statement* tanpa langsung menawarkan solusi teknis.
+- **Initial state:** Terdapat kepanikan setiap kali kelompok harus mengumpulkan laporan. Asumsi awal saya (*initial assumption*) adalah anggota kelompok malas dan suka menunda-nunda, sehingga saya berpikir solusinya adalah memasang alarm bot *reminder* di grup chat.
+
+## Evidence
+
+::: {.evidence-block}
+**Transkrip / Parafrasa Discovery (5 Pertanyaan):**
+*   *(Fact/Event)* **Pel:** "Apa masalah utama yang paling bikin kamu stres pas ngurus kelompok kita?" -> **M:** "Banyak yang ngumpulin laporannya mepet jam 23.59. Baru pada kirim file jam setengah sebelas malam."
+*   *(Impact)* **Pel:** "Terus dampaknya ke kamu apa?" -> **M:** "Aku panik dan nggak punya waktu buat baca ulang kelogisan isi sama ngerapihin *formatting*. Takut nilainya jelek gara-gara berantakan."
+*   *(Ideal State)* **Pel:** "Idealnya kamu pengen proses kita jalan kayak gimana?" -> **M:** "Aku pengen bisa ngelihat status pengerjaan tiap orang tanpa harus nanya di grup satu-satu."
+*   *(Constraint)* **Pel:** "Kendalanya buat mantau selama ini apa?" -> **M:** "Jadwal kesibukan anak-anak beda-beda, dan kalau ngabarin lewat WA doang, *chat*-nya cepet banget ketumpuk obrolan lain."
+
+**Shared Problem Statement (Terkonfirmasi):**
+"Rekan M sebagai ketua kelompok mengalami keterlambatan pengumpulan bahan saat mendekati tenggat waktu pengumpulan tugas, sehingga ia kehabisan waktu untuk me-*review* dan merapikan format laporan. Ia membutuhkan kemampuan memantau status pengerjaan setiap anggota secara riil tanpa perlu menagihnya secara manual, dengan mempertimbangkan kesibukan jadwal anggota yang berbeda-beda serta pesan komunikasi grup WA yang mudah tertumpuk."
+:::
+
+## Analisis komunikasi
+
+| Elemen | Evidence dan analisis |
+|---|---|
+| Person & character | Saya melepaskan karakter sebagai 'orang IT' yang ingin buru-buru bikin aplikasi/bot *reminder*. Saya memposisikan diri sebagai rekan sejawat yang mendengarkan kesulitan *compiler* tugas secara empatik. |
+| Objective & state | Beralih dari sekadar berasumsi "anggota pemalas" menjadi memahami *state* kesulitan manajerial. M bergeser dari rasa frustrasi menjadi merasa dimengerti beban kerjanya. |
+| Repertoire & language | Saya menggunakan pertanyaan terbuka berbasis penggalian (*discovery questions*) untuk menuntun M merumuskan keresahannya secara konkret, dari sekadar emosi menjadi fakta yang bisa dievaluasi. |
+| Response & adaptation | Ketika mendengar M mengeluhkan *chat* WA yang tertumpuk, saya segera membuang ide awal saya (membuat *bot* pengingat WA), dan beradaptasi mencatat hal tersebut sebagai *constraint* (kendala) utama. |
+| Agreement/action | M menyetujui rumusan *Problem Statement* yang saya draf. Sebagai aksi, saya berjanji untuk *update* pekerjaan secara proaktif pada dokumen bersama agar progresnya terlihat tanpa perlu *chat* WA. |
+| Relationship outcome | Relasi kerja akademik membaik. Kesalahpahaman dapat dihindari, dan timbul rasa saling menghargai terhadap beban kerja ketua kelompok. |
+
+## Penggunaan AI
+
+Saya menggunakan AI (Gemini) untuk membantu menstrukturisasi draft Lembar Kerja dan merapikan formatting markdown agar transcript percakapan nyata saya dapat disajikan dengan rapi.
+
+## Feedback dan tindak lanjut
+
+**Feedback yang diterima:** Rekan M menyatakan bahwa rumusan masalahnya sudah sangat mewakili isi kepalanya dan setuju bahwa masalah utamanya ada di sistem pelacakan (*tracking*) yang masih manual via WA.
+
+**Adaptation/replay:** Mengubah kalimat fokus perbaikan dari "membuat bot pengingat" (solusi prematur) menjadi "memastikan visibilitas pengerjaan" (kebutuhan riil).
+
+**Next practice:** Saat ada rekan kerja/akademik yang mengeluh tentang masalah teknis di proyek, saya akan menanyakan dampak (*impact*) masalah tersebut terlebih dahulu sebelum memberikan usulan perbaikan.
+
+## Self-assessment
+
+| Dimensi | Skor 1–4 | Evidence singkat |
+|---|---:|---|
+| Person & Character | 4 | Sadar penuh menahan ego IT untuk tidak langsung *proposing* (menyodorkan solusi). |
+| Objective & State | 4 | Berhasil mengekstrak permasalahan laten yang sering tidak disadari oleh tim. |
+| Repertoire, Language & AI | 3 | Menggunakan *discovery questions* untuk mendapatkan hasil konkret. AI dideklarasikan. |
+| Response & Adaptation | 4 | Mengubah arah asumsi secara total setelah mendengar hambatan soal komunikasi WA. |
+| Agreement, Action & Relationship | 3 | Partner mengonfirmasi draf masalah, memunculkan rasa saling percaya dalam relasi akademik. |
+
+**Total:** 18 / 20
+
+::: {.assessor-only}
+### Assessment dosen
+
+**Skor:** — / 20  
+**Evidence yang mendukung:** —  
+**Prioritas perbaikan:** —  
+**Keputusan:** Belum dinilai / Perlu revisi / Tercapai
+:::

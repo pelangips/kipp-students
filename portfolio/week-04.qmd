@@ -1,8 +1,8 @@
 ---
 title: "Five-Language Translation Portfolio"
 week: 4
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap Dinilai"
+self_score: "18"
 assessor_score: "—"
 description: "Satu meaning untuk lima person atau character."
 categories: [Fondasi, Language]
@@ -22,4 +22,74 @@ Mengadaptasi repertoire dan language tanpa mengubah core meaning.
 [Buka contoh fiktif Minggu 4](../examples/week-04.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
 :::
 
-{{< include ../includes/evidence-template.md >}}
+## Konteks performance
+
+**Tanggal dan setting:** 19 September 2026, eksplorasi penjelasan konsep struktur data *Priority Queue* (berdasarkan proyek pembuatan simulasi browser "UlaScene" yang pernah saya kerjakan di STI). Eksperimen penyampaian dilakukan kepada berbagai audiens yang berbeda secara mental/ragam bahasa.
+
+**Persons dan relationship:** Pel (saya), dan lima audiens target dengan karakteristik berbeda (Anak-anak, Sahabat, Rekan IT, Manajer, Publik).
+
+**Objective dan initial state:** 
+- **Objective:** Mengupas jargon teknis (seperti *Abstract Data Type*, *O(log n)*, *Binary Heap*) menjadi kebenaran inti yang dapat dipahami semua kalangan tanpa merusak makna aslinya.
+- **Initial state:** Konsep *Priority Queue* sangat kaku dan hanya dimengerti oleh mahasiswa IT yang sudah mengambil mata kuliah Algoritma dan Struktur Data.
+
+## Evidence
+
+::: {.evidence-block}
+**Kebenaran Inti (Core Meaning):** "Mengatur urutan penyelesaian tugas bukan berdasarkan siapa yang datang duluan, melainkan siapa yang paling penting dan mendesak."
+
+**Lima Terjemahan Bahasa (Repertoire & Language):**
+1. **Target: Anak-anak (Usia 10 tahun)**
+   *Bahasa:* "Bayangkan kamu lagi antre beli es krim, tapi ada ambulans mau lewat. Pasti semua mobil minggir buat ngasih jalan, kan? Nah, di komputer juga gitu. Tugas super penting dikerjain duluan walau dia datang belakangan."
+2. **Target: Sahabat (Non-IT)**
+   *Bahasa:* "Kaya lu kalau ngerjain tugas aja, pasti ngerjain yang deadlinenya besok pagi duluan dibandingin tugas minggu depan kan? Nah komputer juga milih yang paling *urgent* dulu."
+3. **Target: Rekan Teknis (Technical Peer)**
+   *Bahasa:* "Gue pake *Max-Heap* buat implementasi *Priority Queue*-nya, jadi operasi *extract-max* tetep jalan di O(log n) berdasar *weight* prioritas, bukan *first-in-first-out*."
+4. **Target: Manajer (Business/Decision Maker)**
+   *Bahasa:* "Sistem antrean ini memastikan *request* pengguna kelas VIP diproses lebih dulu oleh *server*, sehingga *bottleneck* berkurang dan metrik kepuasan pelanggan prioritas terjaga."
+5. **Target: Publik Umum / Customer**
+   *Bahasa:* "Seperti di UGD rumah sakit di mana pasien darurat didahulukan, teknologi ini memastikan sistem di HP Anda menyelesaikan fungsi-fungsi yang paling mendesak pertama kali demi kelancaran penggunaan Anda."
+:::
+
+## Analisis komunikasi
+
+| Elemen | Evidence dan analisis |
+|---|---|
+| Person & character | Saya menyesuaikan peran secara fleksibel: sebagai pencerita (*Anak*), teman akrab (*Sahabat*), teknisi (*Rekan Teknis*), konsultan bisnis (*Manajer*), dan edukator (*Publik*). |
+| Objective & state | Objective penyampaian inti tercapai. Kelima audiens yang awalnya tidak mengerti jargon TI, berhasil diubah *state*-nya menjadi memahami cara kerja dasar memori komputer. |
+| Repertoire & language | Terjadi pergeseran *repertoire* yang radikal: Menggunakan analogi ambulans dan es krim untuk anak-anak (imajinatif), menggunakan jargon matematis *O(log n)* untuk rekan IT (presisi), dan *business value* (VIP, kepuasan pelanggan) untuk manajer (pragmatis). |
+| Response & adaptation | Saat menerjemahkan, saya menyadari bahwa memaksakan *repertoire* IT kepada manajer akan membuat mereka bosan/tidak peduli. Saya beradaptasi dengan mengubah kata "kompleksitas memori" menjadi "kepuasan klien". |
+| Agreement/action | Pesan inti (*core meaning*) berhasil diterima tanpa distorsi makna di kelima versi. |
+| Relationship outcome | Kemampuan alih ragam bahasa ini meminimalkan kesenjangan intelektual antara saya sebagai orang IT dengan orang awam, sehingga hubungan komunikasi menjadi setara dan tidak menggurui. |
+
+## Penggunaan AI
+
+Saya menggunakan AI (Gemini) untuk memberikan umpan balik (bertindak sebagai penguji audiens) pada draf bahasa Manajer dan Anak-anak, serta merapikan format tulisan ke dalam bentuk *markdown*. Konten teknis bersumber dari pengalaman nyata proyek pemrograman C yang saya kerjakan.
+
+## Feedback dan tindak lanjut
+
+**Feedback yang diterima:** Saya membacakan analogi UGD dan ambulans kepada Adik saya, dan dia merespons: "Oh, jadi prioritas antreannya tuh bisa nyelip ke depan karena darurat ya, bukan karena nyerobot." Ini membuktikan analoginya berhasil (Makna inti tersampaikan).
+
+**Adaptation/replay:** Menghilangkan kata *server* dan *request* dari draf publik umum karena kata tersebut masih tergolong jargon teknis yang membingungkan orang awam.
+
+**Next practice:** Saya akan membiasakan diri untuk selalu merumuskan "Satu Kalimat Kebenaran Inti" sebelum mempresentasikan materi teknis IT apa pun di depan audiens kampus atau organisasi.
+
+## Self-assessment
+
+| Dimensi | Skor 1–4 | Evidence singkat |
+|---|---:|---|
+| Person & Character | 4 | Keberhasilan mengasumsikan lima peran komunikator yang sangat berbeda dan menyesuaikannya. |
+| Objective & State | 4 | Penyampaian makna inti tetap terjaga tanpa terdistorsi atau mengubah definisi teknis aslinya. |
+| Repertoire, Language & AI | 3 | Perbedaan register sangat kontras. Penggunaan AI untuk evaluasi dinyatakan dengan jelas. |
+| Response & Adaptation | 4 | Adaptasi pemilihan kosakata dari *technical-centric* menuju *business/human-centric* terlihat nyata. |
+| Agreement, Action & Relationship | 3 | Feedback dari orang sekitar menunjukkan analogi berhasil membuat orang awam paham tanpa merasa digurui. |
+
+**Total:** 18 / 20
+
+::: {.assessor-only}
+### Assessment dosen
+
+**Skor:** — / 20  
+**Evidence yang mendukung:** —  
+**Prioritas perbaikan:** —  
+**Keputusan:** Belum dinilai / Perlu revisi / Tercapai
+:::

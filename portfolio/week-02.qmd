@@ -1,10 +1,10 @@
 ---
 title: "Intra-Self Communication Journal"
 week: 2
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap Dinilai"
+self_score: "19"
 assessor_score: "—"
-description: "Evidence perubahan dari reaction menuju response."
+description: "Evidence perubahan dari reaction menuju response melalui pembedahan fakta dan asumsi batin."
 categories: [Fondasi, Intra-Self]
 ---
 
@@ -22,4 +22,75 @@ Memisahkan event, fact, story, emotion, internal character, choice, dan action.
 [Buka contoh fiktif Minggu 2](../examples/week-02.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
 :::
 
-{{< include ../includes/evidence-template.md >}}
+## Konteks performance
+
+**Tanggal dan setting:** 5-6 Mei 2026, koordinasi persiapan asistensi proyek Odoo via grup WhatsApp kelompok.
+
+**Persons dan relationship:** Pel (saya), Rekan A, dan Rekan B (Rekan kelompok tugas akademik).
+
+**Objective dan initial state:** 
+- **Objective:** Mengubah respons dari asumsi internal yang menyalahkan ("kelompok tidak peduli") menjadi komunikasi proaktif untuk mengatur jadwal diskusi proyek Odoo sebelum asistensi.
+- **Initial state:** Mengalami kecemasan dan kekesalan karena pesan yang mengabarkan jadwal asistensi sekaligus menanyakan progres proyek pada malam hari tidak dibalas sama sekali hingga keesokan harinya.
+
+## Evidence
+
+::: {.evidence-block}
+**Transkrip Chat WhatsApp (Disamarkan):**
+> **[5/5, 21:18] Pel:** tadi gw udah book asistensi jam 8 buat besok yak
+> **[5/5, 21:18] Pel:** ini odoo kita jadinya gmn deh😭
+> *(Tidak ada balasan sama sekali malam itu dan pagi harinya).*
+
+**Proses Internal:** Saya sempat memproduksi asumsi bahwa mereka tidak peduli dan saya dibiarkan panik sendiri. Namun, saya menahan diri untuk tidak mengirim pesan marah-marah dan menunggu hingga siang hari.
+
+**Tindak Lanjut (Action):**
+> **[5/6, 14:27] Pel:** sore ini pada kosong gaa
+> **[5/6, 14:32] Rekan A:** jam brpp
+> **[5/6, 14:38] Pel:** jam 4an gitu. bebas sih. mari kita bahas odoo odoo ini
+> **[5/6, 16:01] Rekan A:** jam 5 kurang bs gaa. mau dmn
+> **[5/6, 16:21] Pel:** online aja bole gaa udah tidak di nangor
+> *(Diskusi berlanjut dengan lancar via GMeet, membahas limitasi aplikasi Odoo yang bisa dipakai hingga 15-20 apps).*
+:::
+
+## Analisis komunikasi
+
+| Elemen | Evidence dan analisis |
+|---|---|
+| Person & character | *Internal character* saya awalnya terjebak sebagai "Korban" (*victim narrative*). Namun, saya berhasil menggesernya menjadi *Reflective Learner* yang mencari fakta rasional (*analytical narrative*). |
+| Objective & state | Saya beralih dari *state* cemas dan emosional karena pesan diabaikan, menuju *state* yang tenang dan proaktif mencari jadwal diskusi pengganti di sore hari. |
+| Repertoire & language | Saya mengubah *self-talk* dari menyalahkan ("Mereka tidak peduli") menjadi memaklumi konteks ("Mungkin mereka sudah tidur karena pesan dikirim jam 21:18"). Hal ini membuat bahasa eksternal saya (*follow-up*) tetap santai dan *inviting* ("sore ini pada kosong gaa"). |
+| Response & adaptation | Saat rangsangan terjadi (diabaikan semalaman), saya tidak reaktif. Saya memberikan jeda, lalu beradaptasi mengirimkan pesan konfirmasi di jam 14:27 siang yang merupakan waktu yang lebih wajar untuk berkomunikasi. |
+| Agreement/action | Terjadi *internal agreement* untuk mengelola kecemasan. Secara eksternal, rekan-rekan merespons baik, menyepakati *online meeting* jam 17:00, dan proyek dapat dikoordinasikan dengan lancar sebelum jadwal asistensi jam 20:00. |
+| Relationship outcome | Relasi kerja akademik tetap terjaga tanpa adanya drama atau asumsi negatif yang merusak. Koordinasi berhasil dilakukan tepat waktu. |
+
+## Penggunaan AI
+
+Saya menggunakan AI (Gemini) untuk membantu menstrukturisasi draft Lembar Kerja dan merapikan *formatting markdown* agar *transcript* percakapan nyata saya dapat disajikan dengan rapi.
+
+## Feedback dan tindak lanjut
+
+**Feedback yang diterima:** Respons Rekan A dan Rekan B yang langsung membalas pesan *follow-up* pada jam luang mereka dan antusias membedah strategi (*limitasi trial Odoo*) membuktikan bahwa asumsi awal saya ("mereka tidak peduli") tidak berdasar fakta.
+
+**Adaptation/replay:** Daripada mendiamkan atau memarahi kelompok, saya berhasil melakukan inisiasi diskusi baru ("mari kita bahas odoo odoo ini") yang membuka jalan bagi penyelesaian masalah.
+
+**Next practice:** Saya akan melatih diri untuk tidak melakukan konfirmasi mendesak atau melempar pertanyaan berat di grup pada waktu istirahat malam (di atas jam 21.00), untuk meminimalisasi kepanikan diri sendiri jika tidak segera mendapat balasan.
+
+## Self-assessment
+
+| Dimensi | Skor 1–4 | Evidence singkat |
+|---|---:|---|
+| Person & Character | 4 | Keberhasilan memisahkan posisi internal antara Korban (berasumsi) dan Pembelajar yang analitis. |
+| Objective & State | 4 | Transisi eksplisit dari kepanikan malam hari menuju koordinasi proaktif siang harinya. |
+| Repertoire, Language & AI | 3 | Perubahan *self-talk* dan perbedaan bahasa sebelum/sesudah *delay* tergambar di *transcript*. |
+| Response & Adaptation | 4 | Terdapat jeda (*pause*) antara rangsangan (chat tak dibalas) dan respons (tindak lanjut siang hari). |
+| Agreement, Action & Relationship | 4 | Terlaksananya GMeet sore hari untuk membedah limitasi aplikasi sebelum tenggat asistensi. |
+
+**Total:** 19 / 20
+
+::: {.assessor-only}
+### Assessment dosen
+
+**Skor:** — / 20  
+**Evidence yang mendukung:** —  
+**Prioritas perbaikan:** —  
+**Keputusan:** Belum dinilai / Perlu revisi / Tercapai
+:::

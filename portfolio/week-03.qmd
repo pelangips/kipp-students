@@ -1,8 +1,8 @@
 ---
 title: "Relationship Conversation"
 week: 3
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap Dinilai"
+self_score: "18"
 assessor_score: "—"
 description: "Evidence listening, boundary, request, atau repair."
 categories: [Fondasi, Relationship]
@@ -22,4 +22,69 @@ Melakukan personal conversation dengan listening, clarity, boundary, dan relatio
 [Buka contoh fiktif Minggu 3](../examples/week-03.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
 :::
 
-{{< include ../includes/evidence-template.md >}}
+## Konteks performance
+
+**Tanggal dan setting:** 6 September 2026, percakapan santai di rumah (kamar) saat B baru saja pulang dari kegiatan lombanya.
+
+**Persons dan relationship:** Pel (saya) dan B (Adik saya).
+
+**Objective dan initial state:** 
+- **Objective:** Berlatih mendengarkan keluh kesah B secara aktif tanpa memberikan penghakiman atau solusi prematur mengenai penyebab kegagalannya.
+- **Initial state:** B terlihat sangat murung dan bete karena merasa gagal mengerjakan soal lomba. *State* otomatis saya adalah gemas dan ingin menasihatinya karena saya tahu dia kurang belajar sebelum lomba.
+
+## Evidence
+
+::: {.evidence-block}
+**Transkrip Percakapan Latihan Mendengarkan:**
+> **B:** "Sumpah aku sedih banget. Lombanya susah gila, tadi banyak banget yang kosong nggak bisa aku isi."
+> **Pel:** *(Menahan refleks untuk nyeletuk 'makanya belajar yang bener')*. "Wah... emang soalnya sesusah itu ya tadi?"
+> **B:** "Iya, materinya aneh-aneh, beda banget sama yang biasa aku kerjain. Kayaknya aku bakal dapet nilai jelek deh, malu banget."
+> **Pel:** *(Melakukan Parafrasa)*. "Jadi kamu lagi sedih sama ngerasa malu gara-gara soal lombanya di luar dugaan dan banyak banget yang nggak bisa diisi, gitu ya?"
+> **B:** "Iya bener. Bete banget sumpah."
+> **Pel:** *(Tebakan Emosi & Pertanyaan Emas)*. "Kayaknya kamu ngerasa kecewa banget ya sama hasil hari ini. Sekarang, kamu mau didengerin aja biar lega, atau mau bahas evaluasinya bareng buat lomba berikutnya?"
+> **B:** "Dengerin aja dulu deh, aku cuma pengen ngeluh."
+:::
+
+## Analisis komunikasi
+
+| Elemen | Evidence dan analisis |
+|---|---|
+| Person & character | Saya memposisikan diri murni sebagai pendengar suportif, secara sadar mematikan karakter otomatis saya sebagai pengkritik/hakim yang terfokus pada kurangnya persiapan B. |
+| Objective & state | Berhasil menghindari perdebatan ("kamu sih nggak belajar"). State B berubah dari sedih yang terpendam menjadi lebih lega karena perasaannya tervalidasi. |
+| Repertoire & language | Menggunakan *repertoire* parafrasa dan tebakan emosi dengan bahasa kasual khas kami ("Jadi kamu lagi sedih..."). Bahasa sangat menghargai otonomi B dengan adanya Pertanyaan Emas di akhir. |
+| Response & adaptation | Saat mendengar B mengeluh tidak bisa mengisi jawaban, refleks otomatis saya adalah menyalahkan usahanya. Saya beradaptasi dengan mengubah impuls itu menjadi pertanyaan klarifikasi simpatik ("emang soalnya sesusah itu ya?"). |
+| Agreement/action | Kesepakatan tercipta secara mulus: B hanya butuh ruang untuk mengeluh dan saya memberikan ruang tersebut tanpa menceramahinya. |
+| Relationship outcome | Relasi keluarga dan kedekatan persaudaraan terjaga baik. B tidak merasa diserang di saat kondisinya sedang *down*, sehingga rasa saling percaya semakin kuat. |
+
+## Penggunaan AI
+
+Saya menggunakan AI (Gemini) untuk membantu menstrukturisasi draft Lembar Kerja dan merapikan *formatting markdown* agar *transcript* percakapan nyata saya dapat disajikan dengan rapi dan sesuai format rubrik penilaian.
+
+## Feedback dan tindak lanjut
+
+**Feedback yang diterima:** B merasa lega setelah bercerita, dan dia menyatakan bersyukur tidak langsung diomelin soal kurang belajar, karena dia sendiri sebenarnya sudah sadar akan kesalahannya tanpa perlu diceramahi saat itu juga.
+
+**Adaptation/replay:** Mengubah insting kalimat interogasi/menyalahkan ("Kenapa bisa kosong? Kan semalam nggak belajar") menjadi kalimat pancingan cerita ("emang soalnya sesusah itu ya tadi?").
+
+**Next practice:** Saya akan melatih kebiasaan menanyakan "Pertanyaan Emas" setiap kali melihat keluarga atau teman sedang *down* akibat kegagalannya, untuk menghindari pemberian nasihat yang tidak diminta.
+
+## Self-assessment
+
+| Dimensi | Skor 1–4 | Evidence singkat |
+|---|---:|---|
+| Person & Character | 4 | Sangat konsisten memegang peran pendengar tanpa tergelincir menceramahi penyebab kegagalan. |
+| Objective & State | 4 | Eksplisit mengubah state dari sedih dan berpotensi defensif menjadi lega dan tervalidasi. |
+| Repertoire, Language & AI | 3 | Parafrasa dan pertanyaan emas (*golden question*) digunakan dengan nada kasual yang natural. |
+| Response & Adaptation | 4 | Jelas terlihat adanya usaha meredam impuls otomatis untuk menyalahkan (*blaming*). |
+| Agreement, Action & Relationship | 3 | Hubungan keluarga menjadi lebih aman secara emosional pasca-kejadian. |
+
+**Total:** 18 / 20
+
+::: {.assessor-only}
+### Assessment dosen
+
+**Skor:** — / 20  
+**Evidence yang mendukung:** —  
+**Prioritas perbaikan:** —  
+**Keputusan:** Belum dinilai / Perlu revisi / Tercapai
+:::
