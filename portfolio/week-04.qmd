@@ -1,7 +1,7 @@
 ---
 title: "Five-Language Translation Portfolio"
 week: 4
-status: "Siap Dinilai"
+status: "Siap dinilai"
 self_score: "18"
 assessor_score: "—"
 description: "Satu meaning untuk lima person atau character."
