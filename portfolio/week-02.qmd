@@ -40,9 +40,18 @@ Memisahkan event, fact, story, emotion, internal character, choice, dan action.
 > **[5/5, 21:18] Pel:** ini odoo kita jadinya gmn deh😭
 > *(Tidak ada balasan sama sekali malam itu dan pagi harinya).*
 
-**Proses Internal:** Saya sempat memproduksi asumsi bahwa mereka tidak peduli dan saya dibiarkan panik sendiri. Namun, saya menahan diri untuk tidak mengirim pesan marah-marah dan menunggu hingga siang hari.
+**Fakta/Peristiwa:** 
+Rekan kelompok tidak membalas pesan koordinasi Odoo sejak pukul 21:18 hingga keesokan siangnya.
 
-**Tindak Lanjut (Action):**
+**Proses Internal (Dialog Asumsi):**
+*   **Cerita A (Initial Story):** "Mereka sengaja mengabaikan saya dan mau lepas tangan dari tanggung jawab proyek Odoo ini."
+*   **Cerita B (Alternatif 1):** "Mungkin mereka sudah tidur karena saya mengirim pesan terlalu malam (21:18)."
+*   **Cerita C (Alternatif 2):** "Mungkin mereka sedang sibuk mengerjakan tugas atau kuis dari mata kuliah lain pada pagi hingga siang ini, jadi belum sempat memikirkan Odoo."
+
+**Keputusan (Action):**
+Saya memilih untuk memvalidasi **Cerita B** dan **Cerita C**. Oleh karena itu, tindakan yang saya ambil adalah menahan diri untuk tidak mengirim pesan marah/menuntut, memberi jeda waktu hingga mereka mungkin lebih luang, lalu mem-follow up kembali dengan santai di siang hari.
+
+**Tindak Lanjut Eksternal:**
 > **[5/6, 14:27] Pel:** sore ini pada kosong gaa
 > **[5/6, 14:32] Rekan A:** jam brpp
 > **[5/6, 14:38] Pel:** jam 4an gitu. bebas sih. mari kita bahas odoo odoo ini
