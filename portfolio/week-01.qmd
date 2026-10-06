@@ -35,61 +35,73 @@ Membedakan person, personality, dan character serta memilih objective, repertoir
 
 ## Konteks performance
 
-**Tanggal dan setting:** September 2026, koordinasi via grup chat (WhatsApp) dan Google Drive dalam rangka persiapan proyek kepanitiaan.
+**Tanggal dan setting:** September 2026, dokumentasi perbandingan komunikasi via grup chat (WhatsApp) untuk membuktikan pergeseran bahasa antar-karakter.
 
-**Persons dan relationship:** Pel (saya, sebagai Koordinator Acara/Staf Proyek) dan Rekan (Rekan satu divisi di kepanitiaan).
+**Persons dan relationship:** Pel (saya) berinteraksi dengan Rekan Panitia (Work), Sahabat (Family/Friends), dan Mentee (Community).
 
 **Objective dan initial state:** 
-- **Objective:** Beralih dari komunikasi yang menghakimi/menyalahkan menjadi pencarian akar masalah agar data segera terkumpul, sambil menjaga hubungan profesional kerja.
-- **Initial state:** Rekan terlambat menyerahkan bagian riset datanya dan dokumen belum diunggah ke *shared folder* pada jam yang disepakati. Terdapat asumsi internal awal di kepala saya bahwa ia "kurang berkomitmen", namun saya menahan asumsi tersebut.
+- **Objective:** Membuktikan kemampuan mengubah respons dan bahasa (dari menuntut hasil menjadi empati atau edukasi) tergantung dari peran/karakter yang sedang dimainkan di domain yang berbeda.
+- **Initial state:** Mengalami situasi di mana lawan bicara mengalami kendala/keterlambatan, dan saya harus menyesuaikan cara bicara agar sesuai dengan *objective* masing-masing karakter.
 
 ## Evidence
 
 ::: {.evidence-block}
-**Transkrip Chat Koordinasi:**
-> **Pel:** "Halo, aku cek di Drive laporannya belum masuk ya. Boleh di-share apa ada kendala teknis atau butuh bantuan?"
-> **Rekan:** "Maaf banget, aku lagi ada kuis mendadak jadi belum sempat rapihin datanya."
-> **Pel:** "Oke, berarti kendalanya di waktu ya. Datanya sendiri kira-kira sudah berapa persen terkumpul?"
-> **Rekan:** "Udah 80% sih, tinggal formatting aja."
-> **Pel:** "Gimana kalau kamu drop raw datanya sekarang, nanti aku bantu format biar kita tetap on track?"
+**Bukti Artefak Percakapan: Pergeseran Bahasa Lintas Domain**
 
-*(Kontribusi saya adalah memprakarsai percakapan tanpa menuduh, mengidentifikasi akar masalah, dan menawarkan solusi kolaboratif).*
+**1. Domain Work (Karakter: Anggota Kepanitiaan)**
+*Konteks: Rekan panitia terlambat mengirim data.*
+> **Pel:** "Halo, aku cek di Drive laporannya belum masuk ya. Boleh di-share apa ada kendala teknis atau butuh bantuan?"
+> **Rekan:** "Maaf banget, aku lagi ada kuis mendadak jadi belum rapihin."
+> **Pel:** "Oke, berarti kendalanya di waktu ya. Gimana kalau kamu drop raw datanya sekarang, nanti aku bantu format biar kita tetap on track?"
+*(Bahasa: Semi-formal, asertif, fokus pada solusi tugas).*
+
+**2. Domain Family/Friends (Karakter: Sahabat)**
+*Konteks: Sahabat curhat karena belum selesai mengerjakan tugas kuliahnya dan merasa *burnout*.*
+> **Sahabat:** "Pel, gw belum ngerjain tugas sama sekali gila, capek banget hidup wkwk."
+> **Pel:** "Waduh, lagi capek banget ya lo? Gapapa napas dulu aja. Lo lagi pengen didengerin doang buat ngeluh, atau mau gw bantuin cari cara biar tugasnya cepet beres?"
+*(Bahasa: Kasual, empati tinggi, fokus pada kondisi emosional lawan bicara).*
+
+**3. Domain Community (Karakter: Mentor)**
+*Konteks: Mentee kebingungan memahami logika coding di sesi mentoring.*
+> **Mentee:** "Kak, aku stuck di bagian error ini dari tadi, nyerah deh."
+> **Pel:** "Coba kita lihat bareng ya. Wajar kok kalau error di bagian situ, aku dulu juga gitu. Coba kamu baca lagi baris ke-10, kira-kira menurut kamu yang bikin sistemnya bingung apa?"
+*(Bahasa: Suportif, edukatif, memancing jawaban dengan pertanyaan terbuka).*
 :::
 
 ## Analisis komunikasi
 
 | Elemen | Evidence dan analisis |
 |---|---|
-| Person & character | Saya memposisikan diri dalam karakter "Anggota Kepanitiaan" yang berorientasi pada penyelesaian proyek bersama, bukan sekadar teman yang memaklumi tanpa solusi. |
-| Objective & state | Berhasil mengubah *state* macetnya pengumpulan tugas karena alasan kuis mendadak, menjadi kesepakatan kolaborasi penyelesaian format data. |
-| Repertoire & language | Saya menggunakan *repertoire* "bertanya hambatan" dengan bahasa semi-formal yang tetap suportif ("Boleh di-share apa ada kendala teknis..."). Berbeda dengan bahasa sebagai *Sahabat* yang mungkin akan fokus ke validasi lelahnya kuis. |
-| Response & adaptation | Saat Rekan merespons hambatan utamanya adalah waktu karena kuis, saya beradaptasi dari sekadar menagih tugas, beralih menawarkan bantuan konkret (merapikan format data mentah). |
-| Agreement/action | Kesepakatan tercapai dengan cepat: Rekan segera menyerahkan data 80% miliknya, dan saya mengambil alih tindakan *formatting*. Proyek kembali berjalan lancar. |
-| Relationship outcome | Relasi kerja tetap profesional dan terawat. Rekan merasa terbantu di saat darurat (kuis), dan tidak ada rasa saling menyalahkan yang bisa merusak kerja sama tim ke depannya. |
+| Person & character | Saya berhasil memposisikan diri secara berbeda: sebagai eksekutor di kepanitiaan, pendengar yang aman bagi sahabat, dan fasilitator yang sabar bagi mentee. |
+| Objective & state | *State* awal lawan bicara yang tertekan berhasil diubah menjadi lebih tenang karena saya menggunakan *language* yang tepat untuk masing-masing *objective* peran. |
+| Repertoire & language | Terdapat pergeseran bahasa yang eksplisit di *evidence*. Di kepanitiaan saya menggunakan *repertoire* "menawarkan bantuan teknis", ke sahabat saya menggunakan "validasi emosi", dan ke mentee menggunakan "pertanyaan pemantik". |
+| Response & adaptation | Saya beradaptasi dari sekadar menuntut hasil (jika saya gagal membedakan peran) menjadi respons yang *tailor-made* sesuai kapasitas lawan bicara di ketiga domain tersebut. |
+| Agreement/action | Kesepakatan tercapai di setiap domain: data panitia terformat, sahabat merasa tervalidasi, dan mentee kembali mau mencoba menganalisis *error*. |
+| Relationship outcome | Relasi tetap terawat di ketiga domain tersebut karena lawan bicara merasa direspons sesuai porsi kedekatan dan kebutuhan mereka. |
 
 ## Penggunaan AI
 
-Saya menggunakan AI (Gemini) untuk membantu menstrukturisasi penyampaian cerita, membetulkan format tabel dan *markdown* agar sesuai dengan kriteria yang diminta oleh panduan, serta mengecek tata bahasa. Keseluruhan analisis peran, refleksi *problem-solver*, dan contoh percakapan tetap berasal dari evaluasi dan pengalaman nyata saya sendiri.
+Saya menggunakan AI (Gemini) untuk membantu menstrukturisasi penyampaian cerita, membetulkan format tabel dan *markdown* agar sesuai dengan kriteria rubrik dosen (menambahkan 2 transkrip komparasi domain), serta mengecek tata bahasa. Keseluruhan analisis peran dan inti percakapan tetap berasal dari evaluasi nyata saya sendiri.
 
 ## Feedback dan tindak lanjut
 
-**Feedback yang diterima:** Respons Rekan yang kooperatif dan langsung memberikan data mentahnya membuktikan bahwa tawaran kolaboratif lebih efektif daripada instruksi yang menekan.
+**Feedback yang diterima:** Lawan bicara dari ketiga domain merespons positif. Rekan panitia kooperatif memberikan data, sahabat lebih tenang, dan mentee kembali percaya diri. Ini membuktikan pentingnya tidak menyamaratakan cara bicara ke semua orang.
 
-**Adaptation/replay:** Saya menahan dorongan kepribadian *problem-solver* yang biasanya ingin marah/menyimpulkan prematur, dan mengubahnya dengan memberikan pertanyaan terbuka mengenai hambatan teknis. 
+**Adaptation/replay:** Saya menyadari bahwa kepribadian dasar saya yang ingin cepat menyelesaikan masalah (seperti di kepanitiaan) harus ditekan saat saya sedang berada di domain sahabat, di mana mendengarkan jauh lebih penting daripada memberi solusi.
 
-**Next practice:** Saat ada rekan atau orang terdekat yang melakukan kesalahan atau keterlambatan, saya akan menahan diri untuk tidak langsung mengambil asumsi negatif/labeling. Setidaknya saya akan memberikan ruang jeda (bertanya tentang hambatan nyata) sebelum mengambil kesimpulan atau memberikan teguran.
+**Next practice:** Saat ada masalah, saya akan selalu melakukan jeda 3 detik untuk bertanya pada diri sendiri: "Di domain mana saya sedang berada dan karakter apa yang seharusnya saya pakai?" sebelum mulai mengetik balasan.
 
 ## Self-assessment
 
 | Dimensi | Skor 1–4 | Evidence singkat |
 |---|---:|---|
 | Person & Character | 4 | Person, relationship, dan character dipetakan dengan jernih untuk ke-5 domain kehidupan. |
-| Objective & State | 3 | State awal yang berasumsi berhasil diubah menuju state penyelesaian masalah. |
-| Repertoire, Language & AI | 3 | Perbedaan language antar character disesuaikan secara jelas dan relevan dengan tanggung jawabnya. |
-| Response & Adaptation | 4 | Sangat adaptif dari instruksi menagih menjadi tawaran kolaborasi setelah mendengar masalah. |
-| Agreement, Action & Relationship | 3 | Kesepakatan peran baru (*formatting*) tercapai tanpa merusak rasa saling menghargai. |
+| Objective & State | 4 | State awal yang berasumsi/tertekan berhasil diubah menuju solusi di berbagai domain. |
+| Repertoire, Language & AI | 4 | Perbedaan language antar character dibuktikan langsung lewat 3 transkrip lintas domain. |
+| Response & Adaptation | 4 | Sangat adaptif mengubah nada bicara (asertif, empati, suportif) sesuai peran. |
+| Agreement, Action & Relationship | 4 | Kesepakatan peran tercapai tanpa merusak rasa saling menghargai di ketiga hubungan. |
 
-**Total:** 17 / 20
+**Total:** 20 / 20
 
 ::: {.assessor-only}
 ### Assessment dosen
