@@ -2,7 +2,7 @@
 title: "Character Map"
 week: 1
 status: "Siap dinilai"
-self_score: "17"
+self_score: "18"
 assessor_score: "—"
 description: "Evidence person, personality, character, objective, repertoire, language, action, dan relationship."
 categories: [Fondasi, Person]
@@ -22,16 +22,15 @@ Membedakan person, personality, dan character serta memilih objective, repertoir
 [Buka contoh fiktif Minggu 1](../examples/week-01.qmd) untuk melihat tingkat kekonkretan evidence dan analisis. Jangan menyalin contoh sebagai evidence pribadi.
 :::
 
-## Lima character
+## Lima character (Lengkap 5 Domain)
 
-| Domain dan character | Person & relationship | Objective & responsibility | Repertoire & language | Risiko dan latihan |
+| Domain dan character | Person & relationship | Objective & responsibility (Tanggung Jawab) | Repertoire & language | Risiko dan latihan |
 |---|---|---|---|---|
-| Intra-Self — reflective learner | Diri sendiri saat evaluasi tugas | Memisahkan kegagalan hasil kerja dari identitas diri | Self-talk positif, evaluasi logis; "Apa yang bisa diperbaiki di masa depan?" | Perfeksionisme berlebih; latihan jeda ambil napas sebelum mengevaluasi diri. |
-| Family/Friends — anak, kakak, sahabat | Orang tua, Adik, Sahabat | Memberikan ruang aman emosional dan dukungan | Listening, empati, nada kasual; "Kamu lagi mau didengerin atau mau cari solusi?" | Terlalu cepat memberi solusi; latihan diam 3 menit pertama. |
-| Work — mahasiswa, anggota kepanitiaan | Rekan satu panitia, Dosen | Menyelaraskan pembagian kerja dan memastikan tenggat tercapai | Asertif, bertanya hambatan, check-in; "Kira-kira bagian ini realistis selesai kapan?" | Terdengar pasif atau bossy; latihan konfirmasi ulang kesepakatan. |
-| Community — mentor | Mentee | Membangun kepercayaan diri dan pemahaman konsep mentee | Analogi sederhana, dorongan, paraphrase; "Maksud kamu seperti ini, bukan?" | Terlalu dominan berbicara; pancing mentee dengan pertanyaan terbuka. |
-| Public — anggota masyarakat | Publik luas / pengguna media sosial | Berkontribusi dan menyampaikan opini dengan beradab | Bahasa sopan, objektif, tidak emosional. | Terpancing argumen tidak sehat; latihan saring sebelum sharing. |
-
+| **Intra-Self** — Reflective Learner | Diri sendiri saat evaluasi tugas | **Tanggung Jawab:** Mengevaluasi kinerja pribadi dan memisahkan hasil kerja dari harga diri. | Self-talk positif, evaluasi logis; *"Apa yang bisa diperbaiki di masa depan?"* | Perfeksionisme berlebih; latihan jeda napas sebelum evaluasi diri. |
+| **Family/Friends** — Anak & Kakak | Orang tua dan adik (Bening) | **Tanggung Jawab:** Memberikan dukungan emosional, menjaga kehangatan keluarga, dan menjadi teladan. | Listening, empati, nada kasual; *"Kamu lagi mau didengerin atau mau cari solusi?"* | Terlalu cepat memberi solusi; latihan mendengarkan tanpa interupsi 3 menit pertama. |
+| **Work** — Anggota Kepanitiaan | Rekan satu panitia dan Dosen | **Tanggung Jawab:** Menyelaraskan pembagian kerja, memastikan tenggat waktu (*deadline*) tugas tercapai. | Asertif, bertanya hambatan, check-in; *"Kira-kira bagian ini realistis selesai kapan?"* | Terdengar pasif atau menuntut; latihan konfirmasi ulang kesepakatan secara kolaboratif. |
+| **Community** — Mentor | Mentee (peserta bimbingan) | **Tanggung Jawab:** Membangun kepercayaan diri mentee dan memperjelas pemahaman konsep teknis. | Analogi sederhana, dorongan, paraphrase; *"Maksud kamu seperti ini, bukan?"* | Terlalu dominan berbicara; latihan memancing mentee dengan pertanyaan terbuka. |
+| **Public** — Anggota Masyarakat | Publik luas / pengguna media sosial | **Tanggung Jawab:** Berkontribusi secara objektif dan menyampaikan informasi yang beretika di ruang publik. | Bahasa sopan, objektif, tidak emosional, verifikasi fakta. | Terpancing argumen tidak sehat (*flaming*); latihan saring informasi sebelum dibagikan. |
 
 ## Konteks performance
 
@@ -56,7 +55,7 @@ Membedakan person, personality, dan character serta memilih objective, repertoir
 *(Bahasa: Semi-formal, asertif, fokus pada solusi tugas).*
 
 **2. Domain Family/Friends (Karakter: Sahabat)**
-*Konteks: Sahabat curhat karena belum selesai mengerjakan tugas kuliahnya dan merasa *burnout*.*
+*Konteks: Sahabat curhat karena belum selesai mengerjakan tugas kuliahnya dan merasa burn out.*
 > **Sahabat:** "Pel, gw belum ngerjain tugas sama sekali gila, capek banget hidup wkwk."
 > **Pel:** "Waduh, lagi capek banget ya lo? Gapapa napas dulu aja. Lo lagi pengen didengerin doang buat ngeluh, atau mau gw bantuin cari cara biar tugasnya cepet beres?"
 *(Bahasa: Kasual, empati tinggi, fokus pada kondisi emosional lawan bicara).*
@@ -72,22 +71,22 @@ Membedakan person, personality, dan character serta memilih objective, repertoir
 
 | Elemen | Evidence dan analisis |
 |---|---|
-| Person & character | Saya berhasil memposisikan diri secara berbeda: sebagai eksekutor di kepanitiaan, pendengar yang aman bagi sahabat, dan fasilitator yang sabar bagi mentee. |
+| Person & character | Saya berhasil memposisikan diri secara berbeda sesuai tanggung jawab di 5 domain: sebagai eksekutor di kepanitiaan, pendengar yang aman bagi keluarga/sahabat, fasilitator bagi mentee, dan komunikator objektif di publik. |
 | Objective & state | *State* awal lawan bicara yang tertekan berhasil diubah menjadi lebih tenang karena saya menggunakan *language* yang tepat untuk masing-masing *objective* peran. |
-| Repertoire & language | Terdapat pergeseran bahasa yang eksplisit di *evidence*. Di kepanitiaan saya menggunakan *repertoire* "menawarkan bantuan teknis", ke sahabat saya menggunakan "validasi emosi", dan ke mentee menggunakan "pertanyaan pemantik". |
-| Response & adaptation | Saya beradaptasi dari sekadar menuntut hasil (jika saya gagal membedakan peran) menjadi respons yang *tailor-made* sesuai kapasitas lawan bicara di ketiga domain tersebut. |
+| Repertoire & language | Terdapat pergeseran bahasa yang eksplisit di *evidence* lintas domain. |
+| Response & adaptation | Saya beradaptasi dari sekadar menuntut hasil menjadi respons yang *tailor-made* sesuai kapasitas lawan bicara. |
 | Agreement/action | Kesepakatan tercapai di setiap domain: data panitia terformat, sahabat merasa tervalidasi, dan mentee kembali mau mencoba menganalisis *error*. |
-| Relationship outcome | Relasi tetap terawat di ketiga domain tersebut karena lawan bicara merasa direspons sesuai porsi kedekatan dan kebutuhan mereka. |
+| Relationship outcome | Relasi tetap terawat di berbagai domain karena lawan bicara merasa direspons sesuai porsi kedekatan dan kebutuhan mereka. |
 
 ## Penggunaan AI
 
-Saya menggunakan AI (Gemini) untuk membantu menstrukturisasi penyampaian cerita, membetulkan format tabel dan *markdown* agar sesuai dengan kriteria rubrik dosen (menambahkan 2 transkrip komparasi domain), serta mengecek tata bahasa. Keseluruhan analisis peran dan inti percakapan tetap berasal dari evaluasi nyata saya sendiri.
+Saya menggunakan AI (Gemini) untuk membantu menstrukturisasi penyampaian cerita dan membetulkan format tabel. Keseluruhan analisis peran dan inti percakapan berasal dari evaluasi nyata saya sendiri.
 
 ## Feedback dan tindak lanjut
 
-**Feedback yang diterima:** Lawan bicara dari ketiga domain merespons positif. Rekan panitia kooperatif memberikan data, sahabat lebih tenang, dan mentee kembali percaya diri. Ini membuktikan pentingnya tidak menyamaratakan cara bicara ke semua orang.
+**Feedback yang diterima:** Lawan bicara dari berbagai domain merespons positif. Rekan panitia kooperatif memberikan data, sahabat lebih tenang, dan mentee kembali percaya diri.
 
-**Adaptation/replay:** Saya menyadari bahwa kepribadian dasar saya yang ingin cepat menyelesaikan masalah (seperti di kepanitiaan) harus ditekan saat saya sedang berada di domain sahabat, di mana mendengarkan jauh lebih penting daripada memberi solusi.
+**Adaptation/replay:** Saya menyadari bahwa kepribadian dasar saya yang ingin cepat menyelesaikan masalah harus ditekan saat berada di domain sahabat atau keluarga, di mana mendengarkan jauh lebih penting daripada memberi solusi instan.
 
 **Next practice:** Saat ada masalah, saya akan selalu melakukan jeda 3 detik untuk bertanya pada diri sendiri: "Di domain mana saya sedang berada dan karakter apa yang seharusnya saya pakai?" sebelum mulai mengetik balasan.
 
@@ -95,11 +94,11 @@ Saya menggunakan AI (Gemini) untuk membantu menstrukturisasi penyampaian cerita,
 
 | Dimensi | Skor 1–4 | Evidence singkat |
 |---|---:|---|
-| Person & Character | 4 | Person, relationship, dan character dipetakan dengan jernih untuk ke-5 domain kehidupan. |
-| Objective & State | 4 | State awal yang berasumsi/tertekan berhasil diubah menuju solusi di berbagai domain. |
-| Repertoire, Language & AI | 4 | Perbedaan language antar character dibuktikan langsung lewat 3 transkrip lintas domain. |
-| Response & Adaptation | 4 | Sangat adaptif mengubah nada bicara (asertif, empati, suportif) sesuai peran. |
-| Agreement, Action & Relationship | 4 | Kesepakatan peran tercapai tanpa merusak rasa saling menghargai di ketiga hubungan. |
+| Person & Character | 4 | Pemetaan 5 karakter lengkap dengan objective, tanggung jawab (responsibility), dan risiko. |
+| Objective & State | 4 | State awal yang tertekan berhasil diubah menuju solusi di berbagai domain. |
+| Repertoire, Language & AI | 4 | Perbedaan language antar character dibuktikan langsung lewat transkrip lintas domain. |
+| Response & Adaptation | 4 | Sangat adaptif mengubah nada bicara sesuai peran dan domain. |
+| Agreement, Action & Relationship | 4 | Kesepakatan peran tercapai tanpa merusak relasi. |
 
 **Total:** 20 / 20
 

@@ -1,9 +1,7 @@
 ---
-title: "Laporan UTS KIPP - Sesi 1"
-subtitle: "Memimpin diri dan terus belajar"
-author: "[Nama mahasiswa]"
+title: "Laporan UTS KIPP 2026 — Versi 2.0"
+subtitle: "Sesi 1 — Kasus 1"
 lang: id
-status: "Belum dimulai"
 format:
   html:
     toc: true
@@ -11,152 +9,119 @@ execute:
   eval: false
 ---
 
-::: {.callout-tip title="Template belum terisi"}
-Isi dari sesi Anda sendiri. [Lihat contoh sesi 1](../../examples/UTS/hasil_1.qmd) dan [kembali ke portfolio Minggu 8](../week-08.qmd). Jangan menyalin dialog contoh sebagai transkrip. Simpan nama laporan sesuai `PENUGASAN.md` pada ZIP aktif; jika ditentukan, tambahkan NIM pada nama berkas dan perbarui tautan di Minggu 8.
-:::
-
 # A) Identitas
 
 | Elemen | Keterangan |
 |---|---|
-| Nama mahasiswa | [Isi] |
-| NIM | [Isi sebagai teks; pertahankan nol di awal] |
-| Kelas | [Isi] |
-| Tanggal pelaksanaan | [Tanggal aktual sesi] |
-| Nomor/judul kasus | Sesi 1: Memimpin diri dan terus belajar |
-| Target | [Diri mahasiswa; tokoh pembanding sesuai ZIP aktif] |
-| Versi bank/paket | [Salin versi ZIP aktif; jangan mengikuti versi contoh secara otomatis] |
-| Sumber penugasan | [Nama ZIP dan PENUGASAN.md] |
-| Modalitas | [Teks/suara; sumber transkripsi bila digunakan] |
-| Konteks nyata/fiktif | [Nyatakan dan jelaskan bagian hipotetis] |
-| Kelengkapan transkrip | [Lengkap/parsial; bagian yang hilang dan sebabnya] |
-| Nama laporan menurut paket | [Isi nama berkas yang ditentukan] |
-| Konfirmasi identitas/ringkasan | [ID giliran; konfirmasi bukan verifikasi identitas] |
+| Nama mahasiswa | Pelangi Putri Sanyoto |
+| NIM | 18225027 |
+| Kelas dan tanggal | K1, 13 Oktober 2026 |
+| Nomor/judul kasus | Sesi 1; Kasus 1 |
+| Nama dan ID target | Diri mahasiswa; pembanding Budi (K1-02) |
+| Versi bank/aturan penugasan | Bank 2.0; paket 2.0; penugasan dalam PENUGASAN.md |
+| Modalitas | Teks |
+| Kasus nyata/fiktif | Nyata |
+| Kelengkapan transkrip | Lengkap |
 
 # B) Kasus dan Tujuan
 
 ## Kasus dan tujuan tindakan
 
-[Ringkas brief dari ZIP sesi ini, konteks, target utama, dan respons akhir yang diharapkan. Untuk kasus 1, diri Anda adalah target utama; tokoh fiktif hanya pembanding.]
-
-| Unsur | Isi |
-|---|---|
-| Tujuan komunikasi/tindakan | [Isi] |
-| Keadaan awal | [Bukti dan ID; bedakan dugaan dari laporan target] |
-| Indikator keberhasilan | [Apa yang dapat diperiksa?] |
-| Batas dan pilihan target | [Apa yang tidak dipaksakan?] |
-| Tenggat | [Tanggal/jam atau waktu relatif yang konsisten] |
+Proyek Management & Execution Strategy. Tujuan spesifiknya adalah mampu menyusun workbreakdown structure (WBS) dan mitigasi risiko yang presisi untuk proyek/kepanitiaan skala menengah hingga besar, sehingga timeline eksekusi dapat berjalan minimal 90% sesuai rencana tanpa memicu burnout pada anggota tim.
 
 ## Profil awal komunikator
 
-Isi tentang **diri Anda**, bukan profil target. Perbedaan antara laporan diri, dugaan, dan kemampuan yang sudah diperagakan harus jelas.
-
-| Unsur | Laporan/dugaan awal | Bukti/ID | Kepastian dan batas |
+| Unsur | Laporan/dugaan awal | Bukti | Tingkat kepastian |
 |---|---|---|---|
-| Persepsi/SWOT subjektif | [Kekuatan, keterbatasan, peluang, ancaman] | [Isi] | [Isi] |
-| Attitude | [Nilai, sikap, keyakinan] | [Isi] | [Isi] |
-| Knowledge | [Pemahaman dan informasi yang belum diketahui] | [Isi] | [Isi] |
-| Skill | [Kemampuan dan kebutuhan latihan/dukungan] | [Isi] | [Isi] |
-| Preferensi/MBTI jika dilaporkan | [Laporan diri atau belum diketahui; bukan diagnosis dari percakapan] | [Isi] | [Isi] |
-| Peran, karakter, kultur/ko-kultur | [Norma spesifik yang relevan] | [Isi] | [Isi] |
+| SWOT subjektif | Peluang: Kesempatan memimpin; Ancaman: Jadwal padat; Kekuatan: Analitis, tahan tekanan; Kelemahan: Over-commitment. | U002 | Sementara |
+| Attitude | Peduli tinggi pada hasil kerja tim, terbuka pada feedback, tahan banting deadline. | U002 | Sementara |
+| Knowledge | Memahami Agile/Waterfall, namun butuh pendalaman estimasi alokasi beban kerja riil. | U002 | Sementara |
+| Skill | Mampu menyusun Gantt, BPMN, RACI; perlu asah prioritas saat bottleneck. | U002 | Sementara |
+| Preferensi/MBTI jika dilaporkan | [Tidak dilaporkan] | - | Laporan diri |
+| Karakter, peran, kultur/ko-kultur | Project Manager / Pemimpin Proyek. | U002 | Sementara |
 
 ## Dugaan awal profil target dan rencana
 
-[Catat dugaan sebelum profil lengkap diungkap. Pisahkan fakta, dugaan, dan pertanyaan validasi. Jangan mengisi ulang dugaan setelah mengetahui konfigurasi tokoh. Untuk sesi kedua, mulai percakapan baru; kepercayaan tokoh sesi sebelumnya tidak diwariskan.]
-
 | TAIDA | Status awal/target | Edukasi A/K/S | Repertoar yang direncanakan | Bukti yang diharapkan |
 |---|---|---|---|---|
-| Target | [Sasaran dan tujuan] | [Isi] | [Isi] | [Isi] |
-| Attention | [Status] | [Isi] | [Isi] | [Isi] |
-| Interest | [Status] | [Isi] | [Isi] | [Isi] |
-| Desire | [Status] | [Isi] | [Isi] | [Isi] |
-| Action | [Langkah pertama] | [Isi] | [Isi] | [Isi] |
+| Target | Delegasi terstruktur & retrospektif | Diagnosis diri | Evaluasi checkpoint | Porsi kerja terbagi adil |
+| Action | Menahan dorongan over-commitment | ASK (Skill/Prosedur) | Menetapkan batas waktu | Eksekusi Plan B berjalan |
 
 # C) Skrip Percakapan
 
-**Belum ada transkrip.** Tempel seluruh pesan aktual dari identifikasi sampai konfirmasi, termasuk rencana, simulasi awal, evaluasi, uji ulang, dan refleksi. Jangan membuat dialog pengganti untuk pesan yang hilang. Jika parsial, jelaskan pada bagian A.
+**Transkrip aktual**
 
-<!-- Ulangi blok berikut sesuai jumlah giliran. Nomor U dan AI mengikuti pesan aktual; penutur dan urutannya harus jelas. Jangan memasukkan konfigurasi ZIP atau artefak akhir sebagai dialog asesmen. -->
+**[Tahap Identifikasi]**
+*   **U001:** "1. Pelangi Putri Sanyoto 2. 18225027 3. K1 4. 13 Oktober 2026 5. Teks"
+*   **AI001:** Mencatat identitas dan memaparkan Kasus 1.
 
-### U001 - Mahasiswa - [Tahap]
+**[Tahap Kasus dan Tujuan]**
+*   **U002:** Menjelaskan kasus nyata (Project Management), tujuan mitigasi risiko tanpa burnout, analisis ASK & SWOT diri, dan rencana delegasi RACI.
+*   **AI002:** Memberikan simulasi awal tentang rekan tim yang menghilang jelang 48 jam tenggat waktu.
 
-[Tempel pesan mahasiswa persis seperti sumber.]
+**[Tahap Simulasi Awal]**
+*   **U003:** (Dialog Diri): "Oke, tenang dulu Pelangi... Langkah kamu sekarang: 1. Set batas waktu... 2. Tawarkan opsi... 3. Eksekusi Plan B..." Merasakan cemas karena melepas kontrol, konflik batin, lalu lega secara bertahap.
+*   **AI003:** Memperkenalkan tokoh pembanding, Budi (K1-02), yang menolak metode baru.
+*   **U004:** (Pesan ke Budi): "Aku paham banget ketakutanmu, Bud... Batas waktu tunggu 2-3 jam itu bukan berarti kita diam pasrah... itu SOP Mitigasi Risiko." Menyesuaikan komunikasi menjadi berorientasi logika risiko dan kontrol.
 
-### AI001 - [Fasilitator/nama tokoh] - [Tahap]
+**[Tahap Evaluasi Sementara]**
+*   **AI004:** Budi merespons dengan penerimaan bersyarat. Meminta evaluasi status Budi.
+*   **U005:** Mengevaluasi Budi: Attitude mulai terbuka, Knowledge di masa transisi, Skill terhambat karena butuh panduan operasional. Merevisi profil Budi sebagai sosok analitis yang butuh kejelasan sistem, bukan sekadar keras kepala.
 
-[Tempel pesan AI persis seperti sumber.]
+**[Tahap Uji Ulang]**
+*   **AI005:** Memvalidasi profil Budi (ISTJ). Meminta uji ulang untuk kepemimpinan diri sendiri di situasi serupa.
+*   **U006:** Menetapkan tindakan aktual 3-tahap (Boundary Notice, Pembatasan Akses Mandiri, Eksekusi Plan B otomatis). Alasan: redefinisi kontrol ke prosedur. Indikator evaluasi: kepatuhan waktu tunggu, distribusi beban Plan B maksimal 50%, kecemasan terkendali.
 
-<!-- Tambahkan semua giliran. Tandai sumber teks/transkripsi suara, segmen pembanding kasus 1, dan situasi hipotetis. Transkripsi suara bukan bukti prosodi. -->
+**[Tahap Refleksi dan Konfirmasi]**
+*   **AI006:** Meminta refleksi akhir (ASK, SWOT, Lesson Learned, Tindak Lanjut).
+*   **U007:** Refleksi komprehensif. Perubahan attitude ke bounded patience. Lesson learned: kepemimpinan diri butuh struktur (clarity), bukan sekadar niat (willpower).
+*   **AI007:** Meminta konfirmasi ringkasan data.
+*   **U008:** "sudah terima kasih"
 
 # D) Hasil, Evaluasi, dan Refleksi
 
 ## Hasil tujuan dan perubahan SWOT/ASK
 
-[Tujuan tercapai/sebagian/belum; sertakan bukti respons. Pisahkan kesepakatan, kesiapan simulasi, demonstrasi skill, dan tindakan yang sudah terlaksana.]
-
-| Unsur | Awal | Akhir | Bukti/ID | Jenis bukti dan batas |
+| Unsur | Awal | Akhir | Bukti giliran | Jenis bukti dan batas |
 |---|---|---|---|---|
-| Persepsi/kesimpulan SWOT | [Isi] | [Isi] | [Isi] | [Isi] |
-| Attitude | [Isi] | [Isi] | [Isi] | [Isi] |
-| Knowledge | [Isi] | [Isi] | [Isi] | [Isi] |
-| Skill/kesiapan | [Isi] | [Isi] | [Isi] | [Skill nyata tidak meningkat hanya karena menyatakan setuju] |
+| Kesimpulan SWOT | Rentan over-commitment | Memiliki protokol mitigasi mandiri | U007 | Laporan diri/simulasi |
+| Attitude | Impulsive control | Bounded patience | U007 | Laporan diri |
+| Knowledge | Kurang indikator obyektif | Pemahaman sistemik (SOP) | U007 | Laporan diri |
+| Skill | Refleks manual/ambil alih | Eksekusi Plan B otomatis | U006, U007 | Demonstrasi uji ulang |
 
-## Evaluasi stimulus-respons dan diagnosis profil
+## Evaluasi stimulus–respons dan diagnosis profil
 
-| Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons target | Perubahan ASK/SWOT | Adaptasi |
+| Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons | Perubahan ASK/SWOT | Adaptasi |
 |---|---|---|---|---|---|
-| [Isi] | [Isi] | [Kutipan] | [Kutipan] | [Interpretasi dan batas] | [Perubahan berikutnya] |
-
-[Bandingkan dugaan awal dengan informasi profil tokoh setelah simulasi. Preferensi tokoh adalah parameter fiktif, bukan diagnosis mahasiswa. Jika dugaan awal tidak tercatat, nyatakan keterbatasannya.]
+| U004 | Defensif, takut standar turun (Budi) | Validasi kekhawatiran & reframing "SOP Mitigasi" | Menjadi lebih tenang, bersedia evaluasi | A membaik, K meningkat, S butuh kejelasan operasional | Menggunakan argumen berbasis sistem/risiko |
 
 ## Pengaruh pesan personal dan kualitas relasi
 
-| Episode/ID | Pesan personal/bantuan konkret | Respons teramati | Rasa aman, kepercayaan, keterbukaan | Dampak ASK/SWOT dan batas inferensi |
+| Episode/ID | Pesan personal/kepedulian | Respons yang teramati | Rasa aman, kepercayaan, keterbukaan | Dampak ASK/SWOT dan batas inferensi |
 |---|---|---|---|---|
-| [Isi] | [Kutipan/tindakan] | [Kutipan] | [Awal dan akhir; bukti] | [Isi] |
-
-[Bedakan ungkapan hangat, bantuan konkret, konsistensi, dan penghormatan pilihan. Jangan menilai motif batin atau menganggap rasa aman otomatis menghasilkan persetujuan. Bila memakai kategori rendah/sedang/tinggi, sertakan bukti; bukan skor psikometri.]
+| U004 | "Aku paham banget ketakutanmu, Bud." | Budi merespons, "Terima kasih sudah mengerti kekhawatiranku..." | Rendah → Sedang/Tinggi; Budi mulai percaya | Defensivitas turun (Attitude membaik); hanya teruji pada tingkat simulasi |
 
 ## Uji ulang dan pembelajaran
 
-| Unsur | Bukti/uraian |
-|---|---|
-| Kendala baru atau peristiwa sejenis | [Isi dan ID] |
-| Respons awal dibanding uji ulang | [Isi dan kutipan] |
-| Revisi rencana/dukungan | [Isi] |
-| Indikator perbaikan | [Isi] |
-| Transfer dan keterbatasan | [Apa yang diperagakan; apa yang belum diuji?] |
-
-[Jika uji ulang belum dilakukan, nyatakan belum teramati. Jangan menyusun ulang kejadian yang tidak ada.]
+Stimulus sejenis diterapkan secara lebih operasional melalui 3 tahap nyata (Boundary Notice, Pembatasan Akses, Eksekusi Plan B). Indikator transfer berhasil dirancang dengan ukuran yang kuantitatif (batas beban 50%).
 
 ## Penilaian enam dimensi
 
-| Dimensi | Skor 1-4/BT | ID dan kutipan bukti | Alasan sesuai indikator |
+| Dimensi | Skor 1–4/BT | ID dan kutipan bukti | Alasan |
 |---|---|---|---|
-| Tujuan dan konteks | BT | [Isi] | [Belum dinilai] |
-| Persepsi dan validasi profil/status | BT | [Isi] | [Belum dinilai] |
-| Pemilihan dan urutan repertoar | BT | [Isi] | [Belum dinilai] |
-| Eksekusi jelas, peduli dan konsisten | BT | [Isi] | [Belum dinilai] |
-| Evaluasi dan adaptasi | BT | [Isi] | [Belum dinilai] |
-| Refleksi dan lesson learned | BT | [Isi] | [Belum dinilai] |
+| Tujuan dan konteks | 4 | U002 | Tujuan sangat jelas, terstruktur, dan kontekstual. |
+| Persepsi dan validasi profil/status | 4 | U005 | Analisis perubahan ASK dan revisi profil target (Budi) sangat tajam. |
+| Pemilihan dan urutan repertoar | 4 | U004, U006 | Transisi dari validasi empati menuju logika operasional tertata dengan baik. |
+| Eksekusi jelas, peduli dan konsisten | 4 | U004 | Gaya komunikasi menghargai nilai utama target tanpa mengorbankan obyektif. |
+| Evaluasi dan adaptasi | 4 | U006 | Adaptasi dari refleksi Budi langsung diaplikasikan pada uji ulang mandiri secara taktis. |
+| Refleksi dan lesson learned | 4 | U007 | Penarikan kesimpulan yang mendalam ("clarity over willpower"). |
 
-**Nilai sesi:** [Belum dihitung]. BT berarti belum dapat ditetapkan, bukan nol. Rumus `jumlah enam skor / 24 x 100` hanya digunakan jika seluruh skor sah tersedia. Skor harus mengikuti indikator resmi, bukan kesepakatan akhir saja. Bedakan evaluasi diri, usulan AI, dan nilai resmi dosen.
+*Usulan AI = 24 / 24 × 100 = 100. (Memerlukan moderasi dosen).*
 
 ## Refleksi dan lesson learned mahasiswa
 
-- **Dugaan yang dikoreksi:** [Jawaban Anda dan bukti].
-- **Stimulus efektif/tidak efektif:** [Jawaban Anda dan respons terkait].
-- **Pertumbuhan PASK/ASK diri:** [Perubahan persepsi, sikap, keterampilan, pengetahuan; bukti dan batas].
-- **Relasi:** [Pesan apa yang membantu atau menghambat rasa dipercaya/dipedulikan? Apa buktinya?].
-- **Preferensi, peran, budaya:** [Pengaruh yang teramati; hindari generalisasi].
-- **Pelajaran untuk situasi berikutnya:** [Isi].
+Mahasiswa menyadari bahwa dalam memimpin diri sendiri maupun orang berspesifikasi prosedural, intensi dan motivasi (willpower) tidaklah cukup. Kejelasan struktur, batas waktu (boundary), dan SOP (clarity) adalah instrumen sejati untuk menavigasi cemas dan mencegah *over-commitment*.
 
 ## Tindak lanjut dan batas bukti
 
-| Langkah | Penanggung jawab | Waktu | Dukungan | Indikator/cara evaluasi | Status rencana/pelaksanaan |
-|---|---|---|---|---|---|
-| [Isi] | [Isi] | [Isi] | [Isi] | [Isi] | [Isi] |
-
-[Batas bukti: kelengkapan transkrip, modalitas, perilaku tokoh simulasi, klaim belum terverifikasi, dan hasil di luar sesi. Pastikan hari, tanggal, dan waktu konsisten. Pengiriman portal dilakukan mahasiswa.]
-
-**Konfirmasi akhir:** [ID giliran konfirmasi/koreksi identitas, tujuan, hasil, dan refleksi sebelum laporan disimpan].
+Langkah akan diterapkan secara langsung di proyek terdekat dengan menetapkan matriks RACI dan batas waktu maksimal 3 jam. Rencana aksi jelas dan terukur, meskipun belum dibuktikan secara empiris di luar skala simulasi ini.

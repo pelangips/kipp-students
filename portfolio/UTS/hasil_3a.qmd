@@ -1,9 +1,7 @@
 ---
-title: "Laporan UTS KIPP - Sesi 3a"
-subtitle: "Menawarkan solusi TI dan AI - target pertama"
-author: "[Nama mahasiswa]"
+title: "Laporan UTS KIPP 2026 — Versi 2.0"
+subtitle: "Sesi 3a — Kasus 3"
 lang: id
-status: "Belum dimulai"
 format:
   html:
     toc: true
@@ -11,152 +9,131 @@ execute:
   eval: false
 ---
 
-::: {.callout-tip title="Template belum terisi"}
-Isi dari sesi Anda sendiri. [Lihat contoh sesi 3a](../../examples/UTS/hasil_3a.qmd) dan [kembali ke portfolio Minggu 8](../week-08.qmd). Jangan menyalin dialog contoh sebagai transkrip. Simpan nama laporan sesuai `PENUGASAN.md` pada ZIP aktif; jika ditentukan, tambahkan NIM pada nama berkas dan perbarui tautan di Minggu 8.
-:::
-
 # A) Identitas
 
 | Elemen | Keterangan |
 |---|---|
-| Nama mahasiswa | [Isi] |
-| NIM | [Isi sebagai teks; pertahankan nol di awal] |
-| Kelas | [Isi] |
-| Tanggal pelaksanaan | [Tanggal aktual sesi] |
-| Nomor/judul kasus | Sesi 3a: Menawarkan solusi TI dan AI - target pertama |
-| Target | [Nama dan ID customer sesuai ZIP 3a] |
-| Versi bank/paket | [Salin versi ZIP aktif; jangan mengikuti versi contoh secara otomatis] |
-| Sumber penugasan | [Nama ZIP dan PENUGASAN.md] |
-| Modalitas | [Teks/suara; sumber transkripsi bila digunakan] |
-| Konteks nyata/fiktif | [Nyatakan dan jelaskan bagian hipotetis] |
-| Kelengkapan transkrip | [Lengkap/parsial; bagian yang hilang dan sebabnya] |
-| Nama laporan menurut paket | [Isi nama berkas yang ditentukan] |
-| Konfirmasi identitas/ringkasan | [ID giliran; konfirmasi bukan verifikasi identitas] |
+| Nama mahasiswa | Pelangi Putri Sanyoto |
+| NIM | 18225027 |
+| Kelas dan tanggal | K1, 13 Oktober 2026 |
+| Nomor/judul kasus | Sesi 3a; Kasus 3 |
+| Nama dan ID target | Fajar (K3-06) |
+| Versi bank/aturan penugasan | Bank 2.0; paket 2.0; penugasan dalam PENUGASAN_2.md |
+| Modalitas | Teks |
+| Kasus nyata/fiktif | Nyata |
+| Kelengkapan transkrip | Lengkap |
 
 # B) Kasus dan Tujuan
 
 ## Kasus dan tujuan tindakan
 
-[Ringkas brief dari ZIP sesi ini, konteks, target utama, dan respons akhir yang diharapkan. Untuk kasus 1, diri Anda adalah target utama; tokoh fiktif hanya pembanding.]
+Brief Kasus 3: Customer (Fajar) menangani pertanyaan pelanggan berulang dan pesanan yang sering tercecer akibat tenaga operasional yang terbatas. Ia belum yakin apakah memerlukan solusi AI/TI. Tugas Anda adalah menggali kebutuhan usahanya dan menawarkan solusi TI/AI yang sesuai, dengan sasaran mencapai keputusan uji coba/eksperimen konkret.
 
-| Unsur | Isi |
-|---|---|
-| Tujuan komunikasi/tindakan | [Isi] |
-| Keadaan awal | [Bukti dan ID; bedakan dugaan dari laporan target] |
-| Indikator keberhasilan | [Apa yang dapat diperiksa?] |
-| Batas dan pilihan target | [Apa yang tidak dipaksakan?] |
-| Tenggat | [Tanggal/jam atau waktu relatif yang konsisten] |
+Tujuan Tindakan:
+1. Operasional/Bisnis: Menyepakati uji coba (express demo) sistem otomatisasi sederhana selama 3-5 menit dan mengirimkan checklist persiapan teknis untuk menangani FAQ dan rekap order otomatis.
+2. Relasional: Membangun rasa saling percaya (rapport) dan kejelasan mitigasi risiko (fallback manual) dengan menghargai ritme waktu serta fleksibilitas operasional Fajar di lapangan.
 
 ## Profil awal komunikator
 
-Isi tentang **diri Anda**, bukan profil target. Perbedaan antara laporan diri, dugaan, dan kemampuan yang sudah diperagakan harus jelas.
-
-| Unsur | Laporan/dugaan awal | Bukti/ID | Kepastian dan batas |
+| Unsur | Laporan/dugaan awal | Bukti | Tingkat kepastian |
 |---|---|---|---|
-| Persepsi/SWOT subjektif | [Kekuatan, keterbatasan, peluang, ancaman] | [Isi] | [Isi] |
-| Attitude | [Nilai, sikap, keyakinan] | [Isi] | [Isi] |
-| Knowledge | [Pemahaman dan informasi yang belum diketahui] | [Isi] | [Isi] |
-| Skill | [Kemampuan dan kebutuhan latihan/dukungan] | [Isi] | [Isi] |
-| Preferensi/MBTI jika dilaporkan | [Laporan diri atau belum diketahui; bukan diagnosis dari percakapan] | [Isi] | [Isi] |
-| Peran, karakter, kultur/ko-kultur | [Norma spesifik yang relevan] | [Isi] | [Isi] |
+| SWOT subjektif | Strengths: Paham produk; Weaknesses: SDM terbatas; Opportunities: Efisiensi chat; Threats: Pesanan tercecer & takut biaya. | U002 | Sementara |
+| Attitude | Ragu dan skeptis terhadap AI/TI, namun terbuka pada solusi praktis. | U002 | Sementara |
+| Knowledge | Paham masalah operasional, belum paham alur kerja AI/TI hibrida. | U002 | Sementara |
+| Skill | Terbiasa chat manual, belum terbiasa mengoperasikan sistem terintegrasi. | U002 | Sementara |
+| Preferensi/MBTI jika dilaporkan | [Belum dilaporkan] | - | Laporan diri |
+| Karakter, peran, kultur/ko-kultur | Pengelola usaha pragmatis, berhati-hati, fokus hasil jangka pendek. | U002 | Sementara |
 
 ## Dugaan awal profil target dan rencana
 
-[Catat dugaan sebelum profil lengkap diungkap. Pisahkan fakta, dugaan, dan pertanyaan validasi. Jangan mengisi ulang dugaan setelah mengetahui konfigurasi tokoh. Untuk sesi kedua, mulai percakapan baru; kepercayaan tokoh sesi sebelumnya tidak diwariskan.]
-
 | TAIDA | Status awal/target | Edukasi A/K/S | Repertoar yang direncanakan | Bukti yang diharapkan |
 |---|---|---|---|---|
-| Target | [Sasaran dan tujuan] | [Isi] | [Isi] | [Isi] |
-| Attention | [Status] | [Isi] | [Isi] | [Isi] |
-| Interest | [Status] | [Isi] | [Isi] | [Isi] |
-| Desire | [Status] | [Isi] | [Isi] | [Isi] |
-| Action | [Langkah pertama] | [Isi] | [Isi] | [Isi] |
+| Target | Fajar (K3-06) | Direct value & low risk trial | Direct opening & problem validation | Fajar merespons positif |
+| Attention | Terburu-buru/skeptis | Hemat waktu (A) | "Langsung ke intinya saja..." | Menyimak & mengonfirmasi masalah |
+| Interest | Mengeluhkan FAQ & order tercecer | Alur hibrida (K) | Demo alur penyaring & rekap otomatis | Berminat pada skema demo |
+| Desire | Khawatir glitch/down | Mitigasi fallback (S) | Penjelasan fallback manual & stok aman | Merasa aman & setuju jadwal |
+| Action | Komitmen uji coba | Adaptasi jadwal | Demo express 3 menit + checklist teknis | Mengunci jadwal jam 13.00 |
 
 # C) Skrip Percakapan
 
-**Belum ada transkrip.** Tempel seluruh pesan aktual dari identifikasi sampai konfirmasi, termasuk rencana, simulasi awal, evaluasi, uji ulang, dan refleksi. Jangan membuat dialog pengganti untuk pesan yang hilang. Jika parsial, jelaskan pada bagian A.
+**Transkrip aktual**
 
-<!-- Ulangi blok berikut sesuai jumlah giliran. Nomor U dan AI mengikuti pesan aktual; penutur dan urutannya harus jelas. Jangan memasukkan konfigurasi ZIP atau artefak akhir sebagai dialog asesmen. -->
+**[Tahap Identifikasi]**
+*   **U001:** "1. Pelangi Putri Sanyoto 2. 18225027 3. K1 4. 13 Oktober 2026 5. Teks"
+*   **AI001:** Mencatat identitas dan memaparkan Kasus 3 untuk Fajar (K3-06).
 
-### U001 - Mahasiswa - [Tahap]
+**[Tahap Kasus dan Tujuan]**
+*   **U002:** Menjelaskan tujuan operasional & relasional, dugaan awal profil Fajar, serta rencana pendekatan direct value proposition.
+*   **AI002:** Membuka simulasi dengan kalimat pembuka Fajar: "Bisa langsung ditunjukkan manfaatnya? Saya tidak punya banyak waktu."
 
-[Tempel pesan mahasiswa persis seperti sumber.]
+**[Tahap Simulasi Awal]**
+*   **U003:** "Halo Mas Fajar, siap, langsung ke intinya saja... Dampaknya langsung: 1. Waktu hemat hingga 50%... 2. Nol pesanan tercecer... Hal apa yang paling sering bikin waktu Mas Fajar tersita?"
+*   **AI003:** Fajar menyukai gaya direct, lalu menjelaskan kebocoran operasionalnya: pertanyaan stok/ongkir berulang yang menumpuk pesan penutupan order.
+*   **U004:** Menyajikan alur kerja sederhana (Penyaring Otomatis & Rekap Otomatis), membebaskan tim dari kurva belajar rumit, dan menawarkan demonstrasi 5-10 menit.
+*   **AI004:** Fajar setuju demo besok jam 10 pagi, namun menanyakan kekhawatiran jika terjadi glitch stok atau internet down (fallback).
+*   **U005:** Menjelaskan mitigasi stok terbatas dan mekanisme fallback manual via WhatsApp biasa jika internet down, serta mengunci jadwal demo.
+*   **AI005:** Fajar merasa aman dan setuju penuh. Simulator mencatat status relasional (Rasa Aman/Kepercayaan: Tinggi).
 
-### AI001 - [Fasilitator/nama tokoh] - [Tahap]
+**[Tahap Evaluasi Sementara]**
+*   **U006:** Evaluasi ASK Fajar: Attitude (skeptis ke kooperatif), Knowledge (paham alur fallback), Skill (siap coba demo). Merevisi profil Fajar dari ragu-ragu menjadi decisive action-oriented.
 
-[Tempel pesan AI persis seperti sumber.]
+**[Tahap Uji Ulang]**
+*   **AI006:** Menyampaikan profil internal Fajar (ESTP) dan memaparkan skenario uji ulang: H-10 menit demo, Fajar mendadak ada bongkar muat bahan baku dan meminta demo diringkas 3-5 menit jam 13.00 WIB plus checklist teknis.
+*   **U007:** Respon Uji Ulang: Menyikapi fleksibel, mengutamakan operasional Fajar, menyetujui demo express 3 menit jam 13.00 WIB, dan memberikan 4 poin Checklist Persiapan Teknis ringkas.
+*   **AI007:** Fajar membalas antusias, menyebut solusi paham ritme lapangan, dan mengunci janji jam 13.00 WIB.
 
-<!-- Tambahkan semua giliran. Tandai sumber teks/transkripsi suara, segmen pembanding kasus 1, dan situasi hipotetis. Transkripsi suara bukan bukti prosodi. -->
+**[Tahap Refleksi dan Konfirmasi]**
+*   **U008:** Menyampaikan refleksi lengkap: Pencapaian tujuan 100%, evaluasi relasional, lesson learned karakter ESTP (Aksi > Teori, hargai waktu), dan rencana aksi di usaha riil.
+*   **AI008:** Meminta konfirmasi ringkasan data.
+*   **U009:** "ya"
 
 # D) Hasil, Evaluasi, dan Refleksi
 
 ## Hasil tujuan dan perubahan SWOT/ASK
 
-[Tujuan tercapai/sebagian/belum; sertakan bukti respons. Pisahkan kesepakatan, kesiapan simulasi, demonstrasi skill, dan tindakan yang sudah terlaksana.]
-
-| Unsur | Awal | Akhir | Bukti/ID | Jenis bukti dan batas |
+| Unsur | Awal | Akhir | Bukti giliran | Jenis bukti dan batas |
 |---|---|---|---|---|
-| Persepsi/kesimpulan SWOT | [Isi] | [Isi] | [Isi] | [Isi] |
-| Attitude | [Isi] | [Isi] | [Isi] | [Isi] |
-| Knowledge | [Isi] | [Isi] | [Isi] | [Isi] |
-| Skill/kesiapan | [Isi] | [Isi] | [Isi] | [Skill nyata tidak meningkat hanya karena menyatakan setuju] |
+| Kesimpulan SWOT | Takut rugi & terganggu operasional | Terproteksi fallback, siap uji coba pilot | U005, U007 | Simulasi/Laporan Diri |
+| Attitude | Skeptis, protektif terhadap waktu | Antusias, kooperatif, sangat percaya | U003, U007 | Simulasi |
+| Knowledge | Awam alur pengaman AI/TI | Paham mekanisme fallback & batasan stok | U005, U006 | Simulasi |
+| Skill | Tergantung alur manual total | Siap uji coba & siapkan infrastruktur tim | U005, U007 | Demonstrasi uji ulang |
 
-## Evaluasi stimulus-respons dan diagnosis profil
+## Evaluasi stimulus–respons dan diagnosis profil
 
-| Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons target | Perubahan ASK/SWOT | Adaptasi |
+| Episode/ID | Estimasi status dan bukti | Stimulus mahasiswa | Respons | Perubahan ASK/SWOT | Adaptasi |
 |---|---|---|---|---|---|
-| [Isi] | [Isi] | [Kutipan] | [Kutipan] | [Interpretasi dan batas] | [Perubahan berikutnya] |
-
-[Bandingkan dugaan awal dengan informasi profil tokoh setelah simulasi. Preferensi tokoh adalah parameter fiktif, bukan diagnosis mahasiswa. Jika dugaan awal tidak tercatat, nyatakan keterbatasannya.]
+| U003 | Skeptis/Membatasi waktu (A) | Direct value proposition tanpa basa-basi | Fajar langsung membuka masalah stok/ongkir berulang | A membaik, K terdiagnosa | Menawarkan alur kerja hibrida |
+| U005 | Cemas Risiko Teknis (A/K) | Penjelasan fallback manual & proteksi stok | Fajar merasa masuk akal & mengunci jadwal demo | A & K meningkat pesat | Menyiapkan materi demo |
+| U007 | Kendala Lapangan Uji Ulang (A/S) | Fleksibilitas jadwal, demo express, & checklist ringkas | Fajar memuji "paham ritme lapangan" & janji jam 13.00 | A & S terproteksi utuh | Menyesuaikan format demo |
 
 ## Pengaruh pesan personal dan kualitas relasi
 
-| Episode/ID | Pesan personal/bantuan konkret | Respons teramati | Rasa aman, kepercayaan, keterbukaan | Dampak ASK/SWOT dan batas inferensi |
+| Episode/ID | Pesan personal/kepedulian | Respons yang teramati | Rasa aman, kepercayaan, keterbukaan | Dampak ASK/SWOT dan batas inferensi |
 |---|---|---|---|---|
-| [Isi] | [Kutipan/tindakan] | [Kutipan] | [Awal dan akhir; bukti] | [Isi] |
-
-[Bedakan ungkapan hangat, bantuan konkret, konsistensi, dan penghormatan pilihan. Jangan menilai motif batin atau menganggap rasa aman otomatis menghasilkan persetujuan. Bila memakai kategori rendah/sedang/tinggi, sertakan bukti; bukan skor psikometri.]
+| U005 | "Jalur cadangan (fallback) manual itu hukumnya wajib, bukan opsional... Sistem AI ini mendampingi, bukan menggantikan." | "Sip! Penjelasan soal fallback manual... masuk akal banget." | Rendah → Tinggi | Khawatir teratasi, rasa aman terbentuk |
+| U007 | "Aman sekali, Mas Fajar! Santai saja, operasional lapangan dan bongkar muat bahan baku jelas prioritas utama." | "Mantap jiwa... Solutif dan paham banget ritme lapangan." | Sangat Tinggi | Kepercayaan utuh; teruji dalam batas simulasi |
 
 ## Uji ulang dan pembelajaran
 
-| Unsur | Bukti/uraian |
-|---|---|
-| Kendala baru atau peristiwa sejenis | [Isi dan ID] |
-| Respons awal dibanding uji ulang | [Isi dan kutipan] |
-| Revisi rencana/dukungan | [Isi] |
-| Indikator perbaikan | [Isi] |
-| Transfer dan keterbatasan | [Apa yang diperagakan; apa yang belum diuji?] |
-
-[Jika uji ulang belum dilakukan, nyatakan belum teramati. Jangan menyusun ulang kejadian yang tidak ada.]
+Uji ulang berhasil membuktikan fleksibilitas dan orientasi lapangan. Saat Fajar terhambat bongkar muat gudang, Pelangi tidak memaksakan kehendak, melainkan menyesuaikan durasi demo menjadi 3 menit super-express dan menyajikan checklist teknis yang langsung dapat dieksekusi.
 
 ## Penilaian enam dimensi
 
-| Dimensi | Skor 1-4/BT | ID dan kutipan bukti | Alasan sesuai indikator |
+| Dimensi | Skor 1–4/BT | ID dan kutipan bukti | Alasan |
 |---|---|---|---|
-| Tujuan dan konteks | BT | [Isi] | [Belum dinilai] |
-| Persepsi dan validasi profil/status | BT | [Isi] | [Belum dinilai] |
-| Pemilihan dan urutan repertoar | BT | [Isi] | [Belum dinilai] |
-| Eksekusi jelas, peduli dan konsisten | BT | [Isi] | [Belum dinilai] |
-| Evaluasi dan adaptasi | BT | [Isi] | [Belum dinilai] |
-| Refleksi dan lesson learned | BT | [Isi] | [Belum dinilai] |
+| Tujuan dan konteks | 4 | U002 | Tujuan bisnis dan relasional dirumuskan sangat spesifik. |
+| Persepsi dan validasi profil/status | 4 | U006 | Mampu mendiagnosa profil ESTP/pragmatis dan merevisi statusnya secara akurat. |
+| Pemilihan dan urutan repertoar | 4 | U003, U005 | Direct opening diikuti penjelasan fallback dan penawaran trial. |
+| Eksekusi jelas, peduli dan konsisten | 4 | U005, U007 | Komunikasi sangat lugas, menghargai waktu, dan penuh pemahaman lapangan. |
+| Evaluasi dan adaptasi | 4 | U007 | Adaptif merespons perubahan mendadak tanpa kehilangan momentum closing. |
+| Refleksi dan lesson learned | 4 | U008 | Refleksi karakter ESTP dan tabel rencana aksi riil disusun sangat terstruktur. |
 
-**Nilai sesi:** [Belum dihitung]. BT berarti belum dapat ditetapkan, bukan nol. Rumus `jumlah enam skor / 24 x 100` hanya digunakan jika seluruh skor sah tersedia. Skor harus mengikuti indikator resmi, bukan kesepakatan akhir saja. Bedakan evaluasi diri, usulan AI, dan nilai resmi dosen.
+*Usulan AI = 24 / 24 × 100 = 100. (Memerlukan moderasi dosen).*
 
 ## Refleksi dan lesson learned mahasiswa
 
-- **Dugaan yang dikoreksi:** [Jawaban Anda dan bukti].
-- **Stimulus efektif/tidak efektif:** [Jawaban Anda dan respons terkait].
-- **Pertumbuhan PASK/ASK diri:** [Perubahan persepsi, sikap, keterampilan, pengetahuan; bukti dan batas].
-- **Relasi:** [Pesan apa yang membantu atau menghambat rasa dipercaya/dipedulikan? Apa buktinya?].
-- **Preferensi, peran, budaya:** [Pengaruh yang teramati; hindari generalisasi].
-- **Pelajaran untuk situasi berikutnya:** [Isi].
+Interaksi dengan karakter ESTP (Pelaksana Lapangan) menunjukkan bahwa komunikasi solusi teknologi kepada pengelola usaha tidak memerlukan jargon teknis atau presentasi panjang. Mereka memerlukan pembuktian cepat (direct value), kejelasan alur cadangan (fallback) agar tidak merusak pelayanan, serta penghormatan terhadap jadwal kerja lapangan mereka yang sangat dinamis.
 
 ## Tindak lanjut dan batas bukti
 
-| Langkah | Penanggung jawab | Waktu | Dukungan | Indikator/cara evaluasi | Status rencana/pelaksanaan |
-|---|---|---|---|---|---|
-| [Isi] | [Isi] | [Isi] | [Isi] | [Isi] | [Isi] |
-
-[Batas bukti: kelengkapan transkrip, modalitas, perilaku tokoh simulasi, klaim belum terverifikasi, dan hasil di luar sesi. Pastikan hari, tanggal, dan waktu konsisten. Pengiriman portal dilakukan mahasiswa.]
-
-**Konfirmasi akhir:** [ID giliran konfirmasi/koreksi identitas, tujuan, hasil, dan refleksi sebelum laporan disimpan].
+Pada bisnis riil, mahasiswa akan menjalankan demo express 3-5 menit, mengumpulkan data awal via checklist teknis 15-menit, meluncurkan pilot project 7 hari, dan mengevaluasi dampak efisiensi chat secara terukur. Perilaku ini teruji konsisten dalam simulasi interaktif.

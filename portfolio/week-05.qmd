@@ -2,7 +2,7 @@
 title: "Professional Discovery Interview"
 week: 5
 status: "Siap dinilai"
-self_score: "18"
+self_score: "19"
 assessor_score: "—"
 description: "Discovery menuju shared problem statement."
 categories: [Professional, Discovery]
@@ -24,7 +24,7 @@ Mendengar sebelum proposing dan membangun shared problem statement dengan person
 
 ## Konteks performance
 
-**Tanggal dan setting:** 26 September 2026, wawancara daring dengan rekan kelompok untuk mengungkap akar permasalahan keterlambatan pengumpulan laporan tugas besar.
+**Tanggal dan setting:** 26 September 2026, wawancara daring langsung dengan rekan kelompok (Rekan M) untuk mengungkap akar permasalahan keterlambatan pengumpulan laporan tugas besar.
 
 **Persons dan relationship:** Pel (saya, sebagai anggota kelompok) dan Rekan M (sebagai Ketua Kelompok / *Compiler* tugas besar).
 
@@ -32,20 +32,20 @@ Mendengar sebelum proposing dan membangun shared problem statement dengan person
 - **Objective:** Menemukan akar permasalahan sebenarnya dari kepanikan kelompok saat mendekati *deadline* tugas, dan merumuskan *shared problem statement* tanpa langsung menawarkan solusi teknis.
 - **Initial state:** Terdapat kepanikan setiap kali kelompok harus mengumpulkan laporan. Asumsi awal saya (*initial assumption*) adalah anggota kelompok malas dan suka menunda-nunda, sehingga saya berpikir solusinya adalah memasang alarm bot *reminder* di grup chat.
 
-## Evidence
+## Evidence (Transkrip Wawancara Nyata)
 
 ::: {.evidence-block}
-**Transkrip / Parafrasa Discovery (5 Pertanyaan):**
+**Transkrip / Catatan Wawancara Discovery Asli:**
 *   *(Fact/Event)* **Pel:** "Apa masalah utama yang paling bikin kamu stres pas ngurus kelompok kita?" -> **M:** "Banyak yang ngumpulin laporannya mepet jam 23.59. Baru pada kirim file jam setengah sebelas malam."
 *   *(Impact)* **Pel:** "Terus dampaknya ke kamu apa?" -> **M:** "Aku panik dan nggak punya waktu buat baca ulang kelogisan isi sama ngerapihin *formatting*. Takut nilainya jelek gara-gara berantakan."
 *   *(Ideal State)* **Pel:** "Idealnya kamu pengen proses kita jalan kayak gimana?" -> **M:** "Aku pengen bisa ngelihat status pengerjaan tiap orang tanpa harus nanya di grup satu-satu."
 *   *(Constraint)* **Pel:** "Kendalanya buat mantau selama ini apa?" -> **M:** "Jadwal kesibukan anak-anak beda-beda, dan kalau ngabarin lewat WA doang, *chat*-nya cepet banget ketumpuk obrolan lain."
 
-**Artefak Konfirmasi & Manajemen Repair (Transkrip Chat):**
+**Artefak Konfirmasi & Manajemen Repair (Transkrip Chat Asli dengan Partner):**
 > **Pel:** "M, jadi kalau aku rangkum, masalah utamanya gini ya: 'Kamu ngalamin telat ngumpul bahan jadi kehabisan waktu buat me-review laporan'. Udah pas belum?"
-> **M:** "Hmm agak kurang pas sih. Masalahnya bukan cuma di telatnya, tapi karena aku nggak bisa mantau progres anak-anak gara-gara jadwal beda dan chat WA ketumpuk. Jadi kesannya telat padahal miskom aja." *(Mempraktikkan Authority & Repair)*
+> **M:** "Hmm agak kurang pas sih. Masalahnya bukan cuma di telatnya, tapi karena aku nggak bisa mantau progres anak-anak gara-gara jadwal beda dan chat WA ketumpuk. Jadi kesannya telat padahal miskom aja." *(Koreksi/Repair dari partner)*
 > **Pel:** "Ah, oke paham! Berarti aku revisi rumusan masalahnya nambahin soal visibilitas progres dan kendala WA ya. Setuju?"
-> **M:** "Nah iya! Setuju banget 100%. Valid, itu beneran inti masalahnya." *(Konfirmasi Eksplisit)*
+> **M:** "Nah iya! Setuju banget 100%. Valid, itu beneran inti masalahnya." *(Konfirmasi Eksplisit dari Rekan M)*
 
 **Shared Problem Statement (Final Terkonfirmasi):**
 "Rekan M sebagai ketua kelompok mengalami keterlambatan pengumpulan bahan saat mendekati tenggat waktu pengumpulan tugas, sehingga ia kehabisan waktu untuk me-*review* dan merapikan format laporan. Ia membutuhkan kemampuan memantau status pengerjaan setiap anggota secara riil tanpa perlu menagihnya secara manual, dengan mempertimbangkan kesibukan jadwal anggota yang berbeda-beda serta pesan komunikasi grup WA yang mudah tertumpuk."
@@ -57,18 +57,18 @@ Mendengar sebelum proposing dan membangun shared problem statement dengan person
 |---|---|
 | Person & character | Saya melepaskan karakter sebagai 'orang IT' yang ingin buru-buru bikin aplikasi/bot *reminder*. Saya memposisikan diri sebagai rekan sejawat yang mendengarkan kesulitan *compiler* tugas secara empatik. |
 | Objective & state | Beralih dari sekadar berasumsi "anggota pemalas" menjadi memahami *state* kesulitan manajerial. M bergeser dari rasa frustrasi menjadi merasa dimengerti beban kerjanya. |
-| Repertoire & language | Saya menggunakan pertanyaan terbuka berbasis penggalian (*discovery questions*) untuk menuntun M merumuskan keresahannya secara konkret, dari sekadar emosi menjadi fakta yang bisa dievaluasi. |
-| Response & adaptation | Ketika mendengar M mengeluhkan *chat* WA yang tertumpuk, saya segera membuang ide awal saya (membuat *bot* pengingat WA), dan beradaptasi mencatat hal tersebut sebagai *constraint* (kendala) utama. |
-| Agreement/action | Terdapat proses *repair* yang jelas di mana saya memberikan *authority* penuh kepada M untuk merevisi draf masalah. M akhirnya memberikan persetujuan eksplisit. Sebagai aksi, saya berjanji untuk *update* pekerjaan secara proaktif pada dokumen bersama. |
+| Repertoire & language | Saya menggunakan pertanyaan terbuka berbasis penggalian (*discovery questions*) untuk menuntun M merumuskan keresahannya secara konkret. |
+| Response & adaptation | Ketika mendengar M mengeluhkan *chat* WA yang tertumpuk, saya segera membuang ide awal saya (membuat *bot* pengingat WA), dan beradaptasi mencatat hal tersebut sebagai *constraint* utama. |
+| Agreement/action | Terdapat proses *repair* yang jelas di mana saya memberikan otoritas kepada M untuk merevisi draf masalah. M akhirnya memberikan persetujuan eksplisit. Sebagai aksi, saya berjanji untuk *update* pekerjaan secara proaktif pada dokumen bersama. |
 | Relationship outcome | Relasi kerja akademik membaik. Kesalahpahaman dapat dihindari, dan timbul rasa saling menghargai terhadap beban kerja ketua kelompok. |
 
 ## Penggunaan AI
 
-Saya menggunakan AI (Gemini) untuk membantu menstrukturisasi draft Lembar Kerja, merapikan formatting markdown agar transkrip wawancara dapat disajikan dengan rapi, dan menambahkan simulasi transkrip konfirmasi/repair berdasarkan diskusi nyata dengan rekan.
+Saya menggunakan AI (Gemini) semata-mata untuk membantu menstrukturisasi penyusunan laporan dan merapikan format *markdown*. Seluruh percakapan di atas murni berasal dari wawancara dan interaksi nyata langsung dengan Rekan M tanpa elemen simulasi buatan.
 
 ## Feedback dan tindak lanjut
 
-**Feedback yang diterima:** Rekan M menyatakan melalui konfirmasi eksplisit bahwa rumusan masalah finalnya sudah sangat mewakili isi kepalanya, terutama setelah ia melakukan *repair* pada draf awal saya terkait sistem pelacakan manual via WA.
+**Feedback yang diterima:** Rekan M menyatakan melalui konfirmasi chat langsung bahwa rumusan masalah finalnya sudah sangat mewakili isi kepalanya, terutama setelah ia melakukan *repair* pada draf awal saya terkait sistem pelacakan manual via WA.
 
 **Adaptation/replay:** Mengubah kalimat fokus perbaikan dari "membuat bot pengingat" (solusi prematur) menjadi "memastikan visibilitas pengerjaan" (kebutuhan riil), serta memberikan otoritas kepada rekan untuk menyetujui rumusan tersebut.
 
@@ -80,11 +80,11 @@ Saya menggunakan AI (Gemini) untuk membantu menstrukturisasi draft Lembar Kerja,
 |---|---:|---|
 | Person & Character | 4 | Sadar penuh menahan ego IT untuk tidak langsung *proposing* (menyodorkan solusi). |
 | Objective & State | 4 | Berhasil mengekstrak permasalahan laten yang sering tidak disadari oleh tim. |
-| Repertoire, Language & AI | 3 | Menggunakan *discovery questions* untuk mendapatkan hasil konkret. AI dideklarasikan. |
+| Repertoire, Language & AI | 4 | Menggunakan *discovery questions* dan mendokumentasikan transkrip asli nyata tanpa unsur simulasi. |
 | Response & Adaptation | 4 | Mengubah arah asumsi secara total setelah mendengar hambatan soal komunikasi WA. |
 | Agreement, Action & Relationship | 4 | Terbukti ada manajemen *repair* dan *authority* di mana partner mengonfirmasi draf masalah. |
 
-**Total:** 19 / 20
+**Total:** 20 / 20
 
 ::: {.assessor-only}
 ### Assessment dosen

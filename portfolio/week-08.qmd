@@ -1,8 +1,8 @@
 ﻿---
 title: "Portfolio Minggu 8 — UTS KIPP"
 week: 8
-status: "Belum dimulai"
-self_score: "—"
+status: "Siap dinilai"
+self_score: "100"
 assessor_score: "—"
 description: "Makalah pra-UTS dan lima laporan kasus individual."
 categories: [Assessment, UTS]
@@ -16,21 +16,21 @@ Baca [instruksi UTS](../lk/lk-UTS/index.qmd), jalankan ZIP sesuai NIM, lalu isi 
 
 | Elemen | Isi mahasiswa |
 |---|---|
-| Nama | [Isi] |
-| NIM | [Isi sebagai teks; pertahankan nol di awal] |
-| Kelas | [Isi] |
-| Periode/tanggal pelaksanaan | [Isi tanggal aktual setiap sesi pada laporan] |
-| Versi bank/paket aktif | [Salin dari PENUGASAN.md dalam ZIP Anda] |
-| Modalitas | [Teks/suara; sumber transkripsi] |
-| Status pengumpulan | [Belum diunggah/sudah diunggah; bukti bila tersedia] |
+| Nama | Pelangi Putri Sanyoto |
+| NIM | 18225027 |
+| Kelas | K1 |
+| Periode/tanggal pelaksanaan | 13 Oktober 2026 |
+| Versi bank/paket aktif | Bank 2.0; paket 2.0 |
+| Modalitas | Teks |
+| Status pengumpulan | Sudah diunggah |
 
 ## Makalah dan lima laporan
 
 | Tahap | Template untuk diisi | Target sesuai ZIP | Status | Bukti/ID atau bagian yang masih kurang |
 |---|---|---|---|---|
-| Pra-UTS | [paper.qmd](UTS/paper.qmd) | Kajian empat pertanyaan MBTI/PASK | Belum dimulai | [Isi] |
-| 1 | [hasil_1.qmd](UTS/hasil_1.qmd) | Diri; [nama/ID pembanding] | Belum dimulai | [Isi] |
-| 2a | [hasil_2a.qmd](UTS/hasil_2a.qmd) | [Nama/ID target pertama kasus 2] | Belum dimulai | [Isi] |
-| 2b | [hasil_2b.qmd](UTS/hasil_2b.qmd) | [Nama/ID target kedua; berbeda dari 2a] | Belum dimulai | [Isi] |
-| 3a | [hasil_3a.qmd](UTS/hasil_3a.qmd) | [Nama/ID target pertama kasus 3] | Belum dimulai | [Isi] |
-| 3b | [hasil_3b.qmd](UTS/hasil_3b.qmd) | [Nama/ID target kedua; berbeda dari 3a] | Belum dimulai | [Isi] |
+| Pra-UTS | [paper.qmd](UTS/paper.qmd) | Kajian empat pertanyaan MBTI/PASK | Selesai | Makalah konseptual lengkap |
+| 1 | [hasil_1.qmd](UTS/hasil_1.qmd) | Diri; pembanding Budi (K1-02) | Selesai | Transkrip & analisis U001–U008 |
+| 2a | [hasil_2a.qmd](UTS/hasil_2a.qmd) | Elsa (K2-05) | Selesai | Transkrip & analisis U001–U009 |
+| 2b | [hasil_2b.qmd](UTS/hasil_2b.qmd) | Ali (K2-01) | Selesai | Transkrip & analisis U001–U008 |
+| 3a | [hasil_3a.qmd](UTS/hasil_3a.qmd) | Fajar (K3-06) | Selesai | Transkrip & analisis U001–U009 |
+| 3b | [hasil_3b.qmd](UTS/hasil_3b.qmd) | Budi (K3-02) | Selesai | Transkrip & analisis U001–U009 |
