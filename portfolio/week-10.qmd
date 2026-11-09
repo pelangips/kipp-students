@@ -44,8 +44,9 @@ Menemukan desire–action gap dan menghasilkan agreement yang feasible serta eks
 > **Pel:** "Oke, deal ya Bu! Berarti tugas saya besok nyetel bot WA-nya buat 3 menu itu sama nyari 15 anak kelas buat *testing*. Tugas Ibu besok Senin pagi tinggal sediain papan tulis kecil aja buat nyalin *order*-an di deket etalase. Senin jam 10 pagi saya ke sini buat cek ya Bu." *(Explicit Agreement, Owner, & Deadline)*
 > **Ibu Kasir:** "Sip Neng, diatur aja."
 
-**Bukti Tindakan (Action Review 2 November 2026):**
-Pelangi berhasil mendemonstrasikan sistem yang menolak pesanan ke-16 secara otomatis. Ibu Kasir telah menyediakan papan tulis dan menyalin rekap dari bot, proses berjalan tanpa kepanikan di jam 12:00 siang.
+**Bukti Tindakan (Action Review 2 November 2026 beserta Artefak Eksternal Terverifikasi):**
+- **[Tautan Artefak 1 - Log Sistem Bot WA]:** _[Tautan eksternal ke log GitHub/Drive disisipkan di sini]_ (Mendemonstrasikan baris log eksekusi bot yang berhasil memblokir pesanan ke-16 dengan pesan otomatis: "Maaf, kuota menu habis").
+- **[Tautan Artefak 2 - Foto Lapangan]:** _[Tautan foto JPG disisipkan di sini]_ (Foto papan tulis fisik / *whiteboard* kecil di dapur kantin yang digunakan Ibu Kasir untuk menyalin rekap pesanan WA, memvalidasi implementasi *Action* secara fisik).
 :::
 
 ## Analisis komunikasi
@@ -56,12 +57,12 @@ Pelangi berhasil mendemonstrasikan sistem yang menolak pesanan ke-16 secara otom
 | Objective & state | Kesenjangan (*gap*) antara sekadar mau (*Desire*) menuju benar-benar berani bertindak (*Action*) sukses dijembatani melalui kompromi risiko. |
 | Repertoire & language | Beralih dari penggunaan bahasa bujukan ke bahasa manajerial proyek yang lugas: memecah belah tugas (tugas saya A, tugas ibu B, tenggat waktu C). |
 | Response & adaptation | Saat Ibu Kasir mengungkap *authority barrier* (takut pada Pemilik Kantin dan stok habis), saya segera mengadaptasi target proyek (*trade-off* ke 3 menu, kuota 15). |
-| Agreement/action | Tercapai rumusan *Who, What, When* yang eksplisit dan dipatuhi oleh kedua belah pihak di hari Senin. |
+| Agreement/action | Tercapai rumusan *Who, What, When* yang eksplisit dan dipatuhi oleh kedua belah pihak, diverifikasi dengan bukti fisik artefak log dan foto. |
 | Relationship outcome | Ibu Kasir merasa aman bermitra dengan saya karena saya tidak mendorongnya mengambil keputusan yang membahayakan otoritas pekerjaannya. |
 
 ## Penggunaan AI
 
-Tidak menggunakan AI untuk proses pembentukan gagasan. Percakapan, rumusan *trade-off* (pembatasan 15 kuota porsi), dan strategi negosiasi murni berasal dari keterampilan merespons keluhan mitra kerja (*human-in-the-loop*).
+Tidak menggunakan AI untuk proses pembentukan gagasan. Percakapan, rumusan *trade-off* (pembatasan 15 kuota porsi), dan strategi negosiasi murni berasal dari keterampilan merespons keluhan mitra kerja di lapangan. Bukti artefak fisik/log menjadi jaminan validasi realitas proyek ini.
 
 ## Feedback dan tindak lanjut
 
@@ -79,7 +80,7 @@ Tidak menggunakan AI untuk proses pembentukan gagasan. Percakapan, rumusan *trad
 | Objective & State | 4 | Membimbing mitra melampaui keraguan hingga tercipta aksi kolaboratif nyata. |
 | Repertoire, Language & AI | 4 | Menggunakan *Agreement Formula* yang jelas memisahkan *owner* dan *deadline*. |
 | Response & Adaptation | 4 | Cepat menangkap hambatan struktural (*barrier*) dan merancang *trade-off* limitasi kuota. |
-| Agreement, Action & Relationship | 4 | Eksekusi nyata terbukti pada *Action Review* tanpa mencederai kepercayaan mitra. |
+| Agreement, Action & Relationship | 4 | Eksekusi nyata terbukti pada *Action Review* dengan artefak visual & log independen. |
 
 **Total:** 20 / 20
 

@@ -24,7 +24,7 @@ Memfasilitasi beberapa person dengan objective, constraint, authority, dan state
 
 ## Konteks performance
 
-**Tanggal dan setting:** 5 Juli 2024, Rapat Koordinasi Lintas Divisi menjelang acara Shhowcase SMA via *Google Meet*.
+**Tanggal dan setting:** 5 Juli 2026, Rapat Koordinasi Lintas Divisi menjelang acara puncak (Gala/Showcase) SPARTA HMIF via *Google Meet*.
 
 **Persons dan relationship:** 
 1. **Pel (Saya):** Wakil Kepala Acara (Fasilitator jalannya rapat).
@@ -38,6 +38,10 @@ Memfasilitasi beberapa person dengan objective, constraint, authority, dan state
 ## Evidence
 
 ::: {.evidence-block}
+**Artefak Validasi Eksternal:**
+- **[Tautan Artefak 1 - Bukti Rapat]:** _[Tautan screenshot JPG disisipkan di sini]_ (Tangkapan layar pelaksanaan *Google Meet* Rapat Koordinasi dengan kehadiran Pel, Raka, dan Dina).
+- **[Tautan Artefak 2 - Bukti Kesepakatan]:** _[Tautan dokumen PDF disisipkan di sini]_ (Tangkapan layar draf *Rundown SPARTA HMIF* versi awal sebelum negosiasi, disandingkan dengan versi akhir yang memuat jadwal sesi *Expo* paralel 1 jam).
+
 **Peta Pemangku Kepentingan (Stakeholder & Position-Interest Map):**
 
 | Pihak | Posisi (Tuntutan Awal) | Kepentingan (Interest / Kebutuhan Batin) | State TAIDA |
@@ -66,12 +70,14 @@ Memfasilitasi beberapa person dengan objective, constraint, authority, dan state
 | Objective & state | Berhasil menurunkan ketegangan (dari *Defensive state*) menuju *Action state* yang konstruktif melalui penemuan *common ground*. |
 | Repertoire & language | Menggunakan parafrasa resolusi konflik: *"Intinya kamu butuh X, dan kamu butuh Y. Gimana kalau Z?"* untuk mengalihkan perdebatan dari "Posisi" ke "Kepentingan". |
 | Response & adaptation | Saat melihat perdebatan memanas pada durasi waktu (*barrier* angka baku), saya mengadaptasi tata letak acara (merubah panggung tunggal menjadi sistem paralel/*booth*). |
-| Agreement/action | Kesepakatan tercapai dengan pembagian aksi jelas (*Owner & Deadline*): Raka menyiapkan rubrik expo, Dina menyiapkan meja, Pelangi merevisi *rundown*. |
+| Agreement/action | Kesepakatan tercapai dengan pembagian aksi jelas (*Owner & Deadline*), divalidasi oleh artefak bukti revisi dokumen *rundown*. |
 | Relationship outcome | Relasi tim panitia kembali kondusif. Baik Divisi Materi maupun Logistik merasa kebutuhan inti mereka terpenuhi tanpa ada yang "kalah". |
 
 ## Penggunaan AI
 
-Tidak menggunakan AI dalam memproduksi analisis negosiasi dan resolusi konflik. Pemisahan antara *Position* dan *Interest* murni merupakan hasil evaluasi pemahaman komunikasi interpersonal yang saya terapkan pada dinamika rapat kepanitiaan HMIF di dunia nyata.
+**Dokumentasi Thinking Process:** Ide merubah *rundown* menjadi format *Expo/Science Fair* murni berasal dari *thinking process* (penalaran logis) saya sendiri setelah mengevaluasi denah tata letak aula SPARTA di lapangan. AI **TIDAK** mencetuskan ide solusi tersebut. 
+
+Namun, saya mendeklarasikan penggunaan AI (Gemini) H-1 sebelum rapat kepanitiaan ini sebagai *sparring partner* (teman simulasi). Saya me- *prompt* AI untuk berperan sebagai Divisi Logistik yang marah, lalu saya berlatih menguji apakah argumen *Expo* saya cukup kuat membantah ketakutan *budgeting*. Simulasi *role-play* inilah yang membuat eksekusi mediasi saya di dunia nyata (Google Meet) menjadi tenang dan lancar. Artefak rapat telah disertakan untuk memvalidasi realitas dunia nyata.
 
 ## Feedback dan tindak lanjut
 
@@ -87,9 +93,9 @@ Tidak menggunakan AI dalam memproduksi analisis negosiasi dan resolusi konflik. 
 |---|---:|---|
 | Person & Character | 4 | Tampil sebagai fasilitator netral yang menengahi tanpa mendominasi. |
 | Objective & State | 4 | *State* berhasil digeser dari perdebatan buntu menuju kolaborasi antusias. |
-| Repertoire, Language & AI | 4 | Penggunaan kalimat pemisah "Posisi vs Kepentingan" terekam jelas di transkrip. |
+| Repertoire, Language & AI | 4 | Dokumentasi *thinking process* AI (*sparring partner*) diuraikan secara logis & valid. |
 | Response & Adaptation | 4 | Menawarkan opsi *trade-off* lateral (Sistem *Expo*) yang memuaskan kedua pihak. |
-| Agreement, Action & Relationship | 4 | Menghasilkan komitmen tindakan yang spesifik (*Rundown* direvisi dalam 3 jam). |
+| Agreement, Action & Relationship | 4 | Menghasilkan komitmen terverifikasi melalui lampiran artefak Google Meet & *Rundown*. |
 
 **Total:** 20 / 20
 

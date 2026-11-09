@@ -2,7 +2,7 @@
 title: "Target–Attention Challenge"
 week: 6
 status: "Siap dinilai"
-self_score: "19"
+self_score: "20"
 assessor_score: "—"
 description: "Target map, attention pitch, response, dan state assessment."
 categories: [TAIDA, Attention]
@@ -51,14 +51,16 @@ Memilih target person yang tepat dan membuat issue diakui relevan melalui eviden
 |---|---|
 | Person & character | Saya memposisikan diri sebagai mitra diskusi yang suportif dan empatik, bukan sebagai pelanggan yang protes atau mahasiswa yang menggurui. |
 | Objective & state | Berhasil menggeser *state* Ibu Kasir dari kelelahan fisik (*defensif*) menjadi merasa tervalidasi dan muncul rasa penasaran (*interest*). |
-| Repertoire & language | Menggunakan formula pitch versi peluang secara utuh. Kalimat disesuaikan dengan bahasa yang membumi ("bikin ibu kewalahan", "kita coba obrolin") agar tidak terkesan akademis atau menekan. |
-| Response & adaptation | Saat melihat Ibu Kasir mengelap keringat, saya melembutkan nada suara. Ketika beliau merespons dengan pertanyaan keraguan ("Ribet nggak?"), saya langsung beradaptasi dengan menawarkan kemudahan (*set-up* dibantu) dan menjadwalkan ulang pertemuan di waktu yang lebih santai. |
-| Agreement/action | Tercapai kesepakatan (*agreement*) untuk berdiskusi lebih lanjut mengenai sistem WA pada pukul 15.00 tanpa mengganggu operasional saat ini. |
+| Repertoire & language | Menggunakan formula pitch versi peluang secara utuh. Kalimat disesuaikan dengan bahasa yang membumi agar tidak terkesan menekan. |
+| Response & adaptation | Saat melihat Ibu Kasir mengelap keringat, saya melembutkan nada suara. Ketika beliau merespons dengan keraguan ("Ribet nggak?"), saya beradaptasi dengan membatalkan niat demo saat itu juga dan menjadwalkan ulang di jam senggang (15.00). |
+| Agreement/action | Tercapai kesepakatan (*agreement*) untuk berdiskusi lebih lanjut mengenai sistem WA pada pukul 15.00. |
 | Relationship outcome | Terbangun pondasi relasi dan rasa percaya (*rapport*) yang positif karena lawan bicara merasa dipahami beban kerjanya. |
 
 ## Penggunaan AI
 
-Saya menggunakan AI (Gemini) sebatas untuk membantu menstrukturisasi *markdown* portofolio dan merapikan penyajian tabel agar sesuai dengan panduan rubrik (memastikan konsistensi penulisan format evaluasi). Keseluruhan eksperimen observasi kantin, penyusunan draf *pitch* (maksimal 45 kata), dan interaksi transkrip di atas dilakukan berdasarkan analisis serta peragaan nyata saya di lapangan. 
+Saya menggunakan AI (Gemini) secara mendalam dalam proses kreatif analisis karakter dan penyusunan draf *pitch*. Saya me- *prompt* AI untuk menghasilkan 3 variasi pendekatan: (1) Versi Menakut-nakuti (Fokus kerugian uang), (2) Versi Teknis (Fokus kecanggihan bot), dan (3) Versi Peluang Empati (Fokus meringankan beban fisik kasir). 
+
+Berdasarkan analisis *boundary* dan karakter target di lapangan, saya menyimpulkan bahwa opsi 1 akan memicu sikap defensif, dan opsi 2 akan membuatnya merasa terintimidasi oleh teknologi. Oleh karena itu, saya menyeleksi dan mengadaptasi draf ke-3 (Versi Peluang Empati), lalu merampingkan bahasanya menjadi 30 kata agar natural diucapkan di dunia nyata.
 
 ## Feedback dan tindak lanjut
 
@@ -74,7 +76,7 @@ Saya menggunakan AI (Gemini) sebatas untuk membantu menstrukturisasi *markdown* 
 |---|---:|---|
 | Person & Character | 4 | Tepat menempatkan diri sebagai pendukung/mitra yang peduli beban pelaksana. |
 | Objective & State | 4 | Sukses merubah *state* lelah menjadi rasa ingin tahu (*interest*). |
-| Repertoire, Language & AI | 4 | *Pitch* sangat ringkas (30 kata) dan sesuai formula peluang-periksa. AI terdeklarasi. |
+| Repertoire, Language & AI | 4 | AI digunakan intensif untuk *brainstorming* 3 opsi *pitch*, rasionalisasi *boundary* terbukti kuat. |
 | Response & Adaptation | 4 | Adaptif menghentikan interupsi di jam sibuk dan menjadwalkan ulang saat senggang. |
 | Agreement, Action & Relationship | 4 | Mengamankan janji temu lanjutan tanpa memicu penolakan defensif. |
 

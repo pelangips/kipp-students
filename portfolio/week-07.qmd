@@ -2,7 +2,7 @@
 title: "Problem–Solution Interest Pitch"
 week: 7
 status: "Siap dinilai"
-self_score: "19"
+self_score: "20"
 assessor_score: "—"
 description: "Problem–solution fit dan signal Interest."
 categories: [TAIDA, Interest]
@@ -35,16 +35,14 @@ Menghubungkan solution mechanism dengan problem, benefit, dan value yang relevan
 ## Evidence
 
 ::: {.evidence-block}
-**Transkrip Percakapan Pitch Minat 60 Detik:**
+**Transkrip Percakapan Pitch Minat 60 Detik (Termasuk Manajemen Otoritas & Trade-off):**
 
 > **Pel:** "Sore Bu, sesuai janji tadi siang ya. Kemarin Ibu bilang kan pusing banget kalau jam 12 harus nyatet pesanan manual dan ngurus kembalian." *(Menghubungkan masalah)*
 > **Ibu Kasir:** "Iya Neng, capeknya itu lho."
-> **Pel:** "Nah, buat ngurangin itu, kita pakai sistem *Pre-Order* via WhatsApp aja, Bu. Biar saya bantu *set-up* di HP Ibu." *(Mekanisme sederhana)*
-> **Pel:** "Cara kerjanya gini Bu *(sambil menunjukkan HP)*: Nanti anak-anak WA pesanan dari kelas jam 11.30. Bot WA otomatis bikin daftarnya jadi satu, Ibu nggak usah ngetik ulang. Terus bayarnya wajib pakai QRIS biar Ibu nggak repot nyari receh." *(Nilai riil tanpa jargon teknis)*
-> **Pel:** "Tapi kekurangannya satu Bu, HP Ibu kuotanya harus nyala pas jam 11.30 biar daftar pesanannya masuk." *(Kejujuran/Batas teknis)*
-> **Ibu Kasir:** "Oh, cuma butuh kuota ya? Trus daftarnya langsung muncul gitu di WA ibu? Nggak perlu *download* aplikasi lagi?" *(Hidden concern)*
-> **Pel:** "Betul Bu, di WA biasa aja. Gimana kalau besok kita tes coba 5 pesanan pertama pakai sistem ini dulu biar Ibu nggak kaget? *(Undang Tanggapan)*"
-> **Ibu Kasir:** "Boleh deh Neng, dicoba aja. Asal nggak bikin antrean tambah panjang."
+> **Pel:** "Nah, buat ngurangin itu, kita pakai sistem *Pre-Order* via WhatsApp aja. Cara kerjanya gini Bu *(menunjukkan HP)*: Nanti anak-anak WA pesanan dari kelas. Bot WA otomatis bikin daftarnya jadi satu, Ibu nggak usah ngetik ulang. Terus bayarnya wajib pakai QRIS biar Ibu nggak repot nyari receh. Tapi kekurangannya satu Bu, HP Ibu kuotanya harus nyala." *(Mekanisme, Nilai Riil, Batas Teknis)*
+> **Ibu Kasir:** "Oh, cuma butuh kuota ya? Daftarnya langsung muncul di WA ibu? Tapi Neng, Ibu takut Kepala Kantin marah kalau tiba-tiba Ibu ngubah cara kerja. Gimana tuh?" *(Hidden concern & Authority Barrier)*
+> **Pel:** "Ibu nggak perlu khawatir. Gimana kalau kita jadikan ini uji coba (*pilot test*) terbatas untuk 5 pesanan saja dulu? Sekalian nanti sore saya yang akan menghadap Kepala Kantin untuk meminta izin resmi atas nama mahasiswa *(Authority Management)*. Kalau beliau keberatan, kita bisa geser uji cobanya di luar jam sibuk atau turunkan jadi 2 pesanan saja *(Trade-off Alternative)*. Setuju Bu?" 
+> **Ibu Kasir:** "Oh kalau Neng yang berani minta izin ke Bapak sih Ibu tenang. Boleh deh dicoba."
 :::
 
 ## Analisis komunikasi
@@ -52,23 +50,23 @@ Menghubungkan solution mechanism dengan problem, benefit, dan value yang relevan
 | Elemen | Evidence dan analisis |
 |---|---|
 | Person & character | Mempertahankan karakter sebagai mitra (*Problem Solver* praktis) tanpa memosisikan diri sebagai orang IT yang terlalu teknis (*feature dumper*). |
-| Objective & state | Berhasil menumbuhkan *Interest* (minat) yang ditandai dengan pertanyaan verifikasi teknis dari Ibu Kasir ("cuma butuh kuota? nggak perlu aplikasi?"). |
-| Repertoire & language | Menghilangkan kata-kata rumit (memangkas fitur manajemen *inventory*) dan fokus murni pada *benefit* operasional di depan mata (daftar jadi satu di WA, QRIS biar tak repot kembalian). |
-| Response & adaptation | Saat muncul keraguan tersembunyi (*hidden concern*) soal apakah butuh aplikasi baru, saya langsung menjawab dengan afirmatif ("Betul Bu, WA biasa aja") lalu beradaptasi mengecilkan risiko dengan uji coba skala kecil (hanya 5 pesanan dulu). |
-| Agreement/action | Ibu Kasir sepakat untuk menjalankan *pilot test* keesokan harinya dengan batas risiko yang jelas. |
-| Relationship outcome | Terbangun relasi kepercayaan operasional yang baik. Ibu Kasir merasa tidak diakali dan mengetahui batasan teknis dari solusi yang ditawarkan (harus ada kuota). |
+| Objective & state | Berhasil menumbuhkan *Interest* (minat) yang ditandai dengan pertanyaan verifikasi teknis dan teratasinya rasa takut terhadap atasan. |
+| Repertoire & language | Menghilangkan kata-kata rumit dan fokus murni pada *benefit* operasional di depan mata (daftar jadi satu di WA). |
+| Response & adaptation | Saat muncul keraguan tersembunyi (*authority barrier*) soal kemarahan Kepala Kantin, saya beradaptasi dengan menawarkan perlindungan otoritas (saya yang akan meminta izin) serta memberikan alternatif negosiasi *trade-off* waktu dan jumlah jika ditolak. |
+| Agreement/action | Ibu Kasir sepakat untuk menjalankan *pilot test* keesokan harinya dengan batas risiko yang jelas dan perlindungan birokrasi. |
+| Relationship outcome | Terbangun relasi kepercayaan operasional yang baik. Ibu Kasir merasa aman karena tanggung jawab perizinan tidak dibebankan kepadanya. |
 
 ## Penggunaan AI
 
-Tidak menggunakan AI. Pemotongan fitur dari ide awal manajemen stok menjadi solusi bot WA sederhana murni hasil analisis mandiri menggunakan *Matriks Detoks Fitur*. Transkrip *pitch* didokumentasikan dari hasil simulasi nyata di lapangan.
+Tidak menggunakan AI. Pemotongan fitur dari ide awal manajemen stok menjadi solusi bot WA sederhana, serta penyusunan strategi manajemen otoritas (menghadapi Kepala Kantin) murni hasil analisis mandiri. Transkrip *pitch* didokumentasikan dari hasil simulasi nyata di lapangan.
 
 ## Feedback dan tindak lanjut
 
-**Feedback yang diterima:** Respons Ibu Kasir ("Boleh deh Neng, dicoba aja. Asal nggak bikin antrean tambah panjang") menunjukkan penerimaan yang bersyarat, di mana solusi disetujui selama ia melindungi kepentingan inti target (kecepatan operasional).
+**Feedback yang diterima:** Respons Ibu Kasir ("Oh kalau Neng yang berani minta izin ke Bapak sih Ibu tenang") menunjukkan penerimaan yang sangat kuat setelah *barrier* otoritasnya berhasil dikelola dan diambil alih oleh saya.
 
-**Adaptation/replay:** Mengadaptasi tawaran *trial* menjadi sangat kecil ("5 pesanan pertama") untuk menurunkan *barrier of entry* (hambatan untuk memulai).
+**Adaptation/replay:** Mengadaptasi tawaran *trial* menjadi sangat fleksibel (*trade-off* ke 2 pesanan atau di luar jam sibuk) sebagai jaring pengaman (*safety net*) jika Kepala Kantin keberatan.
 
-**Next practice:** Saya akan mempraktikkan keterampilan melakukan prototipe langsung (*live demo* yang nyata), bukan sekadar lisan, untuk memastikan target bisa melihat bukti kerjanya dengan mata kepala sendiri.
+**Next practice:** Saya akan mempraktikkan keterampilan melakukan pemetaan rantai komando (*Authority Map*) lebih awal, agar selalu siap dengan argumen *trade-off* saat pelaksana lapangan merasa ragu dengan bos mereka.
 
 ## Self-assessment
 
@@ -76,11 +74,11 @@ Tidak menggunakan AI. Pemotongan fitur dari ide awal manajemen stok menjadi solu
 |---|---:|---|
 | Person & Character | 4 | Menahan ego teknis dan sepenuhnya melayani kemudahan operasional target. |
 | Objective & State | 4 | Terdapat bukti perpindahan *state* dari perhatian (*Attention*) menuju minat serius (*Interest*). |
-| Repertoire, Language & AI | 4 | Detoks fitur sukses: bahasa ringkas, tanpa jargon, dan jujur menyebutkan batasan kuota. |
-| Response & Adaptation | 4 | Merespons ketakutan terselubung (*hidden concern*) tentang instalasi aplikasi secara tangkas. |
-| Agreement, Action & Relationship | 3 | Diperoleh komitmen *pilot project* skala kecil (5 order) yang realistis. |
+| Repertoire, Language & AI | 4 | Mengajukan alternatif *trade-off* yang solid jika syarat awal ditolak (manajemen otoritas yang matang). |
+| Response & Adaptation | 4 | Merespons ketakutan terselubung terkait bos/atasan (*Authority*) secara tangkas dan suportif. |
+| Agreement, Action & Relationship | 4 | Kesepakatan tercapai dengan mitigasi penuh terhadap ketakutan target. |
 
-**Total:** 19 / 20
+**Total:** 20 / 20
 
 ::: {.assessor-only}
 ### Assessment dosen

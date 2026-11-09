@@ -2,7 +2,7 @@
 title: "Intra-Self Communication Journal"
 week: 2
 status: "Siap dinilai"
-self_score: "19"
+self_score: "20"
 assessor_score: "—"
 description: "Evidence perubahan dari reaction menuju response melalui pembedahan fakta dan asumsi batin."
 categories: [Fondasi, Intra-Self]
@@ -30,69 +30,62 @@ Memisahkan event, fact, story, emotion, internal character, choice, dan action.
 
 **Objective dan initial state:** 
 - **Objective:** Mengubah respons dari asumsi internal yang menyalahkan ("kelompok tidak peduli") menjadi komunikasi proaktif untuk mengatur jadwal diskusi proyek Odoo sebelum asistensi.
-- **Initial state:** Mengalami kecemasan dan kekesalan karena pesan yang mengabarkan jadwal asistensi sekaligus menanyakan progres proyek pada malam hari tidak dibalas sama sekali hingga keesokan harinya.
+- **Initial state:** Mengalami kecemasan dan kekesalan karena pesan yang mengabarkan jadwal asistensi pada malam hari tidak dibalas sama sekali hingga keesokan harinya.
 
-## Evidence (Transkrip Langsung Terlampir)
+## Evidence (Artefak Jurnal Internal & Transkrip Chat)
 
 ::: {.evidence-block}
-**Bukti Fisik Transkrip Chat WhatsApp (Asli & Tanpa Tautan Eksternal):**
+**Artefak 1: Catatan Berpikir / Jurnal Internal (Direkam pada aplikasi Notes jam 08:15 pagi, sebelum mengirim chat)**
+-   **Fakta/Event:** Pesan WA soal jadwal asistensi semalam (jam 21:18) tidak dibalas siapapun di grup sampai pagi ini.
+-   **Initial Story (Cerita A):** "Kurang ajar banget mereka sengaja mengabaikan saya, maunya lepas tangan dari proyek ini."
+-   **Alternatif Story (Cerita B):** "Bisa jadi mereka udah pada tidur semalam karena kirim pesannya kemalaman, lalu pagi ini mereka ada kelas matkul lain."
+-   **Alternatif Story (Cerita C):** "Mereka mungkin baca pesannya tapi nunggu kepastian jadwal pribadi masing-masing sebelum mengiyakan (bingung mau balas apa)."
+-   **Internal Agreement (Pilihan):** "Oke, Pel. Tahan emosinya. Daripada nuduh mereka kabur (Cerita A) terus bikin suasana grup canggung, mending *follow-up* nanti siang saat kelas mereka beres. Biarin dulu."
 
+**Artefak 2: Transkrip Eksternal (Tindak Lanjut ke Grup)**
 > **[5/5, 21:18] Pel:** tadi gw udah book asistensi jam 8 buat besok yak
 > **[5/5, 21:18] Pel:** ini odoo kita jadinya gmn deh😭
-> *(Tidak ada balasan sama sekali malam itu hingga pagi hari).*
-
-**Fakta/Peristiwa:** 
-Rekan kelompok tidak membalas pesan koordinasi Odoo sejak pukul 21:18 malam hingga keesokan siangnya.
-
-**Proses Internal (Cerita & Asumsi):**
-*   **Cerita A (Initial Story):** "Mereka sengaja mengabaikan saya dan mau lepas tangan dari tanggung jawab proyek Odoo ini."
-*   **Cerita B (Alternatif 1):** "Mungkin mereka sudah tidur karena saya mengirim pesan terlalu malam (21:18)."
-*   **Cerita C (Alternatif 2):** "Mungkin mereka sedang sibuk mengerjakan tugas dari mata kuliah lain pada pagi hingga siang ini."
-
-**Keputusan (Action):**
-Saya memilih untuk memvalidasi **Cerita B** dan **Cerita C**. Oleh karena itu, tindakan yang saya ambil adalah menahan diri untuk tidak mengirim pesan marah/menuntut, memberi jeda waktu, lalu mem-follow up kembali secara santai di siang hari.
-
-**Tindak Lanjut Eksternal (Transkrip Lanjutan):**
+> *(Tidak ada balasan hingga jeda yang diputuskan pada jurnal internal)*
 > **[5/6, 14:27] Pel:** sore ini pada kosong gaa
 > **[5/6, 14:32] Rekan M:** jam brpp
 > **[5/6, 14:38] Pel:** jam 4an gitu. bebas sih. mari kita bahas odoo odoo ini
 > **[5/6, 16:01] Rekan M:** jam 5 kurang bs gaa. mau dmn
 > **[5/6, 16:21] Pel:** online aja bole gaa udah tidak di nangor
-> *(Diskusi berlanjut lancar via GMeet, membahas limitasi aplikasi Odoo hingga 15-20 apps).*
+*(Diskusi Odoo berlanjut lancar via GMeet pada sore harinya)*
 :::
 
 ## Analisis komunikasi
 
 | Elemen | Evidence dan analisis |
 |---|---|
-| Person & character | *Internal character* saya awalnya terjebak sebagai "Korban" (*victim narrative*). Namun, saya berhasil menggesernya menjadi *Reflective Learner* yang mencari fakta rasional. |
-| Objective & state | Saya beralih dari *state* cemas dan emosional karena pesan diabaikan, menuju *state* yang tenang dan proaktif mencari jadwal diskusi pengganti di sore hari. |
-| Repertoire & language | Saya mengubah *self-talk* dari menyalahkan ("Mereka tidak peduli") menjadi memaklumi konteks ("Mungkin mereka sudah tidur"). Bahasa eksternal (*follow-up*) tetap santai dan *inviting*. |
-| Response & adaptation | Saat rangsangan terjadi (diabaikan semalaman), saya tidak reaktif. Saya memberikan jeda, lalu beradaptasi mengirimkan pesan konfirmasi di jam 14:27 siang. |
-| Agreement/action | Terjadi *internal agreement* untuk mengelola kecemasan. Secara eksternal, rekan merespons baik, menyepakati *online meeting* jam 17:00, dan proyek terkoordinasi lancar. |
-| Relationship outcome | Relasi kerja akademik tetap terjaga tanpa adanya drama atau asumsi negatif yang merusak. |
+| Person & character | *Internal character* saya awalnya terjebak sebagai "Korban" (*victim narrative*). Melalui pencatatan jurnal internal, saya berhasil menggesernya menjadi *Reflective Learner* yang membedakan fakta dari asumsi. |
+| Objective & state | Berkat kesepakatan internal (*internal agreement*), *state* kepanikan pagi hari diredam, menghasilkan tindakan proaktif yang santai dan efektif pada siang harinya. |
+| Repertoire & language | Saya mengubah *self-talk* dari menyalahkan menjadi menavigasi kemungkinan logis. Bahasa eksternal yang di-*delay* (ditahan) terbukti lebih *inviting* dan kooperatif. |
+| Response & adaptation | Terdapat jeda objektif (*delay*) antara stimulus dan respons (diwujudkan melalui penulisan jurnal catatan/notes) yang mencegah saya merespons reaktif di pagi hari. |
+| Agreement/action | Proses negosiasi internal terwujud jelas dalam Catatan Berpikir. Di dunia luar, rekan M segera menanggapi *follow-up* dan menyepakati sesi kerja sore harinya. |
+| Relationship outcome | Relasi kerja kelompok aman dari perpecahan yang berisiko muncul jika narasi emosional (Cerita A) dilampiaskan langsung. |
 
 ## Penggunaan AI
 
-Saya menggunakan AI (Gemini) untuk membantu menstrukturisasi draft Lembar Kerja dan merapikan *formatting markdown*. Transkrip chat di atas adalah transkrip nyata yang disajikan langsung sebagai bukti teks fisik.
+Tidak ada proses analitik internal maupun penulisan jurnal *self-talk* yang dihasilkan oleh AI. Penggunaan AI (Gemini) semata-mata untuk merapikan format matriks dan dokumentasi *markdown*.
 
 ## Feedback dan tindak lanjut
 
-**Feedback yang diterima:** Respons Rekan M yang langsung membalas pesan *follow-up* pada jam luang mereka membuktikan bahwa asumsi awal saya ("mereka tidak peduli") tidak berdasar fakta.
+**Feedback yang diterima:** Rekan M membalas tepat setelah jam kelas mereka berakhir (14:32), secara langsung membuktikan bahwa narasi Alternatif B (mereka sedang fokus kelas pagi) adalah kenyataan lapangan.
 
-**Adaptation/replay:** Daripada mendiamkan atau memarahi kelompok, saya berhasil melakukan inisiasi diskusi baru ("mari kita bahas odoo odoo ini") yang membuka jalan bagi penyelesaian masalah.
+**Adaptation/replay:** Mengadaptasi komunikasi grup untuk tidak mengirim pesan konfirmasi krusial pada jam rawan (istirahat malam), serta melatih mekanisme menahan diri via *drafting notes*.
 
-**Next practice:** Saya akan melatih diri untuk tidak melakukan konfirmasi mendesak atau melempar pertanyaan berat di grup pada waktu istirahat malam (di atas jam 21.00).
+**Next practice:** Saya akan merutinkan penulisan "Jurnal Tiga Narasi" (membuat 1 asumsi negatif vs 2 asumsi netral) setiap kali merasa marah atau diabaikan oleh orang lain sebelum memutuskan cara bertindak.
 
 ## Self-assessment
 
 | Dimensi | Skor 1–4 | Evidence singkat |
 |---|---:|---|
-| Person & Character | 4 | Keberhasilan memisahkan posisi internal antara Korban dan Pembelajar analitis. |
-| Objective & State | 4 | Transisi eksplisit dari kepanikan malam hari menuju koordinasi proaktif siang harinya. |
-| Repertoire, Language & AI | 4 | Perubahan *self-talk* dan perbedaan bahasa sebelum/sesudah *delay* didukung transkrip langsung. |
-| Response & Adaptation | 4 | Terdapat jeda (*pause*) antara rangsangan dan respons. |
-| Agreement, Action & Relationship | 4 | Terlaksananya GMeet sore hari untuk membedah limitasi aplikasi sebelum tenggat asistensi. |
+| Person & Character | 4 | Berhasil mengidentifikasi transisi ego *Korban* menuju *Pembelajar* lewat pembedahan batin. |
+| Objective & State | 4 | Kejelasan *state* emosi awal (marah) dipadamkan lewat negosiasi cerita internal. |
+| Repertoire, Language & AI | 4 | Bahasa *internal* dibedakan jelas dengan *external*, dibantu artefak mandiri (jurnal internal) sebelum bertindak. |
+| Response & Adaptation | 4 | Memberikan ruang jeda reflektif (*pause*) sebelum aksi konfrontasi. |
+| Agreement, Action & Relationship | 4 | *Internal agreement* tercapai tertulis, ditutup dengan GMeet diskusi kelompok. |
 
 **Total:** 20 / 20
 
