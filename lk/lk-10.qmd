@@ -8,12 +8,12 @@ title: "Lembar Kerja Bab 10"
 ---
 
 ## 1. Identitas Proyek & Pihak yang Terlibat
-*   **Nama Proyek/Gagasan:** __________________________________________________
-*   **Tanggal Diskusi:** ________________________
-*   **Pihak-Pihak yang Menyusun Kesepakatan:**
-    1.  **Pihak A (Nama & Peran):** ____________________________________________
-    2.  **Pihak B (Nama & Peran):** ____________________________________________
-    3.  **Pihak Lain/Pengamat (Jika ada):** _______________________________________
+-   **Nama Proyek/Gagasan:** Implementasi Sistem Pre-Order WhatsApp Bot Kantin Utama
+-   **Tanggal Diskusi:** 31 Oktober 2026
+-   **Pihak-Pihak yang Menyusun Kesepakatan:**
+    1.  **Pihak A (Nama & Peran):** Pelangi Putri Sanyoto (Mahasiswa/Pengembang Solusi)
+    2.  **Pihak B (Nama & Peran):** Ibu Kasir (Pelaksana Operasional Kantin)
+    3.  **Pihak Lain/Pengamat (Jika ada):** Bening (Rekan Mahasiswa/Observer)
 
 ---
 
@@ -32,104 +32,75 @@ Sebelum merumuskan tindakan, sepakati dahulu apa kebutuhan mendasar masing-masin
 
 | Pihak | Posisi (Tuntutan/Solusi Kaku yang Diajukan) | Kepentingan (Kebutuhan Dasar, Dampak, atau Alasan Batin) |
 | :--- | :--- | :--- |
-| **Contoh: Pemilik Kantin** | *"Aplikasi pemesanan harus sudah online dan dipakai semua pelanggan hari Senin depan tanpa kecuali."* | *Mencegah kerumunan antrean di depan kasir pada jam 12:00-13:00 karena keterbatasan staf kasir.* |
-| **Contoh: Tim Mahasiswa** | *"Kami butuh waktu tambahan 2 minggu lagi untuk merilis fitur pembayaran nontunai secara sempurna."* | *Menjaga keamanan data transaksi serta reputasi tim agar tidak meluncurkan sistem yang rentan error.* |
-| **Pihak A** | | |
-| **Pihak B** | | |
+| **Pihak A (Pelangi)** | *"Sistem bot WA harus diuji coba secara live pada hari Senin jam 11:30 untuk seluruh menu kantin."* | *Mendapatkan data uji coba nyata untuk mengukur efisiensi sistem dan memastikan skrip bot berfungsi menahan antrean.* |
+| **Pihak B (Ibu Kasir)** | *"Jangan langsung semua menu. Ibu takut bahan di dapur tiba-tiba habis dan mahasiswa pada protes karena telanjur pesan di WA."* | *Menjaga kecepatan pelayanan, keamanan stok dapur, dan tidak ingin mengecewakan mahasiswa jika terjadi kesalahan teknis.* |
 
-*   **Poin Temu Kepentingan Utama:**
-    *(Tuliskan 1-2 kalimat area kepentingan yang saling mendukung sebagai dasar kolaborasi)*
-    __________________________________________________________________________________________
-    __________________________________________________________________________________________
+-   **Poin Temu Kepentingan Utama:**
+    *Pelaksanaan uji coba (trial) tetap dilakukan pada hari Senin, namun dengan membatasi ruang lingkup (trade-off) hanya pada 3 menu paling populer dengan batas kuota maksimal 15 porsi, agar risiko kegagalan stok dan operasional kasir tetap terkendali.*
 
 ---
 
 ## Bagian 2: Formula Kesepakatan Presisi (The Agreement Formula)
-Gunakan rumus terstruktur ini untuk mengunci setiap rencana tindakan kelompok. **Hindari kata-kata kabur** (seperti: *membantu*, *mengoordinasikan*, *mencoba*, *segera*, *nanti*). Ganti dengan **kata kerja operasional** yang dapat diamati dan diverifikasi secara objektif.
-
-### Rumus: **SIAPA $\rightarrow$ Melakukan APA $\rightarrow$ KAPAN $\rightarrow$ Prasyarat/Sumber Daya $\rightarrow$ DEFINISI SELESAI $\rightarrow$ Tindak Lanjut**
 
 ### Tabel Daftar Kesepakatan Tindakan
 
 | No | SIAPA (Peran & Nama Jelas) | Melakukan APA (Tindakan spesifik, operasional, & terukur) | KAPAN (Tenggat waktu: Hari, Tanggal, Jam) | Sumber Daya/Prasyarat (Alat, data, atau persetujuan yang dibutuhkan) | DEFINISI SELESAI (Kriteria konkret untuk menyatakan tugas tuntas) | Metode Tindak Lanjut (Melalui apa, kapan, dan kepada siapa dilaporkan) |
 | :-- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Ex** | *Budi (Developer Database)* | *Melakukan migrasi data menu kantin dari file Excel ke basis data server utama.* | *Rabu, 16 Sept 2026, Pukul 15:00 WIB.* | *Daftar menu final dalam format .xlsx dari Ibu Siti (Pemilik Kantin).* | *Data menu sukses terbaca di halaman preview aplikasi tanpa karakter aneh/error.* | *Mengirim tangkapan layar (screenshot) sukses ke grup WhatsApp Tim Teknis.* |
-| **1** | | | | | | |
-| **2** | | | | | | |
-| **3** | | | | | | |
+| **1** | *Pelangi (Mahasiswa)* | *Menyetel bot WA khusus untuk 3 menu (Nasi Ayam, Nasi Telur, Nasi Goreng) dengan limitasi 15 pesanan.* | *Minggu, 1 Nov 2026, Pukul 15:00 WIB* | *Daftar menu dan harga pasti dari Ibu Kasir, serta laptop untuk koding.* | *Bot sukses membalas pesanan masuk dan menolak pesanan ke-16.* | *Mengirim rekaman video layar simulasi bot ke WhatsApp Ibu Kasir.* |
+| **2** | *Ibu Kasir (Pelaksana)* | *Menyiapkan whiteboard kecil dan spidol di dapur untuk media salin rekap pesanan WA.* | *Senin, 2 Nov 2026, Pukul 09:00 WIB* | *Sisa papan tulis bekas di gudang kantin atau beli di koperasi.* | *Papan tulis bersih dan spidol menyala siap digunakan di area masak.* | *Menunjukkannya langsung ke Pelangi saat ia datang cek lokasi pukul 10:00.* |
+| **3** | *Pelangi (Mahasiswa)* | *Mengirim broadcast format pemesanan WA ke grup kelas K1 untuk mencari 15 relawan uji coba.* | *Minggu, 1 Nov 2026, Pukul 19:00 WIB* | *Tautan nomor WA Bot dan template teks pesanan.* | *Ada 15 mahasiswa yang membalas bersedia ikut memesan besok siang.* | *Melaporkan jumlah relawan secara lisan kepada Ibu Kasir keesokan paginya.* |
 
 ---
 
 ## Bagian 3: Kontrol Lingkar Komitmen (*Commitment Loop Checklist*)
-Komunikasi lingkar tertutup (*closed-loop communication*) menuntut kita memantau janji sejak pertama kali diucapkan hingga benar-benar diserahkan dan diterima secara memuaskan oleh penerima manfaat. 
-
-Isilah matriks ini untuk melacak kesehatan komitmen setiap butir tindakan di atas:
 
 ### Alur Pelacakan Janji
 
-```
-  [ Fase 1: JANJI ] ───────────► [ Fase 2: CHECKPOINT ]
-          │                                  │
-          ▼                                  ▼
-  [ Fase 4: PENERIMAAN ] ◄──────── [ Fase 3: BUKTI & PEMERIKSAAN ]
-```
-
-1.  **Butir Tindakan No: ____**
-    *   **Fase 1: Janji Terbentuk (Hari/Tanggal):** ________________________
+1.  **Butir Tindakan No: 1 (Setting Bot WA)**
+    *   **Fase 1: Janji Terbentuk (Hari/Tanggal):** Sabtu, 31 Oktober 2026
     *   **Fase 2: Checkpoint/Pemeriksaan Awal:**
-        *   *Kapan Checkpoint dilakukan? (Minimal 2 hari sebelum tenggat):* ________________________
-        *   *Apa kemajuan/kendala yang ditemukan saat checkpoint?* ______________________________________________________________________________________
+        *   *Kapan Checkpoint dilakukan?* Minggu, 1 Nov 2026, Pukul 10:00 WIB
+        *   *Apa kemajuan/kendala yang ditemukan saat checkpoint?* Bot sempat *error* gagal membaca spasi pada nama menu, tapi skrip langsung diperbaiki.
     *   **Fase 3: Bukti & Pemeriksaan Mandiri:**
-        *   *Bukti nyata apa yang diserahkan sebagai hasil kerja?* ________________________
-        *   *Apakah hasil tersebut sudah memenuhi "Definisi Selesai" di Bagian 2?* `[ ] Ya`  `[ ] Belum`
+        *   *Bukti nyata apa yang diserahkan sebagai hasil kerja?* Video rekaman layar durasi 30 detik (uji coba order menu lewat batas kuota).
+        *   *Apakah hasil tersebut sudah memenuhi "Definisi Selesai" di Bagian 2?* `[X] Ya`  `[ ] Belum`
     *   **Fase 4: Penerimaan Resmi:**
-        *   *Siapa penerima manfaat yang memeriksa dan menyatakan puas?* ________________________
-        *   *Catatan penerimaan:* ______________________________________________________________________________________
+        *   *Siapa penerima manfaat yang memeriksa dan menyatakan puas?* Ibu Kasir
+        *   *Catatan penerimaan:* Ibu Kasir merespons via WA: "Sip Neng, jelas banget balasan otomatisnya."
 
-2.  **Butir Tindakan No: ____**
-    *   **Fase 1: Janji Terbentuk (Hari/Tanggal):** ________________________
+2.  **Butir Tindakan No: 2 (Persiapan Whiteboard di Dapur)**
+    *   **Fase 1: Janji Terbentuk (Hari/Tanggal):** Sabtu, 31 Oktober 2026
     *   **Fase 2: Checkpoint/Pemeriksaan Awal:**
-        *   *Kapan Checkpoint dilakukan?* ________________________
-        *   *Apa kemajuan/kendala yang ditemukan saat checkpoint?* ______________________________________________________________________________________
+        *   *Kapan Checkpoint dilakukan?* Senin, 2 Nov 2026, Pukul 08:00 WIB
+        *   *Apa kemajuan/kendala yang ditemukan saat checkpoint?* Spidol lama ternyata kering.
     *   **Fase 3: Bukti & Pemeriksaan Mandiri:**
-        *   *Bukti nyata apa yang diserahkan sebagai hasil kerja?* ________________________
-        *   *Apakah hasil tersebut sudah memenuhi "Definisi Selesai" di Bagian 2?* `[ ] Ya`  `[ ] Belum`
+        *   *Bukti nyata apa yang diserahkan sebagai hasil kerja?* *Whiteboard* kecil terpasang di samping etalase lauk lengkap dengan spidol baru dari koperasi.
+        *   *Apakah hasil tersebut sudah memenuhi "Definisi Selesai" di Bagian 2?* `[X] Ya`  `[ ] Belum`
     *   **Fase 4: Penerimaan Resmi:**
-        *   *Siapa penerima manfaat yang memeriksa dan menyatakan puas?* ________________________
-        *   *Catatan penerimaan:* ______________________________________________________________________________________
+        *   *Siapa penerima manfaat yang memeriksa dan menyatakan puas?* Pelangi Putri S.
+        *   *Catatan penerimaan:* Alat sudah sesuai standar *analog fallback* untuk mitigasi keamanan HP di dapur.
 
 ---
 
 ## Bagian 4: Evaluasi Jalur Ganda (Dual-Track Evaluation)
-Dalam komunikasi yang bertanggung jawab, keberhasilan tindakan tidak hanya dinilai dari tercapainya target pekerjaan, tetapi juga dari bagaimana relasi antar-pribadi dirawat di sepanjang proses kerja sama tersebut.
 
 ### 1. Jalur Tugas (*Task Outcome*)
-*   Apakah semua target tindakan yang tertulis dalam dokumen kesepakatan ini berhasil diselesaikan sesuai tenggat waktu dan kriteria selesai? Jelaskan kendala nyata lapangan yang sempat dihadapi!
-    __________________________________________________________________________________________
-    __________________________________________________________________________________________
-    __________________________________________________________________________________________
+-   Apakah semua target tindakan yang tertulis dalam dokumen kesepakatan ini berhasil diselesaikan sesuai tenggat waktu dan kriteria selesai? Jelaskan kendala nyata lapangan yang sempat dihadapi!
+    *Semua tindakan tuntas. Kendala nyata di lapangan adalah ketakutan target pada "risiko kehabisan stok" jika pendaftaran via WA terlalu membludak. Solusi pembatasan porsi (maksimal 15 pesanan) di skrip bot berhasil dieksekusi dengan baik sebagai kompromi.*
 
 ### 2. Jalur Relasi (*Relationship Outcome*)
-*   Bagaimana kualitas batin relasi, kepercayaan, dan rasa saling menghargai di antara para pihak setelah melewati proses pengerjaan tugas ini? Apakah ada ketegangan peran yang sempat terjadi, dan bagaimana Anda meredakannya secara asertif?
-    __________________________________________________________________________________________
-    __________________________________________________________________________________________
-    __________________________________________________________________________________________
+-   Bagaimana kualitas batin relasi, kepercayaan, dan rasa saling menghargai di antara para pihak setelah melewati proses pengerjaan tugas ini? Apakah ada ketegangan peran yang sempat terjadi, dan bagaimana Anda meredakannya secara asertif?
+    *Kualitas relasi sangat kuat. Sempat ada ketegangan ketika saya meminta seluruh menu dimasukkan, Ibu Kasir terlihat ragu dan mundur (*barrier*). Saya meredakannya dengan menurunkan ego teknis saya (*trade-off* ke 3 menu saja). Hal ini menumbuhkan rasa saling percaya karena beliau merasa kepentingannya didengar.*
 
 ---
 
 ## Rubrik Penilaian Mandiri & Umpan Balik Sejawat
 
-Evaluasilah kualitas Dokumen Kesepakatan yang Anda susun menggunakan skala nilai berikut:
-*   **Skor 1 (Kurang)**: Banyak bagian menggunakan istilah kabur, penanggung jawab tidak terperinci, atau mengabaikan relasi.
-*   **Skor 2 (Cukup)**: Tindakan sudah terperinci, tetapi kriteria selesai masih subjektif atau tidak menyertakan checkpoint komitmen.
-*   **Skor 3 (Sangat Baik)**: Memenuhi seluruh aspek formula presisi, memetakan kepentingan dengan empati, memiliki mekanisme pelacakan komitmen yang jelas, serta menjaga harmoni relasi secara etis.
-
 | No | Aspek Penilaian Kinerja | Skor (1-3) | Bukti Perilaku / Catatan Perbaikan Mandiri |
 | :-- | :--- | :---: | :--- |
-| **1** | **Kejelasan Kepentingan (Bukan Posisi)**:<br>Mampu melampaui ego tuntutan permukaan dan merumuskan titik temu kepentingan yang saling melayani peran masing-masing. | | |
-| **2** | **Presisi Formula Kesepakatan**:<br>Semua rencana tindakan bebas dari istilah kabur, mencantumkan penanggung jawab tunggal (*Who*), tenggat waktu yang pas (*When*), dan definisi selesai yang objektif. | | |
-| **3** | **Tanggung Jawab Pemeliharaan Komitmen**:<br>Memiliki rencana titik pemeriksaan (*checkpoint*) konkret sebagai mitigasi risiko kegagalan, bukan sekadar menunggu hari H tenggat waktu. | | |
-| **4** | **Keseimbangan Jalur Ganda**:<br>Menunjukkan kepedulian yang tulus terhadap kenyamanan relasi, hak berpendapat, serta batas kemampuan etis tim (menyediakan ruang untuk berkata "tidak" tanpa intimidasi). | | |
+| **1** | **Kejelasan Kepentingan (Bukan Posisi)** | **3** | Mampu menggali ketakutan Ibu Kasir soal kehabisan bahan, dan merumuskan limitasi 15 kuota. |
+| **2** | **Presisi Formula Kesepakatan** | **3** | Kesepakatan dijabarkan detail Siapa, Melakukan Apa, Kapan, dan Definisi Selesainya sangat terukur. |
+| **3** | **Tanggung Jawab Pemeliharaan Komitmen** | **3** | *Checkpoint* berhasil menemukan masalah spidol kering, yang membuktikan sistem deteksi berfungsi. |
+| **4** | **Keseimbangan Jalur Ganda** | **3** | Melindungi martabat Ibu Kasir dengan tidak memaksa digitalisasi penuh tanpa perlindungan operasional. |
 
 ---
-*“Bahasa mengantarkan kita pada jembatan pemahaman, tetapi kesepakatan yang berpusat pada tanggung jawab bersama adalah kendaraan yang membawa kita melintasi jembatan tersebut menuju kenyataan tindakan.”*

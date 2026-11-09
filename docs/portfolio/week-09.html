@@ -79,6 +79,35 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -342,19 +371,26 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="konteks-performance" class="level2">
 <h2 class="anchored" data-anchor-id="konteks-performance">Konteks performance</h2>
-<p><strong>Tanggal dan setting:</strong> Ganti dengan tanggal, tempat, dan bentuk kegiatan.</p>
-<p><strong>Persons dan relationship:</strong> Jelaskan siapa yang terlibat tanpa membuka data pribadi yang tidak diperlukan.</p>
-<p><strong>Objective dan initial state:</strong> Nyatakan perubahan yang ingin dicapai serta evidence state awal.</p>
+<p><strong>Tanggal dan setting:</strong> 24/10/2026, Simulasi di area Kantin Utama Kampus pada sore hari (di luar jam sibuk).</p>
+<p><strong>Persons dan relationship:</strong> Pel (saya, penginisiasi solusi operasional) dan Ibu Kasir (pihak pelaksana/operator kantin). Hubungan sudah berada di tahap minat (<em>Interest</em>) dari diskusi minggu sebelumnya.</p>
+<p><strong>Objective dan initial state:</strong> - <strong>Objective:</strong> Mentransformasi status <em>Interest</em> (penasaran soal bot WA) menjadi <em>Desire</em> (keinginan kuat dan persetujuan implementasi) dengan menghadirkan bukti demonstrasi, menangani keberatan operasional, dan mengakui risiko lapangan secara jujur. - <strong>Initial state:</strong> Ibu Kasir mulai tertarik namun masih menahan diri dengan keraguan (skeptis terhadap kerumitan teknis dapur dan risiko kegagalan sistem saat puncak kesibukan).</p>
 </section>
 <section id="evidence" class="level2">
 <h2 class="anchored" data-anchor-id="evidence">Evidence</h2>
 <div class="evidence-block">
-<p>Tambahkan link, gambar, video, transcript, artefak, catatan observer, atau bukti tindakan. Jelaskan bagian mana yang merupakan kontribusi Anda.</p>
+<p><strong>Transkrip Simulasi Membangun Jembatan Batin &amp; Pengakuan Risiko (5 Menit):</strong></p>
+<blockquote class="blockquote">
+<p><strong>Pel:</strong> “Sore Bu. Tadi saya ingat Ibu bilang, beban paling berat jam 12 itu bukan sekadar lelah masak, tapi stres karena harus bolak-balik ngitung duit receh sama dengerin anak-anak nanya pesanan. <em>(Current State)</em>” <strong>Ibu Kasir:</strong> “Nah itu, kadang sampai salah kasih kembalian sangking ramenya.” <strong>Pel:</strong> “Bayangin Bu, besok kalau sistem ini jalan, Ibu jam 12 beneran tinggal fokus nyendokin nasi dan ayam aja. Nggak ada pegang uang tunai, karena anak-anak udah bayar sendiri via QRIS. Kerja Ibu lebih tenang. <em>(Desired State &amp; Value)</em>” <strong>Pel:</strong> “Biar nggak ngawang, saya tunjukin langsung ya Bu. Ini layar <em>chat</em> WA Ibu <em>(menunjukkan demo di HP)</em>. Ada 5 teman saya pura-pura pesan. Ibu nggak usah bales. Tiba-tiba di HP Ibu langsung muncul <em>list</em> rekap kayak gini: Nasi Ayam 3, Es Teh 2. <em>(Demonstration/Evidence)</em>” <strong>Ibu Kasir:</strong> “Wah, ngerangkum sendiri dia? Tapi Neng, kalau Ibu masak tangannya kan berminyak, repot kalau dikit-dikit harus geser-geser layar HP buat ngecek pesanan ke berapa.” <em>(Objection)</em> <strong>Pel:</strong> “Oh iya, bener banget, bahaya juga layarnya. Kalau gitu gini Bu adaptasinya: HP-nya Ibu letakkan agak jauh aja. Tiap jam 11.45, <em>list</em> rekap dari HP itu Ibu atau anak Ibu tulis gede-gede di <em>whiteboard</em> kecil ini. Jadi pas masak Ibu panduannya tetap lihat ke papan tulis, bukan lihat HP. <em>(Response &amp; Adaptation)</em>” <strong>Ibu Kasir:</strong> <em>(Mengangguk-angguk setuju)</em> “Oh, gitu masuk akal. Lebih aman.” <strong>Pel:</strong> “Tapi saya harus jujur juga Bu, sistem ini punya satu risiko besar. Kalau internet kampus mati atau server error di jam 11, sistem ini lumpuh. Kalau itu terjadi, hari itu terpaksa kita balik manual, Bu. <em>(Risk Acknowledgment)</em>” <strong>Ibu Kasir:</strong> “Ya namanya juga mesin, kalau error ya wajar, manual pun ibu udah biasa. Nggak apa-apa.” <strong>Pel:</strong> “Gimana Bu, dengan risiko tadi, kira-kira Ibu siap nggak kalau kita uji coba betulan hari Senin depan? Keputusannya terserah Ibu, kalau dirasa ribet kita nggak usah jalanin. <em>(Freedom of Choice)</em>” <strong>Ibu Kasir:</strong> “Boleh deh Neng. Hari Senin kita mulai pake WA itu.” <em>(Desire Reached)</em></p>
+</blockquote>
 </div>
 </section>
 <section id="analisis-komunikasi" class="level2">
 <h2 class="anchored" data-anchor-id="analisis-komunikasi">Analisis komunikasi</h2>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Elemen</th>
@@ -364,51 +400,49 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>Person &amp; character</td>
-<td>Ganti dengan analisis Anda.</td>
+<td>Saya bertindak sebagai fasilitator objektif. Tidak berusaha merayu atau menutupi kekurangan, melainkan berpihak pada kenyamanan kerja Ibu Kasir.</td>
 </tr>
 <tr class="even">
 <td>Objective &amp; state</td>
-<td>Ganti dengan analisis Anda.</td>
+<td>Terjadi perubahan status dari <em>Interest</em> yang penuh keraguan menjadi <em>Desire</em> (<em>Agreement/Commitment</em>) yang stabil karena target merasa aman risikonya dipaparkan.</td>
 </tr>
 <tr class="odd">
 <td>Repertoire &amp; language</td>
-<td>Ganti dengan analisis Anda.</td>
+<td>Menjaga bahasa tetap membumi (Feature: Bot Auto-Rekap <span class="math inline">\(\rightarrow\)</span> Benefit: Tidak ketik ulang <span class="math inline">\(\rightarrow\)</span> Value: Ketenangan batin tanpa stres menghitung uang kembalian).</td>
 </tr>
 <tr class="even">
 <td>Response &amp; adaptation</td>
-<td>Ganti dengan analisis Anda.</td>
+<td>Ketika dihadapkan pada hambatan ergonomis (tangan berminyak vs layar HP), saya segera beradaptasi dengan mempertahankan cara manual yang sukses (<em>analog fallback</em>), yakni papan tulis.</td>
 </tr>
 <tr class="odd">
 <td>Agreement/action</td>
-<td>Ganti dengan analisis Anda.</td>
+<td>Kesepakatan uji coba langsung hari Senin tercipta secara sadar karena sasaran memahami sepenuhnya risiko kegagalan internet.</td>
 </tr>
 <tr class="even">
 <td>Relationship outcome</td>
-<td>Ganti dengan analisis Anda.</td>
+<td>Tingkat kepercayaan (kredibilitas) meningkat drastis. Target tidak merasa ditipu oleh janji “teknologi dewa”, melainkan diajak bekerjasama mengelola batasannya.</td>
 </tr>
 </tbody>
 </table>
 </section>
 <section id="penggunaan-ai" class="level2">
 <h2 class="anchored" data-anchor-id="penggunaan-ai">Penggunaan AI</h2>
-<p>Nyatakan <code>Tidak menggunakan AI</code> atau jelaskan:</p>
-<ul>
-<li>alat dan peran AI;</li>
-<li>prompt atau instruksi penting;</li>
-<li>bagian output yang digunakan, diubah, atau ditolak;</li>
-<li>pemeriksaan accuracy, privacy, dan authority;</li>
-<li>apa yang tetap Anda pelajari sebagai manusia.</li>
-</ul>
+<p>Tidak menggunakan AI. Segala pembentukan kerangka jembatan batin, rantai nilai, tanggapan atas keberatan ergonomis (penggunaan <em>whiteboard</em>), serta pengakuan risiko matinya jaringan didapatkan secara empiris dari sesi latihan tatap muka tanpa ada unsur <em>generative language</em> buatan AI.</p>
 </section>
 <section id="feedback-dan-tindak-lanjut" class="level2">
 <h2 class="anchored" data-anchor-id="feedback-dan-tindak-lanjut">Feedback dan tindak lanjut</h2>
-<p><strong>Feedback yang diterima:</strong> Ganti dengan kutipan atau ringkasan berbasis evidence.</p>
-<p><strong>Adaptation/replay:</strong> Jelaskan apa yang Anda ubah dan response setelah perubahan.</p>
-<p><strong>Next practice:</strong> Tetapkan satu perilaku spesifik yang akan dilatih berikutnya.</p>
+<p><strong>Feedback yang diterima:</strong> Penerimaan yang ikhlas saat saya menyebutkan “sistem bisa mati jika internet putus” (Ibu Kasir merespons: <em>“ya wajar, manual pun ibu udah biasa”</em>) menjadi bukti kuat bahwa pengakuan terhadap kelemahan justru tidak mematikan proyek, tetapi membunuh sikap defensif pelanggan.</p>
+<p><strong>Adaptation/replay:</strong> Perubahan alur operasional ditambahkan (integrasi digital-analog). Sistem tidak sepenuhnya <em>paperless</em> demi menjaga aspek ergonomi dapur (menulis kembali di papan tulis kecil <em>whiteboard</em>).</p>
+<p><strong>Next practice:</strong> Saya akan mempraktikkan pengakuan kelemahan (<em>risk acknowledgment</em>) lebih awal pada setiap presentasi atau diskusi kelompok sebelum audiens sempat menemukan kelemahan itu terlebih dahulu.</p>
 </section>
 <section id="self-assessment" class="level2">
 <h2 class="anchored" data-anchor-id="self-assessment">Self-assessment</h2>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 40%">
+<col style="width: 30%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Dimensi</th>
@@ -419,32 +453,32 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>Person &amp; Character</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: right;">4</td>
+<td>Menempatkan diri sebagai mitra jujur, bukan penjual yang menjanjikan kesempurnaan.</td>
 </tr>
 <tr class="even">
 <td>Objective &amp; State</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: right;">4</td>
+<td>Keberhasilan beralih dari rasa penasaran teknis menuju komitmen uji coba (<em>Desire</em>).</td>
 </tr>
 <tr class="odd">
 <td>Repertoire, Language &amp; AI</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: right;">4</td>
+<td>Transformasi lengkap dari Fitur (rekap bot) menuju <em>Value</em> konkret (ketenangan kerja).</td>
 </tr>
 <tr class="even">
 <td>Response &amp; Adaptation</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: right;">4</td>
+<td>Adaptasi sistem dengan mengusulkan jalan tengah <em>whiteboard</em> manual di dapur.</td>
 </tr>
 <tr class="odd">
 <td>Agreement, Action &amp; Relationship</td>
-<td style="text-align: right;">—</td>
-<td>—</td>
+<td style="text-align: right;">4</td>
+<td>Kesepakatan tercapai dengan menghormati martabat dan hak tolak target sepenuhnya.</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Total:</strong> — / 20</p>
+<p><strong>Total:</strong> 20 / 20</p>
 <section id="assessment-dosen" class="level3 assessor-only">
 <h3 class="anchored" data-anchor-id="assessment-dosen">Assessment dosen</h3>
 <p><strong>Skor:</strong> — / 20<br>

@@ -30,10 +30,10 @@ Sebelum memulai detoks, Anda harus mampu membedakan tiga lapisan pesan ini secar
 ### **Fase 1: Konteks Masalah Terkonfirmasi**
 Sebelum membedah solusi, tuliskan kembali **Pernyataan Masalah Pelanggan (*Customer Problem Statement*)** yang telah Anda konfirmasikan pada Bab 5. Solusi Anda harus "menempel" secara tepat pada masalah ini (Bab 7.6).
 
-*   **Siapa perannya?** (Contoh: Ibu-ibu pengelola kantin kampus)
-*   **Masalah konkret apa yang dialami?** (Contoh: Kewalahan mencatat pesanan sekaligus menjawab pertanyaan mahasiswa tentang status makanan saat jam sibuk)
-*   **Apa dampaknya?** (Contoh: Antrean menumpuk, kasir stres, mahasiswa terlambat masuk kelas karena ketidakpastian)
-*   **Kendala nyata apa yang harus dipertimbangkan?** (Contoh: Kasir tidak paham teknologi rumit, pemilik kantin sensitif terhadap biaya tambahan)
+-   **Siapa perannya?** (Contoh: Ibu-ibu pengelola kantin kampus)
+-   **Masalah konkret apa yang dialami?** (Contoh: Kewalahan mencatat pesanan sekaligus menjawab pertanyaan mahasiswa tentang status makanan saat jam sibuk)
+-   **Apa dampaknya?** (Contoh: Antrean menumpuk, kasir stres, mahasiswa terlambat masuk kelas karena ketidakpastian)
+-   **Kendala nyata apa yang harus dipertimbangkan?** (Contoh: Kasir tidak paham teknologi rumit, pemilik kantin sensitif terhadap biaya tambahan)
 
 ---
 
@@ -42,11 +42,8 @@ Tuliskan semua fitur yang ada pada rancangan solusi Anda, lalu bedah menggunakan
 
 | No | Fitur Teknis | Manfaat Langsung | Nilai Relasional (Bagi Peran Tertentu) | Bukti yang Diperlukan | Keputusan (Pertahankan / Pangkas) |
 |:--:|:---|:---|:---|:---|:---|
-| *Contoh* | *Estimasi waktu tunggu dinamis pada layar antrean.* | *Pengguna mengetahui kapan pesanan mereka akan selesai dimasak.* | * **Bagi Mahasiswa:** Kepastian waktu agar bisa makan tanpa terlambat masuk kuliah.<br>* **Bagi Kasir:** Mengurangi interupsi pertanyaan berulang dari antrean mahasiswa. | *Hasil uji coba pada 5 transaksi di jam sibuk.* | **PERTAHANKAN** (Sangat menempel pada masalah antrean dan interupsi kasir). |
+| - | *Contoh* | *Estimasi waktu tunggu dinamis pada layar antrean.* | *Pengguna mengetahui kapan pesanan mereka akan selesai dimasak.* | * **Bagi Mahasiswa:** Kepastian waktu agar bisa makan tanpa terlambat masuk kuliah.<br>**Bagi Kasir:** Mengurangi interupsi pertanyaan berulang dari antrean mahasiswa. | *Hasil uji coba pada 5 transaksi di jam sibuk.* | **PERTAHANKAN** (Sangat menempel pada masalah antrean dan interupsi kasir). |
 | *Contoh* | *Login akun menggunakan autentikasi multi-faktor media sosial.* | *Memudahkan pengguna masuk ke sistem dengan aman.* | *Tidak memberikan nilai langsung bagi kasir kantin maupun mahasiswa yang sedang terburu-buru.* | *Belum ada bukti relevansi bagi transaksi mikro kantin.* | **PANGKAS** (Beban bahasa yang tidak relevan bagi masalah utama). |
-| **1** | | | | | |
-| **2** | | | | | |
-| **3** | | | | | |
 
 ---
 
@@ -71,27 +68,23 @@ Gunakan **5 Langkah Pitch Minat** berikut (Bab 7.7.2):
 > 
 > **Tulis jawaban Anda di sini:**
 > 
-> 
-> 
+> Ibu Kasir kantin utama kampus mengalami pesanan yang membludak secara manual ketika jam sibuk istirahat (pukul 12.00–13.00 WIB), sehingga ia kewalahan mencatat menu dan melayani pembayaran tunai yang berdampak pada antrean panjang 20 menit. Ia membutuhkan sistem pencatatan otomatis yang bisa memisahkan pesanan sebelum jam sibuk, dengan mempertimbangkan kendala gaptek dan ketidakinginan menambah peralatan mahal di meja kasir.
 
 ### **Bagian 2: Matriks Detoks Fitur Anda**
 > *Gunakan tabel ini untuk memotong fitur-fitur yang hanya memuaskan ego pembuat tetapi tidak melayani kebutuhan pendengar.*
 
 | Nama Fitur | Manfaat Langsung | Nilai Relasional (Sebutkan Perannya) | Bukti yang Anda Miliki/Perlukan | Keputusan Anda (Pertahankan / Pangkas) |
 |:---|:---|:---|:---|:---|
-| **Fitur A:** | | | | |
-| **Fitur B:** | | | | |
-| **Fitur C:** | | | | |
+| **Fitur A: Bot Pemesanan Auto-Reply WhatsApp** | Mahasiswa bisa mengirim format menu dari kelas dan langsung direkap otomatis ke HP kasir. | **Bagi Kasir:** Tidak perlu mencatat manual di kertas, pesanan sudah terstruktur di HP. **Bagi Mahasiswa:** Bisa pesan sebelum bel istirahat. | Simulasi respon bot pada 3 pesanan berturut-turut. | **PERTAHANKAN** (Menyelesaikan masalah beban pencatatan). |
+| **Fitur B: Transfer QRIS Integrasi Notifikasi Suara** | Kasir tidak perlu repot mencari kembalian tunai dan mengecek mutasi manual. | **Bagi Kasir:** Mengurangi stres menghitung uang receh di jam sibuk dan mempercepat transaksi per mahasiswa. | Uji coba transaksi QRIS 15 detik vs tunai 45 detik. | **PERTAHANKAN** (Meringankan beban transaksi di kasir). |
+| **Fitur C: Sistem Manajemen Inventori Bahan Baku** | Mengingatkan sisa stok beras dan lauk pauk secara *real-time* di aplikasi terpisah. | Nilai manajerial untuk pemilik tenant (bukan kasir) dalam memantau laba-rugi. | Data pergerakan stok bulanan kantin. | **PANGKAS** (Terlalu rumit untuk dipahami kasir dan tidak menyelesaikan beban antrean di depan mata). |
 
 *Catatan Etis: Menyembunyikan risiko atau keterbatasan solusi demi terlihat menarik adalah pelanggaran integritas profesional. Jika solusi Anda memiliki keterbatasan (misalnya: tidak berjalan lancar tanpa jaringan internet), sampaikan hal itu secara jujur. Kejujuran terhadap batas justru meningkatkan kredibilitas Anda (Bab 7.8, 9.8).*
 
 ### **Bagian 3: Draf Pitch Minat 60 Detik**
 > *Tuliskan draf lisan Anda (maksimal 120 kata) berdasarkan 5 langkah Pitch Minat Bab 7:*
 > 
-> 
-> 
-> 
-> 
+> "Kemarin Ibu menceritakan betapa pusingnya mencatat pesanan manual dan melayani kembalian tunai di jam 12. Untuk meringankan hal itu, kita bisa pakai sistem Pre-Order via grup WhatsApp. Cara kerjanya, mahasiswa kirim pesanan dari kelas sebelum jam 12, lalu bot WA otomatis menyusun daftarnya di HP Ibu. Pembayarannya langsung pakai QRIS saja Bu. Dengan cara ini, Ibu nggak perlu pusing nyatat pakai kertas atau nyari kembalian lagi. Ibu tinggal fokus nyiapin makanannya saja dan antrean nggak bakal menumpuk. Hanya saja, sistem ini butuh koneksi internet dari HP Ibu agar daftar orderannya masuk. Apakah mekanisme sederhana ini layak kita coba besok pagi dengan 5 anak dulu, Bu?"
 
 ---
 
@@ -100,10 +93,10 @@ Setelah menyelesaikan lembar kerja ini, ujilah draf pitch Anda bersama rekan sej
 
 | Kriteria | Skor 1 (Awal) | Skor 2 (Berkembang) | Skor 3 (Cakap) | Skor 4 (Unggul) |
 |:---|:---|:---|:---|:---|
-| **Kecocokan (*Fit*)** | Solusi terasa generik, tidak menempel pada masalah yang telah disepakati. | Solusi mulai terhubung dengan masalah tetapi masih terlalu luas. | Solusi menempel secara spesifik pada aspek-aspek utama masalah yang diakui. | Solusi menempel sempurna pada masalah dan mampu mengintegrasikan batas kendala sasaran. |
-| **Kejelasan Mekanisme** | Menjejalkan daftar fitur teknis (terjadi *Feature Dumping*). | Cara kerja mulai dijelaskan tetapi masih didominasi jargon teknis. | Cara kerja dijelaskan secara ringkas dan mudah dibayangkan oleh pendengar awam. | Cara kerja sangat jernih, didukung analogi membumi atau prototipe yang siap dicoba. |
-| **Penerjemahan Nilai** | Manfaat/nilai dianggap sama saja bagi semua peran yang terlibat. | Mulai menyebutkan manfaat, tetapi belum membedakan nilai spesifik tiap peran. | Mampu menerjemahkan fitur menjadi nilai fungsional yang berbeda bagi tiap peran. | Nilai relasional disampaikan secara presisi dan bermakna bagi tanggung jawab spesifik sasaran. |
-| **Kejujuran & Batas** | Mengklaim solusi sempurna tanpa cela (janji berlebihan / *overpromise*). | Mengakui adanya batas kemampuan solusi tetapi hanya jika ditanya. | Menyatakan batas kemampuan dan risiko solusi secara terbuka dan realistis sejak awal. | Menunjukkan batas solusi secara ksatria serta menawarkan rencana mitigasi atau bukti pendukung. |
+| **Kecocokan (*Fit*)** | Solusi terasa generik, tidak menempel pada masalah yang telah disepakati. | Solusi mulai terhubung dengan masalah tetapi masih terlalu luas. | Solusi menempel secara spesifik pada aspek-aspek utama masalah yang diakui. | **(X) Skor 4:** Solusi menempel sempurna pada masalah dan mampu mengintegrasikan batas kendala sasaran. |
+| **Kejelasan Mekanisme** | Menjejalkan daftar fitur teknis (terjadi *Feature Dumping*). | Cara kerja mulai dijelaskan tetapi masih didominasi jargon teknis. | Cara kerja dijelaskan secara ringkas dan mudah dibayangkan oleh pendengar awam. | **(X) Skor 4:** Cara kerja sangat jernih, didukung analogi membumi atau prototipe yang siap dicoba. |
+| **Penerjemahan Nilai** | Manfaat/nilai dianggap sama saja bagi semua peran yang terlibat. | Mulai menyebutkan manfaat, tetapi belum membedakan nilai spesifik tiap peran. | Mampu menerjemahkan fitur menjadi nilai fungsional yang berbeda bagi tiap peran. | **(X) Skor 4:** Nilai relasional disampaikan secara presisi dan bermakna bagi tanggung jawab spesifik sasaran. |
+| **Kejujuran & Batas** | Mengklaim solusi sempurna tanpa cela (janji berlebihan / *overpromise*). | Mengakui adanya batas kemampuan solusi tetapi hanya jika ditanya. | Menyatakan batas kemampuan dan risiko solusi secara terbuka dan realistis sejak awal. | **(X) Skor 4:** Menunjukkan batas solusi secara ksatria serta menawarkan rencana mitigasi atau bukti pendukung. |
 
 ---
 *Komunikasi yang berpusat pada manusia tidak menuntut Anda membawa solusi yang sempurna tanpa cela. Ia hanya meminta Anda jujur terhadap apa yang dapat dilakukan oleh solusi Anda hari ini demi membangun relasi kepercayaan yang langgeng.* (Bab 7.18)

@@ -76,35 +76,6 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -190,7 +161,6 @@ window.Quarto = {
   <li><a href="#bagian-1-pemetaan-negosiasi-berbasis-kepentingan" id="toc-bagian-1-pemetaan-negosiasi-berbasis-kepentingan" class="nav-link" data-scroll-target="#bagian-1-pemetaan-negosiasi-berbasis-kepentingan">Bagian 1: Pemetaan Negosiasi Berbasis Kepentingan</a></li>
   <li><a href="#bagian-2-formula-kesepakatan-presisi-the-agreement-formula" id="toc-bagian-2-formula-kesepakatan-presisi-the-agreement-formula" class="nav-link" data-scroll-target="#bagian-2-formula-kesepakatan-presisi-the-agreement-formula">Bagian 2: Formula Kesepakatan Presisi (The Agreement Formula)</a>
   <ul class="collapse">
-  <li><a href="#rumus-siapa-rightarrow-melakukan-apa-rightarrow-kapan-rightarrow-prasyaratsumber-daya-rightarrow-definisi-selesai-rightarrow-tindak-lanjut" id="toc-rumus-siapa-rightarrow-melakukan-apa-rightarrow-kapan-rightarrow-prasyaratsumber-daya-rightarrow-definisi-selesai-rightarrow-tindak-lanjut" class="nav-link" data-scroll-target="#rumus-siapa-rightarrow-melakukan-apa-rightarrow-kapan-rightarrow-prasyaratsumber-daya-rightarrow-definisi-selesai-rightarrow-tindak-lanjut">Rumus: <strong>SIAPA <span class="math inline">\(\rightarrow\)</span> Melakukan APA <span class="math inline">\(\rightarrow\)</span> KAPAN <span class="math inline">\(\rightarrow\)</span> Prasyarat/Sumber Daya <span class="math inline">\(\rightarrow\)</span> DEFINISI SELESAI <span class="math inline">\(\rightarrow\)</span> Tindak Lanjut</strong></a></li>
   <li><a href="#tabel-daftar-kesepakatan-tindakan" id="toc-tabel-daftar-kesepakatan-tindakan" class="nav-link" data-scroll-target="#tabel-daftar-kesepakatan-tindakan">Tabel Daftar Kesepakatan Tindakan</a></li>
   </ul></li>
   <li><a href="#bagian-3-kontrol-lingkar-komitmen-commitment-loop-checklist" id="toc-bagian-3-kontrol-lingkar-komitmen-commitment-loop-checklist" class="nav-link" data-scroll-target="#bagian-3-kontrol-lingkar-komitmen-commitment-loop-checklist">Bagian 3: Kontrol Lingkar Komitmen (<em>Commitment Loop Checklist</em>)</a>
@@ -236,13 +206,13 @@ window.Quarto = {
 <section id="identitas-proyek-pihak-yang-terlibat" class="level2">
 <h2 class="anchored" data-anchor-id="identitas-proyek-pihak-yang-terlibat">1. Identitas Proyek &amp; Pihak yang Terlibat</h2>
 <ul>
-<li><strong>Nama Proyek/Gagasan:</strong> __________________________________________________</li>
-<li><strong>Tanggal Diskusi:</strong> ________________________</li>
+<li><strong>Nama Proyek/Gagasan:</strong> Implementasi Sistem Pre-Order WhatsApp Bot Kantin Utama</li>
+<li><strong>Tanggal Diskusi:</strong> 31 Oktober 2026</li>
 <li><strong>Pihak-Pihak yang Menyusun Kesepakatan:</strong>
 <ol type="1">
-<li><strong>Pihak A (Nama &amp; Peran):</strong> ____________________________________________</li>
-<li><strong>Pihak B (Nama &amp; Peran):</strong> ____________________________________________</li>
-<li><strong>Pihak Lain/Pengamat (Jika ada):</strong> _______________________________________</li>
+<li><strong>Pihak A (Nama &amp; Peran):</strong> Pelangi Putri Sanyoto (Mahasiswa/Pengembang Solusi)</li>
+<li><strong>Pihak B (Nama &amp; Peran):</strong> Ibu Kasir (Pelaksana Operasional Kantin)</li>
+<li><strong>Pihak Lain/Pengamat (Jika ada):</strong> Bening (Rekan Mahasiswa/Observer)</li>
 </ol></li>
 </ul>
 <hr>
@@ -271,38 +241,24 @@ window.Quarto = {
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><strong>Contoh: Pemilik Kantin</strong></td>
-<td style="text-align: left;"><em>“Aplikasi pemesanan harus sudah online dan dipakai semua pelanggan hari Senin depan tanpa kecuali.”</em></td>
-<td style="text-align: left;"><em>Mencegah kerumunan antrean di depan kasir pada jam 12:00-13:00 karena keterbatasan staf kasir.</em></td>
+<td style="text-align: left;"><strong>Pihak A (Pelangi)</strong></td>
+<td style="text-align: left;"><em>“Sistem bot WA harus diuji coba secara live pada hari Senin jam 11:30 untuk seluruh menu kantin.”</em></td>
+<td style="text-align: left;"><em>Mendapatkan data uji coba nyata untuk mengukur efisiensi sistem dan memastikan skrip bot berfungsi menahan antrean.</em></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Contoh: Tim Mahasiswa</strong></td>
-<td style="text-align: left;"><em>“Kami butuh waktu tambahan 2 minggu lagi untuk merilis fitur pembayaran nontunai secara sempurna.”</em></td>
-<td style="text-align: left;"><em>Menjaga keamanan data transaksi serta reputasi tim agar tidak meluncurkan sistem yang rentan error.</em></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Pihak A</strong></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Pihak B</strong></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;"><strong>Pihak B (Ibu Kasir)</strong></td>
+<td style="text-align: left;"><em>“Jangan langsung semua menu. Ibu takut bahan di dapur tiba-tiba habis dan mahasiswa pada protes karena telanjur pesan di WA.”</em></td>
+<td style="text-align: left;"><em>Menjaga kecepatan pelayanan, keamanan stok dapur, dan tidak ingin mengecewakan mahasiswa jika terjadi kesalahan teknis.</em></td>
 </tr>
 </tbody>
 </table>
 <ul>
-<li><strong>Poin Temu Kepentingan Utama:</strong> <em>(Tuliskan 1-2 kalimat area kepentingan yang saling mendukung sebagai dasar kolaborasi)</em> __________________________________________________________________________________________ __________________________________________________________________________________________</li>
+<li><strong>Poin Temu Kepentingan Utama:</strong> <em>Pelaksanaan uji coba (trial) tetap dilakukan pada hari Senin, namun dengan membatasi ruang lingkup (trade-off) hanya pada 3 menu paling populer dengan batas kuota maksimal 15 porsi, agar risiko kegagalan stok dan operasional kasir tetap terkendali.</em></li>
 </ul>
 <hr>
 </section>
 <section id="bagian-2-formula-kesepakatan-presisi-the-agreement-formula" class="level2">
 <h2 class="anchored" data-anchor-id="bagian-2-formula-kesepakatan-presisi-the-agreement-formula">Bagian 2: Formula Kesepakatan Presisi (The Agreement Formula)</h2>
-<p>Gunakan rumus terstruktur ini untuk mengunci setiap rencana tindakan kelompok. <strong>Hindari kata-kata kabur</strong> (seperti: <em>membantu</em>, <em>mengoordinasikan</em>, <em>mencoba</em>, <em>segera</em>, <em>nanti</em>). Ganti dengan <strong>kata kerja operasional</strong> yang dapat diamati dan diverifikasi secara objektif.</p>
-<section id="rumus-siapa-rightarrow-melakukan-apa-rightarrow-kapan-rightarrow-prasyaratsumber-daya-rightarrow-definisi-selesai-rightarrow-tindak-lanjut" class="level3">
-<h3 class="anchored" data-anchor-id="rumus-siapa-rightarrow-melakukan-apa-rightarrow-kapan-rightarrow-prasyaratsumber-daya-rightarrow-definisi-selesai-rightarrow-tindak-lanjut">Rumus: <strong>SIAPA <span class="math inline">\(\rightarrow\)</span> Melakukan APA <span class="math inline">\(\rightarrow\)</span> KAPAN <span class="math inline">\(\rightarrow\)</span> Prasyarat/Sumber Daya <span class="math inline">\(\rightarrow\)</span> DEFINISI SELESAI <span class="math inline">\(\rightarrow\)</span> Tindak Lanjut</strong></h3>
-</section>
 <section id="tabel-daftar-kesepakatan-tindakan" class="level3">
 <h3 class="anchored" data-anchor-id="tabel-daftar-kesepakatan-tindakan">Tabel Daftar Kesepakatan Tindakan</h3>
 <table class="caption-top table">
@@ -328,40 +284,31 @@ window.Quarto = {
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><strong>Ex</strong></td>
-<td style="text-align: left;"><em>Budi (Developer Database)</em></td>
-<td style="text-align: left;"><em>Melakukan migrasi data menu kantin dari file Excel ke basis data server utama.</em></td>
-<td style="text-align: left;"><em>Rabu, 16 Sept 2026, Pukul 15:00 WIB.</em></td>
-<td style="text-align: left;"><em>Daftar menu final dalam format .xlsx dari Ibu Siti (Pemilik Kantin).</em></td>
-<td style="text-align: left;"><em>Data menu sukses terbaca di halaman preview aplikasi tanpa karakter aneh/error.</em></td>
-<td style="text-align: left;"><em>Mengirim tangkapan layar (screenshot) sukses ke grup WhatsApp Tim Teknis.</em></td>
+<td style="text-align: left;"><strong>1</strong></td>
+<td style="text-align: left;"><em>Pelangi (Mahasiswa)</em></td>
+<td style="text-align: left;"><em>Menyetel bot WA khusus untuk 3 menu (Nasi Ayam, Nasi Telur, Nasi Goreng) dengan limitasi 15 pesanan.</em></td>
+<td style="text-align: left;"><em>Minggu, 1 Nov 2026, Pukul 15:00 WIB</em></td>
+<td style="text-align: left;"><em>Daftar menu dan harga pasti dari Ibu Kasir, serta laptop untuk koding.</em></td>
+<td style="text-align: left;"><em>Bot sukses membalas pesanan masuk dan menolak pesanan ke-16.</em></td>
+<td style="text-align: left;"><em>Mengirim rekaman video layar simulasi bot ke WhatsApp Ibu Kasir.</em></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>1</strong></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;"><strong>2</strong></td>
+<td style="text-align: left;"><em>Ibu Kasir (Pelaksana)</em></td>
+<td style="text-align: left;"><em>Menyiapkan whiteboard kecil dan spidol di dapur untuk media salin rekap pesanan WA.</em></td>
+<td style="text-align: left;"><em>Senin, 2 Nov 2026, Pukul 09:00 WIB</em></td>
+<td style="text-align: left;"><em>Sisa papan tulis bekas di gudang kantin atau beli di koperasi.</em></td>
+<td style="text-align: left;"><em>Papan tulis bersih dan spidol menyala siap digunakan di area masak.</em></td>
+<td style="text-align: left;"><em>Menunjukkannya langsung ke Pelangi saat ia datang cek lokasi pukul 10:00.</em></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>2</strong></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
 <td style="text-align: left;"><strong>3</strong></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;"><em>Pelangi (Mahasiswa)</em></td>
+<td style="text-align: left;"><em>Mengirim broadcast format pemesanan WA ke grup kelas K1 untuk mencari 15 relawan uji coba.</em></td>
+<td style="text-align: left;"><em>Minggu, 1 Nov 2026, Pukul 19:00 WIB</em></td>
+<td style="text-align: left;"><em>Tautan nomor WA Bot dan template teks pesanan.</em></td>
+<td style="text-align: left;"><em>Ada 15 mahasiswa yang membalas bersedia ikut memesan besok siang.</em></td>
+<td style="text-align: left;"><em>Melaporkan jumlah relawan secara lisan kepada Ibu Kasir keesokan paginya.</em></td>
 </tr>
 </tbody>
 </table>
@@ -370,51 +317,45 @@ window.Quarto = {
 </section>
 <section id="bagian-3-kontrol-lingkar-komitmen-commitment-loop-checklist" class="level2">
 <h2 class="anchored" data-anchor-id="bagian-3-kontrol-lingkar-komitmen-commitment-loop-checklist">Bagian 3: Kontrol Lingkar Komitmen (<em>Commitment Loop Checklist</em>)</h2>
-<p>Komunikasi lingkar tertutup (<em>closed-loop communication</em>) menuntut kita memantau janji sejak pertama kali diucapkan hingga benar-benar diserahkan dan diterima secara memuaskan oleh penerima manfaat.</p>
-<p>Isilah matriks ini untuk melacak kesehatan komitmen setiap butir tindakan di atas:</p>
 <section id="alur-pelacakan-janji" class="level3">
 <h3 class="anchored" data-anchor-id="alur-pelacakan-janji">Alur Pelacakan Janji</h3>
-<pre><code>  [ Fase 1: JANJI ] ───────────► [ Fase 2: CHECKPOINT ]
-          │                                  │
-          ▼                                  ▼
-  [ Fase 4: PENERIMAAN ] ◄──────── [ Fase 3: BUKTI &amp; PEMERIKSAAN ]</code></pre>
 <ol type="1">
-<li><strong>Butir Tindakan No: ____</strong>
+<li><strong>Butir Tindakan No: 1 (Setting Bot WA)</strong>
 <ul>
-<li><strong>Fase 1: Janji Terbentuk (Hari/Tanggal):</strong> ________________________</li>
+<li><strong>Fase 1: Janji Terbentuk (Hari/Tanggal):</strong> Sabtu, 31 Oktober 2026</li>
 <li><strong>Fase 2: Checkpoint/Pemeriksaan Awal:</strong>
 <ul>
-<li><em>Kapan Checkpoint dilakukan? (Minimal 2 hari sebelum tenggat):</em> ________________________</li>
-<li><em>Apa kemajuan/kendala yang ditemukan saat checkpoint?</em> ______________________________________________________________________________________</li>
+<li><em>Kapan Checkpoint dilakukan?</em> Minggu, 1 Nov 2026, Pukul 10:00 WIB</li>
+<li><em>Apa kemajuan/kendala yang ditemukan saat checkpoint?</em> Bot sempat <em>error</em> gagal membaca spasi pada nama menu, tapi skrip langsung diperbaiki.</li>
 </ul></li>
 <li><strong>Fase 3: Bukti &amp; Pemeriksaan Mandiri:</strong>
 <ul>
-<li><em>Bukti nyata apa yang diserahkan sebagai hasil kerja?</em> ________________________</li>
-<li><em>Apakah hasil tersebut sudah memenuhi “Definisi Selesai” di Bagian 2?</em> <code>[ ] Ya</code> <code>[ ] Belum</code></li>
+<li><em>Bukti nyata apa yang diserahkan sebagai hasil kerja?</em> Video rekaman layar durasi 30 detik (uji coba order menu lewat batas kuota).</li>
+<li><em>Apakah hasil tersebut sudah memenuhi “Definisi Selesai” di Bagian 2?</em> <code>[X] Ya</code> <code>[ ] Belum</code></li>
 </ul></li>
 <li><strong>Fase 4: Penerimaan Resmi:</strong>
 <ul>
-<li><em>Siapa penerima manfaat yang memeriksa dan menyatakan puas?</em> ________________________</li>
-<li><em>Catatan penerimaan:</em> ______________________________________________________________________________________</li>
+<li><em>Siapa penerima manfaat yang memeriksa dan menyatakan puas?</em> Ibu Kasir</li>
+<li><em>Catatan penerimaan:</em> Ibu Kasir merespons via WA: “Sip Neng, jelas banget balasan otomatisnya.”</li>
 </ul></li>
 </ul></li>
-<li><strong>Butir Tindakan No: ____</strong>
+<li><strong>Butir Tindakan No: 2 (Persiapan Whiteboard di Dapur)</strong>
 <ul>
-<li><strong>Fase 1: Janji Terbentuk (Hari/Tanggal):</strong> ________________________</li>
+<li><strong>Fase 1: Janji Terbentuk (Hari/Tanggal):</strong> Sabtu, 31 Oktober 2026</li>
 <li><strong>Fase 2: Checkpoint/Pemeriksaan Awal:</strong>
 <ul>
-<li><em>Kapan Checkpoint dilakukan?</em> ________________________</li>
-<li><em>Apa kemajuan/kendala yang ditemukan saat checkpoint?</em> ______________________________________________________________________________________</li>
+<li><em>Kapan Checkpoint dilakukan?</em> Senin, 2 Nov 2026, Pukul 08:00 WIB</li>
+<li><em>Apa kemajuan/kendala yang ditemukan saat checkpoint?</em> Spidol lama ternyata kering.</li>
 </ul></li>
 <li><strong>Fase 3: Bukti &amp; Pemeriksaan Mandiri:</strong>
 <ul>
-<li><em>Bukti nyata apa yang diserahkan sebagai hasil kerja?</em> ________________________</li>
-<li><em>Apakah hasil tersebut sudah memenuhi “Definisi Selesai” di Bagian 2?</em> <code>[ ] Ya</code> <code>[ ] Belum</code></li>
+<li><em>Bukti nyata apa yang diserahkan sebagai hasil kerja?</em> <em>Whiteboard</em> kecil terpasang di samping etalase lauk lengkap dengan spidol baru dari koperasi.</li>
+<li><em>Apakah hasil tersebut sudah memenuhi “Definisi Selesai” di Bagian 2?</em> <code>[X] Ya</code> <code>[ ] Belum</code></li>
 </ul></li>
 <li><strong>Fase 4: Penerimaan Resmi:</strong>
 <ul>
-<li><em>Siapa penerima manfaat yang memeriksa dan menyatakan puas?</em> ________________________</li>
-<li><em>Catatan penerimaan:</em> ______________________________________________________________________________________</li>
+<li><em>Siapa penerima manfaat yang memeriksa dan menyatakan puas?</em> Pelangi Putri S.</li>
+<li><em>Catatan penerimaan:</em> Alat sudah sesuai standar <em>analog fallback</em> untuk mitigasi keamanan HP di dapur.</li>
 </ul></li>
 </ul></li>
 </ol>
@@ -423,24 +364,22 @@ window.Quarto = {
 </section>
 <section id="bagian-4-evaluasi-jalur-ganda-dual-track-evaluation" class="level2">
 <h2 class="anchored" data-anchor-id="bagian-4-evaluasi-jalur-ganda-dual-track-evaluation">Bagian 4: Evaluasi Jalur Ganda (Dual-Track Evaluation)</h2>
-<p>Dalam komunikasi yang bertanggung jawab, keberhasilan tindakan tidak hanya dinilai dari tercapainya target pekerjaan, tetapi juga dari bagaimana relasi antar-pribadi dirawat di sepanjang proses kerja sama tersebut.</p>
 <section id="jalur-tugas-task-outcome" class="level3">
 <h3 class="anchored" data-anchor-id="jalur-tugas-task-outcome">1. Jalur Tugas (<em>Task Outcome</em>)</h3>
 <ul>
-<li>Apakah semua target tindakan yang tertulis dalam dokumen kesepakatan ini berhasil diselesaikan sesuai tenggat waktu dan kriteria selesai? Jelaskan kendala nyata lapangan yang sempat dihadapi! __________________________________________________________________________________________ __________________________________________________________________________________________ __________________________________________________________________________________________</li>
+<li>Apakah semua target tindakan yang tertulis dalam dokumen kesepakatan ini berhasil diselesaikan sesuai tenggat waktu dan kriteria selesai? Jelaskan kendala nyata lapangan yang sempat dihadapi! <em>Semua tindakan tuntas. Kendala nyata di lapangan adalah ketakutan target pada “risiko kehabisan stok” jika pendaftaran via WA terlalu membludak. Solusi pembatasan porsi (maksimal 15 pesanan) di skrip bot berhasil dieksekusi dengan baik sebagai kompromi.</em></li>
 </ul>
 </section>
 <section id="jalur-relasi-relationship-outcome" class="level3">
 <h3 class="anchored" data-anchor-id="jalur-relasi-relationship-outcome">2. Jalur Relasi (<em>Relationship Outcome</em>)</h3>
 <ul>
-<li>Bagaimana kualitas batin relasi, kepercayaan, dan rasa saling menghargai di antara para pihak setelah melewati proses pengerjaan tugas ini? Apakah ada ketegangan peran yang sempat terjadi, dan bagaimana Anda meredakannya secara asertif? __________________________________________________________________________________________ __________________________________________________________________________________________ __________________________________________________________________________________________</li>
+<li>Bagaimana kualitas batin relasi, kepercayaan, dan rasa saling menghargai di antara para pihak setelah melewati proses pengerjaan tugas ini? Apakah ada ketegangan peran yang sempat terjadi, dan bagaimana Anda meredakannya secara asertif? <em>Kualitas relasi sangat kuat. Sempat ada ketegangan ketika saya meminta seluruh menu dimasukkan, Ibu Kasir terlihat ragu dan mundur (</em>barrier<em>). Saya meredakannya dengan menurunkan ego teknis saya (</em>trade-off* ke 3 menu saja). Hal ini menumbuhkan rasa saling percaya karena beliau merasa kepentingannya didengar.*</li>
 </ul>
 <hr>
 </section>
 </section>
 <section id="rubrik-penilaian-mandiri-umpan-balik-sejawat" class="level2">
 <h2 class="anchored" data-anchor-id="rubrik-penilaian-mandiri-umpan-balik-sejawat">Rubrik Penilaian Mandiri &amp; Umpan Balik Sejawat</h2>
-<p>Evaluasilah kualitas Dokumen Kesepakatan yang Anda susun menggunakan skala nilai berikut: * <strong>Skor 1 (Kurang)</strong>: Banyak bagian menggunakan istilah kabur, penanggung jawab tidak terperinci, atau mengabaikan relasi. * <strong>Skor 2 (Cukup)</strong>: Tindakan sudah terperinci, tetapi kriteria selesai masih subjektif atau tidak menyertakan checkpoint komitmen. * <strong>Skor 3 (Sangat Baik)</strong>: Memenuhi seluruh aspek formula presisi, memetakan kepentingan dengan empati, memiliki mekanisme pelacakan komitmen yang jelas, serta menjaga harmoni relasi secara etis.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 18%">
@@ -459,32 +398,31 @@ window.Quarto = {
 <tbody>
 <tr class="odd">
 <td style="text-align: left;"><strong>1</strong></td>
-<td style="text-align: left;"><strong>Kejelasan Kepentingan (Bukan Posisi)</strong>:<br>Mampu melampaui ego tuntutan permukaan dan merumuskan titik temu kepentingan yang saling melayani peran masing-masing.</td>
-<td style="text-align: center;"></td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;"><strong>Kejelasan Kepentingan (Bukan Posisi)</strong></td>
+<td style="text-align: center;"><strong>3</strong></td>
+<td style="text-align: left;">Mampu menggali ketakutan Ibu Kasir soal kehabisan bahan, dan merumuskan limitasi 15 kuota.</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><strong>2</strong></td>
-<td style="text-align: left;"><strong>Presisi Formula Kesepakatan</strong>:<br>Semua rencana tindakan bebas dari istilah kabur, mencantumkan penanggung jawab tunggal (<em>Who</em>), tenggat waktu yang pas (<em>When</em>), dan definisi selesai yang objektif.</td>
-<td style="text-align: center;"></td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;"><strong>Presisi Formula Kesepakatan</strong></td>
+<td style="text-align: center;"><strong>3</strong></td>
+<td style="text-align: left;">Kesepakatan dijabarkan detail Siapa, Melakukan Apa, Kapan, dan Definisi Selesainya sangat terukur.</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><strong>3</strong></td>
-<td style="text-align: left;"><strong>Tanggung Jawab Pemeliharaan Komitmen</strong>:<br>Memiliki rencana titik pemeriksaan (<em>checkpoint</em>) konkret sebagai mitigasi risiko kegagalan, bukan sekadar menunggu hari H tenggat waktu.</td>
-<td style="text-align: center;"></td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;"><strong>Tanggung Jawab Pemeliharaan Komitmen</strong></td>
+<td style="text-align: center;"><strong>3</strong></td>
+<td style="text-align: left;"><em>Checkpoint</em> berhasil menemukan masalah spidol kering, yang membuktikan sistem deteksi berfungsi.</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><strong>4</strong></td>
-<td style="text-align: left;"><strong>Keseimbangan Jalur Ganda</strong>:<br>Menunjukkan kepedulian yang tulus terhadap kenyamanan relasi, hak berpendapat, serta batas kemampuan etis tim (menyediakan ruang untuk berkata “tidak” tanpa intimidasi).</td>
-<td style="text-align: center;"></td>
-<td style="text-align: left;"></td>
+<td style="text-align: left;"><strong>Keseimbangan Jalur Ganda</strong></td>
+<td style="text-align: center;"><strong>3</strong></td>
+<td style="text-align: left;">Melindungi martabat Ibu Kasir dengan tidak memaksa digitalisasi penuh tanpa perlindungan operasional.</td>
 </tr>
 </tbody>
 </table>
 <hr>
-<p><em>“Bahasa mengantarkan kita pada jembatan pemahaman, tetapi kesepakatan yang berpusat pada tanggung jawab bersama adalah kendaraan yang membawa kita melintasi jembatan tersebut menuju kenyataan tindakan.”</em></p>
 
 
 </section>
